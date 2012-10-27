@@ -15,6 +15,9 @@ endif()
 
 # pull in headers for android
 if(ANDROID)
+    # build shared libs
+    OPTION (BUILD_SHARED_LIBS ON)
+
     #
     # work out where android headers and library are
     #
@@ -86,8 +89,8 @@ if(ANDROID)
     #
     # Pull in Android link options manually
     #
-    set(ANDROID_SHARED_CRTBEGIN "/home/viktor/arm-linux-androideabi-4.6.3/lib/gcc/arm-linux-androideabi/4.6.3/crtbeginS.o")
-    set(ANDROID_SHARED_CRTEND "/home/viktor/arm-linux-androideabi-4.6.3/lib/gcc/arm-linux-androideabi/4.6.3/crtendS.o")
+    set(ANDROID_SHARED_CRTBEGIN "$ENV{ANDROID_TOOLCHAIN}/../lib/gcc/arm-linux-androideabi/4.6.3/crtbeginS.o")
+    set(ANDROID_SHARED_CRTEND "$ENV{ANDROID_TOOLCHAIN}/../lib/gcc/arm-linux-androideabi/4.6.3/crtendS.o")
     set(CMAKE_SHARED_LINKER_FLAGS "-nostdlib ${ANDROID_SHARED_CRTBEGIN} -Wl,-Bdynamic -Wl,-T${ANDROID_LDSCRIPTS}/armelf.x")
     # set(ANDROID_CRTBEGIN "/home/viktor/arm-linux-androideabi-4.6.3/lib/gcc/arm-linux-androideabi/4.6.3/crtbegin.o")
     # set(ANDROID_CRTEND "/home/viktor/arm-linux-androideabi-4.6.3/lib/gcc/arm-linux-androideabi/4.6.3/crtend.o")
@@ -100,7 +103,7 @@ if(ANDROID)
 
     set(CMAKE_C_STANDARD_LIBRARIES "-llog -lc -lgcc ${ANDROID_SHARED_CRTEND}" CACHE INTERNAL "" FORCE)
     
-    set(SHARED "")
+    set(SHARED "SHARED")
 else()
     set(SHARED "SHARED")
 endif()
