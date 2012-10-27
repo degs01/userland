@@ -25,12 +25,53 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-#ifndef VCHIQ_VCHIQ_H
-#define VCHIQ_VCHIQ_H
-
-#include "vchiq_if.h"
-#include "vchiq_util.h"
 #include "vcos.h"
+#ifdef __VIDEOCORE__
+#include "host_support/include/vc_debug_sym.h"
+#endif
+#include <stdlib.h>
 
+
+int vcos_verify_bkpts = 0;
+#ifdef __VIDEOCORE__
+VC_DEBUG_VAR(vcos_verify_bkpts);
 #endif
 
+int vcos_verify_bkpts_enabled(void)
+{
+   return vcos_verify_bkpts;
+}
+
+int vcos_verify_bkpts_enable(int enable)
+{
+   int old = vcos_verify_bkpts;
+   vcos_verify_bkpts = enable;
+   return old;
+}
+
+/**
+  * Call the fatal error handler.
+  */
+void vcos_abort(void)
+{
+#ifdef __VIDEOCORE__
+   _bkpt();
+#endif
+
+#if defined(VCOS_HAVE_BACKTRACE) && !defined(NDEBUG)
+   vcos_backtrace_self();
+#endif
+
+#ifdef PLATFORM_RASPBERRYPI
+   extern void pattern(int);
+   while(1)
+      pattern(8);
+#endif
+
+   /* Insert chosen fatal error handler here */
+#if defined __VIDEOCORE__ && !defined(NDEBUG)
+   while(1); /* allow us to attach a debugger after the fact and see where we came from. */
+#else
+   abort(); /* on vc this ends up in _exit_halt which doesn't give us any stack backtrace */
+#endif
+}

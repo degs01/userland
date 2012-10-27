@@ -29,7 +29,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #define VCHIQ_UTIL_H
 
 #include "vchiq_if.h"
-#include "interface/vcos/vcos.h"
+#include "vcos.h"
 
 typedef struct {
    int size;

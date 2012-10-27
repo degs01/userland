@@ -25,12 +25,25 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-#ifndef VCHIQ_VCHIQ_H
-#define VCHIQ_VCHIQ_H
+/*=============================================================================
+VideoCore OS Abstraction Layer - public header file
+=============================================================================*/
 
-#include "vchiq_if.h"
-#include "vchiq_util.h"
-#include "vcos.h"
+#ifndef VCOS_CTYPE_H
+#define VCOS_CTYPE_H
+
+/**
+  * \file
+  *
+  * ctype functions.
+  *
+  */
+
+#ifdef __KERNEL__
+#include <linux/ctype.h>
+#else
+#include <ctype.h>
+#endif
 
 #endif
 

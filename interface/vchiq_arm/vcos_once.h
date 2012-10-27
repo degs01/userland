@@ -25,12 +25,38 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-#ifndef VCHIQ_VCHIQ_H
-#define VCHIQ_VCHIQ_H
+/*=============================================================================
+VideoCore OS Abstraction Layer - 'once'
+=============================================================================*/
 
-#include "vchiq_if.h"
-#include "vchiq_util.h"
-#include "vcos.h"
+#ifndef VCOS_ONCE_H
+#define VCOS_ONCE_H
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+#include "vcos_types.h"
+#include "vcos_platform.h"
+
+/**
+ * \file vcos_once.h
+ *
+ * Ensure something is called only once.
+ *
+ * Initialize once_control to VCOS_ONCE_INIT. The first
+ * time this is called, the init_routine will be called. Thereafter
+ * it won't.
+ *
+ * \sa pthread_once()
+ *
+ */
+
+VCOS_STATUS_T vcos_once(VCOS_ONCE_T *once_control,
+                        void (*init_routine)(void));
+
+#ifdef __cplusplus
+}
+#endif
 #endif
 

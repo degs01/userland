@@ -35,7 +35,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "vchiq_ioctl.h"
 #include "interface/vchi/vchi.h"
 #include "interface/vchi/common/endian.h"
-#include "interface/vcos/vcos.h"
+#include "vcos.h"
 
 #define VCHIQ_MAX_INSTANCE_SERVICES 32
 #define MSGBUF_SIZE (VCHIQ_MAX_MSG_SIZE + sizeof(VCHIQ_HEADER_T))

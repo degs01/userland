@@ -24,13 +24,24 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
+#ifndef VCOS_STDBOOL_H
+#define VCOS_STDBOOL_H
 
-#ifndef VCHIQ_VCHIQ_H
-#define VCHIQ_VCHIQ_H
+#ifndef __cplusplus
 
-#include "vchiq_if.h"
-#include "vchiq_util.h"
-#include "vcos.h"
-
+#if defined(__STDC__) && (__STDC_VERSION__ >= 199901L)
+#include <stdbool.h>
+#else
+/* sizeof(bool) == 1. hopefully this matches up with c++ (so structures and
+ * such containing bool are binary compatible), but the c++ standard doesn't
+ * require sizeof(bool) == 1, so there's no guarantee */
+typedef unsigned char bool;
+enum {
+   false,
+   true
+};
 #endif
 
+#endif /* __cplusplus */
+
+#endif

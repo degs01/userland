@@ -25,12 +25,47 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-#ifndef VCHIQ_VCHIQ_H
-#define VCHIQ_VCHIQ_H
-
-#include "vchiq_if.h"
-#include "vchiq_util.h"
 #include "vcos.h"
+#include "vcos_dlfcn.h"
 
-#endif
+#include <dlfcn.h>
+
+void *vcos_dlopen(const char *name, int mode)
+{
+   return dlopen(name, mode);
+}
+
+void (*vcos_dlsym(void *handle, const char *name))(void)
+{
+   return dlsym(handle, name);
+}
+
+int vcos_dlclose (void *handle)
+{
+   return dlclose(handle);
+}
+
+int vcos_dlerror(int *err, char *buf, size_t buflen)
+{
+   /* not really threadsafe! */
+   const char *errmsg = dlerror();
+
+   vcos_assert(buflen > 0);
+
+   if (errmsg)
+   {
+      *err = -1;
+      strncpy(buf, errmsg, buflen);
+      buf[buflen-1] = '\0';
+   }
+   else
+   {
+      *err = 0;
+      buf[0] = '\0';
+   }
+   return 0;
+}
+
+
+
 

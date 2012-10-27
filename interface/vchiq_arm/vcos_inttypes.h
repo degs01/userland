@@ -25,12 +25,25 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-#ifndef VCHIQ_VCHIQ_H
-#define VCHIQ_VCHIQ_H
+#ifndef VCOS_INTTYPES_H
+#define VCOS_INTTYPES_H
 
-#include "vchiq_if.h"
-#include "vchiq_util.h"
-#include "vcos.h"
+/** \file
+ * Attempt to provide the support for fixed width integer types as per
+ * inttypes.h. This simply includes inttypes.h, which should find the
+ * system/toolchain version if present, otherwise falling back to the version
+ * in <platform>. The vcos versions initially only provide the
+ * most common printf() macros.
+ */
 
+#ifdef __cplusplus
+extern "C" {
 #endif
 
+#include <inttypes.h>
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif /* VCOS_INTTYPES_H */

@@ -25,12 +25,29 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-#ifndef VCHIQ_VCHIQ_H
-#define VCHIQ_VCHIQ_H
-
-#include "vchiq_if.h"
-#include "vchiq_util.h"
-#include "vcos.h"
-
+#include <vcos.h>
+#ifdef __fulhax__
+#include <execinfo.h>
 #endif
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+
+void vcos_backtrace_self(void)
+{
+#ifdef __fulhax__
+   void *stack[64];
+   int depth = backtrace(stack, sizeof(stack)/sizeof(stack[0]));
+   char **names = backtrace_symbols(stack, depth);
+   int i;
+   if (names)
+   {
+      for (i=0; i<depth; i++)
+      {
+         printf("%s\n", names[i]);
+      }
+      free(names);
+   }
+#endif
+}
 

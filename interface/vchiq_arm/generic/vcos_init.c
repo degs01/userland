@@ -25,12 +25,60 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-#ifndef VCHIQ_VCHIQ_H
-#define VCHIQ_VCHIQ_H
+/*
+The following header is included in order to provide one instance of the symbol vcos_deprecated_code.
+Any other inclusions of this header (or "vcos_deprecated_code.inc" for assembly language) will cause the linker to warn
+about multiple definitions of vcos_deprecated_code.
+The idea is to include this header file for the source files which are deprecated.
+Therefore the above warnning in a build indicates that the build is using deprecated code! 
+Contact the person named in the accompanying comment for advice - do not remove the inclusion.
+*/
+#include "vcos_deprecated.h"
 
-#include "vchiq_if.h"
-#include "vchiq_util.h"
 #include "vcos.h"
 
-#endif
+static int init_refcount;
 
+VCOS_STATUS_T vcos_init(void)
+{
+   VCOS_STATUS_T st = VCOS_SUCCESS;
+
+   vcos_global_lock();
+
+   if (init_refcount++ == 0)
+      st = vcos_platform_init();
+
+   vcos_global_unlock();
+
+   return st;
+}
+
+void vcos_deinit(void)
+{
+   vcos_global_lock();
+
+   vcos_assert(init_refcount > 0);
+
+   if (init_refcount > 0 && --init_refcount == 0)
+      vcos_platform_deinit();
+
+   vcos_global_unlock();
+}
+
+#if defined(__GNUC__) && (__GNUC__ > 2)
+
+void vcos_ctor(void) __attribute__((constructor, used));
+
+void vcos_ctor(void)
+{
+   vcos_init();
+}
+
+void vcos_dtor(void) __attribute__((destructor, used));
+
+void vcos_dtor(void)
+{
+   vcos_deinit();
+}
+
+#endif

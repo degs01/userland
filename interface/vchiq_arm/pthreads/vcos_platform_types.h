@@ -25,12 +25,43 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-#ifndef VCHIQ_VCHIQ_H
-#define VCHIQ_VCHIQ_H
+#ifndef VCOS_PLATFORM_TYPES_H
+#define VCOS_PLATFORM_TYPES_H
 
-#include "vchiq_if.h"
-#include "vchiq_util.h"
-#include "vcos.h"
+#include "vcos_inttypes.h"
 
+#ifdef __cplusplus
+extern "C" {
 #endif
 
+#define VCOSPRE_ extern
+#define VCOSPOST_
+
+#if defined(__GNUC__) && (( __GNUC__ > 2 ) || (( __GNUC__ == 2 ) && ( __GNUC_MINOR__ >= 3 )))
+#define VCOS_FORMAT_ATTR_(ARCHETYPE, STRING_INDEX, FIRST_TO_CHECK)  __attribute__ ((format (ARCHETYPE, STRING_INDEX, FIRST_TO_CHECK)))
+#else
+#define VCOS_FORMAT_ATTR_(ARCHETYPE, STRING_INDEX, FIRST_TO_CHECK)
+#endif
+
+#if defined(__linux__) && !defined(NDEBUG) && defined(__GNUC__) && (defined(__i386__) || defined(__x86_64__))
+   #define VCOS_BKPT ({ __asm volatile ("int3":::"memory"); })
+#endif
+/*#define VCOS_BKPT vcos_abort() */
+
+#define VCOS_ASSERT_LOGGING         1
+#define VCOS_ASSERT_LOGGING_DISABLE 0
+
+extern void
+vcos_pthreads_logging_assert(const char *file, const char *func, unsigned int line, const char *fmt, ...);
+
+#define VCOS_ASSERT_MSG(...) ((VCOS_ASSERT_LOGGING && !VCOS_ASSERT_LOGGING_DISABLE) ? vcos_pthreads_logging_assert(__FILE__, __func__, __LINE__, __VA_ARGS__) : (void)0)
+
+#define VCOS_INLINE_BODIES
+#define VCOS_INLINE_DECL extern __inline__
+#define VCOS_INLINE_IMPL static __inline__
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif
