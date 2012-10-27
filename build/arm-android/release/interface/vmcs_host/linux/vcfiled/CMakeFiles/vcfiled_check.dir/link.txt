@@ -1,0 +1,2 @@
+/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-ar cr ../../../../../../lib/libvcfiled_check.a  CMakeFiles/vcfiled_check.dir/vcfiled_check.c.o
+/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-ranlib ../../../../../../lib/libvcfiled_check.a
