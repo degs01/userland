@@ -1,0 +1,2 @@
+/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-ar cr ../../../../../lib/libmmal_core.a  CMakeFiles/mmal_core.dir/mmal_format.c.o CMakeFiles/mmal_core.dir/mmal_port.c.o CMakeFiles/mmal_core.dir/mmal_component.c.o CMakeFiles/mmal_core.dir/mmal_buffer.c.o CMakeFiles/mmal_core.dir/mmal_queue.c.o CMakeFiles/mmal_core.dir/mmal_pool.c.o CMakeFiles/mmal_core.dir/mmal_events.c.o CMakeFiles/mmal_core.dir/mmal_logging.c.o
+/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-ranlib ../../../../../lib/libmmal_core.a

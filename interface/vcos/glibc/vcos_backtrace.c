@@ -26,7 +26,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
 #include <interface/vcos/vcos.h>
-#ifdef __linux__
+#ifdef __fulhax__
 #include <execinfo.h>
 #endif
 #include <stdio.h>
@@ -35,7 +35,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 void vcos_backtrace_self(void)
 {
-#ifdef __linux__
+#ifdef __fulhax__
    void *stack[64];
    int depth = backtrace(stack, sizeof(stack)/sizeof(stack[0]));
    char **names = backtrace_symbols(stack, depth);

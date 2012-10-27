@@ -1,0 +1,2 @@
+/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-ar cr ../../../../lib/libvcilcs.a  CMakeFiles/vcilcs.dir/vcilcs.c.o CMakeFiles/vcilcs.dir/vcilcs_in.c.o CMakeFiles/vcilcs.dir/vcilcs_out.c.o CMakeFiles/vcilcs.dir/vcilcs_common.c.o
+/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-ranlib ../../../../lib/libvcilcs.a

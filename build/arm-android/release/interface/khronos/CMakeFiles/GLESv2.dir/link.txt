@@ -1,0 +1,2 @@
+/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-ar cr ../../../../lib/libGLESv2.a  CMakeFiles/GLESv2.dir/glxx/glxx_client.c.o
+/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-ranlib ../../../../lib/libGLESv2.a

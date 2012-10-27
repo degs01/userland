@@ -1,0 +1,2 @@
+/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-ar cr ../../../../lib/libvchostif.a  CMakeFiles/vchostif.dir/linux/vcfilesys.c.o CMakeFiles/vchostif.dir/linux/vcmisc.c.o CMakeFiles/vchostif.dir/vc_vchi_gencmd.c.o CMakeFiles/vchostif.dir/vc_vchi_filesys.c.o CMakeFiles/vchostif.dir/vc_vchi_tvservice.c.o CMakeFiles/vchostif.dir/vc_vchi_cecservice.c.o CMakeFiles/vchostif.dir/vc_vchi_dispmanx.c.o CMakeFiles/vchostif.dir/vc_service_common.c.o
+/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-ranlib ../../../../lib/libvchostif.a

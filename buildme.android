@@ -2,6 +2,6 @@
 mkdir -p build/arm-android/release/
 pushd build/arm-android/release/
 cmake -DCMAKE_TOOLCHAIN_FILE=../../../makefiles/cmake/toolchains/arm-android.cmake -DCMAKE_BUILD_TYPE=Release ../../..
-make -j 6
+make
 popd
 

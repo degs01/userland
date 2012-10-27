@@ -18,7 +18,8 @@ if(ANDROID)
     #
     # work out where android headers and library are
     #
-
+    set(ANDROID_PRODUCT "rpi" CACHE INTERNAL "" FORCE)
+    set(ANDROID_ROOT $ENC{ANDROID_ROOT} CACHE INTERNAL "" FORCE)
     set(ANDROID_NDK_ROOT $ENV{ANDROID_NDK_ROOT} CACHE INTERNAL "" FORCE)
     set(ANDROID_LIBS $ENV{ANDROID_LIBS} CACHE INTERNAL "" FORCE)
     set(ANDROID_BIONIC $ENV{ANDROID_BIONIC} CACHE INTERNAL "" FORCE)
@@ -73,8 +74,8 @@ if(ANDROID)
     # add include directories for pthreads
     #
     include_directories("${CMAKE_SYSTEM_PREFIX_PATH}/include" BEFORE SYSTEM)
-    include_directories("${ANDROID_BIONIC}/libc/include" BEFORE SYSTEM)
     include_directories("${ANDROID_BIONIC}/libc/include/arch-arm/include" BEFORE SYSTEM)
+    include_directories("${ANDROID_BIONIC}/libc/include" BEFORE SYSTEM)
     include_directories("${ANDROID_BIONIC}/libc/kernel/arch-arm" BEFORE SYSTEM)
     include_directories("${ANDROID_BIONIC}/libc/kernel/common" BEFORE SYSTEM)
     include_directories("${ANDROID_BIONIC}/libm/include" BEFORE SYSTEM)
@@ -85,17 +86,19 @@ if(ANDROID)
     #
     # Pull in Android link options manually
     #
-    set(ANDROID_CRTBEGIN "${ANDROID_LIBS}/crtbegin_dynamic.o")
-    set(ANDROID_CRTEND "${ANDROID_LIBS}/crtend_android.o")
-    set(CMAKE_SHARED_LINKER_FLAGS "-nostdlib ${ANDROID_CRTBEGIN} -Wl,-Bdynamic -Wl,-T${ANDROID_LDSCRIPTS}/armelf.x")
+    set(ANDROID_SHARED_CRTBEGIN "/home/viktor/arm-linux-androideabi-4.6.3/lib/gcc/arm-linux-androideabi/4.6.3/crtbeginS.o")
+    set(ANDROID_SHARED_CRTEND "/home/viktor/arm-linux-androideabi-4.6.3/lib/gcc/arm-linux-androideabi/4.6.3/crtendS.o")
+    set(CMAKE_SHARED_LINKER_FLAGS "-nostdlib ${ANDROID_SHARED_CRTBEGIN} -Wl,-Bdynamic -Wl,-T${ANDROID_LDSCRIPTS}/armelf.x")
+    # set(ANDROID_CRTBEGIN "/home/viktor/arm-linux-androideabi-4.6.3/lib/gcc/arm-linux-androideabi/4.6.3/crtbegin.o")
+    # set(ANDROID_CRTEND "/home/viktor/arm-linux-androideabi-4.6.3/lib/gcc/arm-linux-androideabi/4.6.3/crtend.o")
 
     link_directories(${ANDROID_LIBS})
-    set(CMAKE_EXE_LINKER_FLAGS "-nostdlib ${ANDROID_CRTBEGIN} -nostdlib -Wl,-z,noexecstack") 
+    set(CMAKE_EXE_LINKER_FLAGS "-nostdlib ${ANDROID_SHARED_CRTBEGIN} -nostdlib -Wl,-z,noexecstack") 
     set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-dynamic-linker,/system/bin/linker -Wl,-rpath,${CMAKE_INSTALL_PREFIX}/lib")
     set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-T${ANDROID_LDSCRIPTS}/armelf.x -Wl,--gc-sections")
     set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-z,nocopyreloc -Wl,-z,noexecstack -Wl,--fix-cortex-a8 -Wl,--no-undefined")
 
-    set(CMAKE_C_STANDARD_LIBRARIES "-llog -lc -lgcc ${ANDROID_CRTEND}" CACHE INTERNAL "" FORCE)
+    set(CMAKE_C_STANDARD_LIBRARIES "-llog -lc -lgcc ${ANDROID_SHARED_CRTEND}" CACHE INTERNAL "" FORCE)
     
     set(SHARED "")
 else()

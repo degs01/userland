@@ -3,11 +3,12 @@ cmake_minimum_required(VERSION 2.8)
 project(vmcs_host_apps)
 
 set(BUILD_MMAL TRUE)
+set(ANDROID TRUE)
 set(BUILD_MMAL_APPS FALSE)
 set(vmcs_root ${PROJECT_SOURCE_DIR})
 get_filename_component(VIDEOCORE_ROOT . ABSOLUTE)
 
-set(VCOS_PTHREADS_BUILD_SHARED TRUE)
+set(VCOS_PTHREADS_BUILD_SHARED FALSE)
 
 include(makefiles/cmake/global_settings.cmake)
 include(makefiles/cmake/arm-linux.cmake)

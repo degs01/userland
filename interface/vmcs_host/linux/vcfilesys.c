@@ -49,6 +49,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <ctype.h>
 #include <limits.h>
 
+#define ANDROID 1
 #if !defined(ANDROID) && !defined( __USE_FILE_OFFSET64 )
 #error   "__USE_FILE_OFFSET64 isn't defined"
 #endif

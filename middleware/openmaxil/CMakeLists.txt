@@ -36,17 +36,17 @@ else ()
 
    add_definitions (-DVLL_PATH_PREFIX="${VMCS_PLUGIN_DIR}/")
 
-   add_library (openmaxil SHARED 
-                ../../host_applications/framework/common/ilcore.c
+#   add_library (openmaxil SHARED 
+#                ../../host_applications/framework/common/ilcore.c
 #                core/ilcore.c
 #                core/ril_top.c
 #                core/ilmalloc.c
 #                core/ilvlls.c
 #                core/ilfifo.c
-                )
+#                )
 
-   target_link_libraries (openmaxil vcilcs vcos dl)
+#   target_link_libraries (openmaxil vcilcs vcos dl)
 
 endif ()
 
-install (TARGETS openmaxil DESTINATION lib)
+#install (TARGETS openmaxil DESTINATION lib)

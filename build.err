@@ -1,0 +1,87 @@
+~/userland/build/arm-android/release ~/userland
+-- The C compiler identification is GNU 4.6.0
+-- The CXX compiler identification is unknown
+-- Check for working C compiler: /home/viktor/android-ndk-r8b/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc
+-- Check for working C compiler: /home/viktor/android-ndk-r8b/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc -- broken
+CMake Error at /usr/share/cmake/Modules/CMakeTestCCompiler.cmake:52 (MESSAGE):
+  The C compiler
+  "/home/viktor/android-ndk-r8b/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc"
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+   Change Dir: /home/viktor/userland/build/arm-android/release/CMakeFiles/CMakeTmp
+
+  
+
+  Run Build Command:/usr/bin/gmake "cmTryCompileExec3239376226/fast"
+
+  /usr/bin/gmake -f CMakeFiles/cmTryCompileExec3239376226.dir/build.make
+  CMakeFiles/cmTryCompileExec3239376226.dir/build
+
+  gmake[1]: Går till katalogen
+  "/home/viktor/userland/build/arm-android/release/CMakeFiles/CMakeTmp"
+
+  /usr/bin/cmake -E cmake_progress_report
+  /home/viktor/userland/build/arm-android/release/CMakeFiles/CMakeTmp/CMakeFiles
+  1
+
+  Building C object
+  CMakeFiles/cmTryCompileExec3239376226.dir/testCCompiler.c.o
+
+  
+  /home/viktor/android-ndk-r8b/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc
+  -U_FORTIFY_SOURCE -mcpu=arm1176jzf-s -mfpu=vfp -mfloat-abi=hard -Xlinker
+  -rpath=/home/viktor/cm/out/target/product/rpi/obj/lib -o
+  CMakeFiles/cmTryCompileExec3239376226.dir/testCCompiler.c.o -c
+  /home/viktor/userland/build/arm-android/release/CMakeFiles/CMakeTmp/testCCompiler.c
+
+
+  Linking C executable cmTryCompileExec3239376226
+
+  /usr/bin/cmake -E cmake_link_script
+  CMakeFiles/cmTryCompileExec3239376226.dir/link.txt --verbose=1
+
+  
+  /home/viktor/android-ndk-r8b/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc
+  -U_FORTIFY_SOURCE
+  CMakeFiles/cmTryCompileExec3239376226.dir/testCCompiler.c.o -o
+  cmTryCompileExec3239376226 -rdynamic
+
+  
+  /home/viktor/android-ndk-r8b/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86/bin/../lib/gcc/arm-linux-androideabi/4.6.x-google/../../../../arm-linux-androideabi/bin/ld:
+  cannot find crtbegin_dynamic.o: No such file or directory
+
+  
+  /home/viktor/android-ndk-r8b/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86/bin/../lib/gcc/arm-linux-androideabi/4.6.x-google/../../../../arm-linux-androideabi/bin/ld:
+  cannot find -lc
+
+  
+  /home/viktor/android-ndk-r8b/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86/bin/../lib/gcc/arm-linux-androideabi/4.6.x-google/../../../../arm-linux-androideabi/bin/ld:
+  cannot find -ldl
+
+  
+  /home/viktor/android-ndk-r8b/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86/bin/../lib/gcc/arm-linux-androideabi/4.6.x-google/../../../../arm-linux-androideabi/bin/ld:
+  cannot find crtend_android.o: No such file or directory
+
+  collect2: ld returned 1 exit status
+
+  gmake[1]: *** [cmTryCompileExec3239376226] Fel 1
+
+  gmake[1]: Lämnar katalogen
+  "/home/viktor/userland/build/arm-android/release/CMakeFiles/CMakeTmp"
+
+  gmake: *** [cmTryCompileExec3239376226/fast] Fel 2
+
+  
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:3 (project)
+
+
+-- Configuring incomplete, errors occurred!
+make: *** Inga mål angavs och ingen makefil hittades.  Stannar.
+~/userland

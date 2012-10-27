@@ -1,0 +1,240 @@
+The target system is: Linux -  - arm
+The host system is: Linux - 3.5.5-2.fc17.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc 
+Build flags: ;-U_FORTIFY_SOURCE;-U_FORTIFY_SOURCE
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/viktor/userland/build/arm-android/release/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/viktor/userland/build/arm-android/release/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/viktor/userland/build/arm-android/release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec41682371/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec41682371.dir/build.make CMakeFiles/cmTryCompileExec41682371.dir/build
+gmake[1]: Går till katalogen "/home/viktor/userland/build/arm-android/release/CMakeFiles/CMakeTmp"
+/usr/bin/cmake -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec41682371.dir/testCCompiler.c.o
+/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc   -mcpu=arm1176jzf-s -o CMakeFiles/cmTryCompileExec41682371.dir/testCCompiler.c.o   -c /home/viktor/userland/build/arm-android/release/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec41682371
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec41682371.dir/link.txt --verbose=1
+/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc         CMakeFiles/cmTryCompileExec41682371.dir/testCCompiler.c.o  -o cmTryCompileExec41682371 -rdynamic 
+gmake[1]: Lämnar katalogen "/home/viktor/userland/build/arm-android/release/CMakeFiles/CMakeTmp"
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/viktor/userland/build/arm-android/release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4065169491/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4065169491.dir/build.make CMakeFiles/cmTryCompileExec4065169491.dir/build
+gmake[1]: Går till katalogen "/home/viktor/userland/build/arm-android/release/CMakeFiles/CMakeTmp"
+/usr/bin/cmake -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4065169491.dir/CMakeCCompilerABI.c.o
+/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc   -mcpu=arm1176jzf-s -o CMakeFiles/cmTryCompileExec4065169491.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec4065169491
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4065169491.dir/link.txt --verbose=1
+/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc       -v CMakeFiles/cmTryCompileExec4065169491.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec4065169491 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc
+COLLECT_LTO_WRAPPER=/home/viktor/arm-linux-androideabi-4.6.3/bin/../libexec/gcc/arm-linux-androideabi/4.6.3/lto-wrapper
+Target: arm-linux-androideabi
+Configured with: /home/crystax/work/ndk/toolchain/build/../gcc/gcc-4.6.3/configure --prefix=/home/crystax/work/ndk/platform/ndk/toolchains/arm-linux-androideabi-4.6.3/prebuilt/linux-x86 --target=arm-linux-androideabi --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++,objc,obj-c++ --with-gmp=/tmp/ndk-crystax/build/toolchain/temp-install --with-mpfr=/tmp/ndk-crystax/build/toolchain/temp-install --with-mpc=/tmp/ndk-crystax/build/toolchain/temp-install --with-cloog=/tmp/ndk-crystax/build/toolchain/temp-install --with-ppl=/tmp/ndk-crystax/build/toolchain/temp-install --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --enable-shared --disable-tls --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-initfini-array --disable-nls --prefix=/home/crystax/work/ndk/platform/ndk/toolchains/arm-linux-androideabi-4.6.3/prebuilt/linux-x86 --with-sysroot=/home/crystax/work/ndk/platform/ndk/toolchains/arm-linux-androideabi-4.6.3/prebuilt/linux-x86/sysroot --with-binutils-version=2.22 --with-mpfr-version=3.0.1 --with-gmp-version=5.0.2 --with-gcc-version=4.6.3 --with-gdb-version=7.3 --with-mpc-version=0.9 --with-expat-version=2.0.1 --with-cloog-ppl-version=0.15.9 --with-ppl-version=0.11.2 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&'
+Thread model: posix
+gcc version 4.6.3 20120105 (prerelease) (Linaro GCC 4.6-2012.01) 
+COMPILER_PATH=/home/viktor/arm-linux-androideabi-4.6.3/bin/../libexec/gcc/arm-linux-androideabi/4.6.3/:/home/viktor/arm-linux-androideabi-4.6.3/bin/../libexec/gcc/:/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/arm-linux-androideabi/4.6.3/../../../../arm-linux-androideabi/bin/
+LIBRARY_PATH=/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/arm-linux-androideabi/4.6.3/:/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/:/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/arm-linux-androideabi/4.6.3/../../../../arm-linux-androideabi/lib/:/home/viktor/arm-linux-androideabi-4.6.3/bin/../sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4065169491' '-rdynamic' '-march=armv5te' '-mfloat-abi=soft' '-mfpu=vfp'
+ /home/viktor/arm-linux-androideabi-4.6.3/bin/../libexec/gcc/arm-linux-androideabi/4.6.3/collect2 --sysroot=/home/viktor/arm-linux-androideabi-4.6.3/bin/../sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -o cmTryCompileExec4065169491 /home/viktor/arm-linux-androideabi-4.6.3/bin/../sysroot/usr/lib/crtbegin_dynamic.o -L/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/arm-linux-androideabi/4.6.3 -L/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc -L/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/arm-linux-androideabi/4.6.3/../../../../arm-linux-androideabi/lib -L/home/viktor/arm-linux-androideabi-4.6.3/bin/../sysroot/usr/lib CMakeFiles/cmTryCompileExec4065169491.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_eh -lcrystax -Bdynamic -lstdc++ -llog -lc -ldl -lgcc -lgcc_eh /home/viktor/arm-linux-androideabi-4.6.3/bin/../sysroot/usr/lib/crtend_android.o
+gmake[1]: Lämnar katalogen "/home/viktor/userland/build/arm-android/release/CMakeFiles/CMakeTmp"
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/viktor/userland/build/arm-android/release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec4065169491/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4065169491.dir/build.make CMakeFiles/cmTryCompileExec4065169491.dir/build]
+  ignore line: [gmake[1]: Går till katalogen "/home/viktor/userland/build/arm-android/release/CMakeFiles/CMakeTmp"]
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec4065169491.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc   -mcpu=arm1176jzf-s -o CMakeFiles/cmTryCompileExec4065169491.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec4065169491]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4065169491.dir/link.txt --verbose=1]
+  ignore line: [/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc       -v CMakeFiles/cmTryCompileExec4065169491.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec4065169491 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/viktor/arm-linux-androideabi-4.6.3/bin/../libexec/gcc/arm-linux-androideabi/4.6.3/lto-wrapper]
+  ignore line: [Target: arm-linux-androideabi]
+  ignore line: [Configured with: /home/crystax/work/ndk/toolchain/build/../gcc/gcc-4.6.3/configure --prefix=/home/crystax/work/ndk/platform/ndk/toolchains/arm-linux-androideabi-4.6.3/prebuilt/linux-x86 --target=arm-linux-androideabi --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++,objc,obj-c++ --with-gmp=/tmp/ndk-crystax/build/toolchain/temp-install --with-mpfr=/tmp/ndk-crystax/build/toolchain/temp-install --with-mpc=/tmp/ndk-crystax/build/toolchain/temp-install --with-cloog=/tmp/ndk-crystax/build/toolchain/temp-install --with-ppl=/tmp/ndk-crystax/build/toolchain/temp-install --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --enable-shared --disable-tls --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-initfini-array --disable-nls --prefix=/home/crystax/work/ndk/platform/ndk/toolchains/arm-linux-androideabi-4.6.3/prebuilt/linux-x86 --with-sysroot=/home/crystax/work/ndk/platform/ndk/toolchains/arm-linux-androideabi-4.6.3/prebuilt/linux-x86/sysroot --with-binutils-version=2.22 --with-mpfr-version=3.0.1 --with-gmp-version=5.0.2 --with-gcc-version=4.6.3 --with-gdb-version=7.3 --with-mpc-version=0.9 --with-expat-version=2.0.1 --with-cloog-ppl-version=0.15.9 --with-ppl-version=0.11.2 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.6.3 20120105 (prerelease) (Linaro GCC 4.6-2012.01) ]
+  ignore line: [COMPILER_PATH=/home/viktor/arm-linux-androideabi-4.6.3/bin/../libexec/gcc/arm-linux-androideabi/4.6.3/:/home/viktor/arm-linux-androideabi-4.6.3/bin/../libexec/gcc/:/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/arm-linux-androideabi/4.6.3/../../../../arm-linux-androideabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/arm-linux-androideabi/4.6.3/:/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/:/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/arm-linux-androideabi/4.6.3/../../../../arm-linux-androideabi/lib/:/home/viktor/arm-linux-androideabi-4.6.3/bin/../sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4065169491' '-rdynamic' '-march=armv5te' '-mfloat-abi=soft' '-mfpu=vfp']
+  link line: [ /home/viktor/arm-linux-androideabi-4.6.3/bin/../libexec/gcc/arm-linux-androideabi/4.6.3/collect2 --sysroot=/home/viktor/arm-linux-androideabi-4.6.3/bin/../sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -o cmTryCompileExec4065169491 /home/viktor/arm-linux-androideabi-4.6.3/bin/../sysroot/usr/lib/crtbegin_dynamic.o -L/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/arm-linux-androideabi/4.6.3 -L/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc -L/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/arm-linux-androideabi/4.6.3/../../../../arm-linux-androideabi/lib -L/home/viktor/arm-linux-androideabi-4.6.3/bin/../sysroot/usr/lib CMakeFiles/cmTryCompileExec4065169491.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_eh -lcrystax -Bdynamic -lstdc++ -llog -lc -ldl -lgcc -lgcc_eh /home/viktor/arm-linux-androideabi-4.6.3/bin/../sysroot/usr/lib/crtend_android.o]
+    arg [/home/viktor/arm-linux-androideabi-4.6.3/bin/../libexec/gcc/arm-linux-androideabi/4.6.3/collect2] ==> ignore
+    arg [--sysroot=/home/viktor/arm-linux-androideabi-4.6.3/bin/../sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec4065169491] ==> ignore
+    arg [/home/viktor/arm-linux-androideabi-4.6.3/bin/../sysroot/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/arm-linux-androideabi/4.6.3] ==> dir [/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/arm-linux-androideabi/4.6.3]
+    arg [-L/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc] ==> dir [/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc]
+    arg [-L/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/arm-linux-androideabi/4.6.3/../../../../arm-linux-androideabi/lib] ==> dir [/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/arm-linux-androideabi/4.6.3/../../../../arm-linux-androideabi/lib]
+    arg [-L/home/viktor/arm-linux-androideabi-4.6.3/bin/../sysroot/usr/lib] ==> dir [/home/viktor/arm-linux-androideabi-4.6.3/bin/../sysroot/usr/lib]
+    arg [CMakeFiles/cmTryCompileExec4065169491.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lcrystax] ==> lib [crystax]
+    arg [-Bdynamic] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-llog] ==> lib [log]
+    arg [-lc] ==> lib [c]
+    arg [-ldl] ==> lib [dl]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [/home/viktor/arm-linux-androideabi-4.6.3/bin/../sysroot/usr/lib/crtend_android.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_eh]
+  remove lib [gcc]
+  remove lib [gcc_eh]
+  collapse dir [/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/arm-linux-androideabi/4.6.3] ==> [/home/viktor/arm-linux-androideabi-4.6.3/lib/gcc/arm-linux-androideabi/4.6.3]
+  collapse dir [/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc] ==> [/home/viktor/arm-linux-androideabi-4.6.3/lib/gcc]
+  collapse dir [/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/arm-linux-androideabi/4.6.3/../../../../arm-linux-androideabi/lib] ==> [/home/viktor/arm-linux-androideabi-4.6.3/arm-linux-androideabi/lib]
+  collapse dir [/home/viktor/arm-linux-androideabi-4.6.3/bin/../sysroot/usr/lib] ==> [/home/viktor/arm-linux-androideabi-4.6.3/sysroot/usr/lib]
+  implicit libs: [crystax;stdc++;log;c;dl]
+  implicit dirs: [/home/viktor/arm-linux-androideabi-4.6.3/lib/gcc/arm-linux-androideabi/4.6.3;/home/viktor/arm-linux-androideabi-4.6.3/lib/gcc;/home/viktor/arm-linux-androideabi-4.6.3/arm-linux-androideabi/lib;/home/viktor/arm-linux-androideabi-4.6.3/sysroot/usr/lib]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/viktor/userland/build/arm-android/release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec975050334/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec975050334.dir/build.make CMakeFiles/cmTryCompileExec975050334.dir/build
+gmake[1]: Går till katalogen "/home/viktor/userland/build/arm-android/release/CMakeFiles/CMakeTmp"
+/usr/bin/cmake -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec975050334.dir/testCXXCompiler.cxx.o
+/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-g++    -mcpu=arm1176jzf-s -o CMakeFiles/cmTryCompileExec975050334.dir/testCXXCompiler.cxx.o -c /home/viktor/userland/build/arm-android/release/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec975050334
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec975050334.dir/link.txt --verbose=1
+/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-g++          CMakeFiles/cmTryCompileExec975050334.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec975050334 -rdynamic 
+gmake[1]: Lämnar katalogen "/home/viktor/userland/build/arm-android/release/CMakeFiles/CMakeTmp"
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/viktor/userland/build/arm-android/release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec962544004/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec962544004.dir/build.make CMakeFiles/cmTryCompileExec962544004.dir/build
+gmake[1]: Går till katalogen "/home/viktor/userland/build/arm-android/release/CMakeFiles/CMakeTmp"
+/usr/bin/cmake -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec962544004.dir/CMakeCXXCompilerABI.cpp.o
+/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-g++    -mcpu=arm1176jzf-s -o CMakeFiles/cmTryCompileExec962544004.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec962544004
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec962544004.dir/link.txt --verbose=1
+/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-g++        -v CMakeFiles/cmTryCompileExec962544004.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec962544004 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-g++
+COLLECT_LTO_WRAPPER=/home/viktor/arm-linux-androideabi-4.6.3/bin/../libexec/gcc/arm-linux-androideabi/4.6.3/lto-wrapper
+Target: arm-linux-androideabi
+Configured with: /home/crystax/work/ndk/toolchain/build/../gcc/gcc-4.6.3/configure --prefix=/home/crystax/work/ndk/platform/ndk/toolchains/arm-linux-androideabi-4.6.3/prebuilt/linux-x86 --target=arm-linux-androideabi --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++,objc,obj-c++ --with-gmp=/tmp/ndk-crystax/build/toolchain/temp-install --with-mpfr=/tmp/ndk-crystax/build/toolchain/temp-install --with-mpc=/tmp/ndk-crystax/build/toolchain/temp-install --with-cloog=/tmp/ndk-crystax/build/toolchain/temp-install --with-ppl=/tmp/ndk-crystax/build/toolchain/temp-install --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --enable-shared --disable-tls --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-initfini-array --disable-nls --prefix=/home/crystax/work/ndk/platform/ndk/toolchains/arm-linux-androideabi-4.6.3/prebuilt/linux-x86 --with-sysroot=/home/crystax/work/ndk/platform/ndk/toolchains/arm-linux-androideabi-4.6.3/prebuilt/linux-x86/sysroot --with-binutils-version=2.22 --with-mpfr-version=3.0.1 --with-gmp-version=5.0.2 --with-gcc-version=4.6.3 --with-gdb-version=7.3 --with-mpc-version=0.9 --with-expat-version=2.0.1 --with-cloog-ppl-version=0.15.9 --with-ppl-version=0.11.2 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&'
+Thread model: posix
+gcc version 4.6.3 20120105 (prerelease) (Linaro GCC 4.6-2012.01) 
+COMPILER_PATH=/home/viktor/arm-linux-androideabi-4.6.3/bin/../libexec/gcc/arm-linux-androideabi/4.6.3/:/home/viktor/arm-linux-androideabi-4.6.3/bin/../libexec/gcc/:/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/arm-linux-androideabi/4.6.3/../../../../arm-linux-androideabi/bin/
+LIBRARY_PATH=/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/arm-linux-androideabi/4.6.3/:/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/:/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/arm-linux-androideabi/4.6.3/../../../../arm-linux-androideabi/lib/:/home/viktor/arm-linux-androideabi-4.6.3/bin/../sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec962544004' '-rdynamic' '-shared-libgcc' '-march=armv5te' '-mfloat-abi=soft' '-mfpu=vfp'
+ /home/viktor/arm-linux-androideabi-4.6.3/bin/../libexec/gcc/arm-linux-androideabi/4.6.3/collect2 --sysroot=/home/viktor/arm-linux-androideabi-4.6.3/bin/../sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -o cmTryCompileExec962544004 /home/viktor/arm-linux-androideabi-4.6.3/bin/../sysroot/usr/lib/crtbegin_dynamic.o -L/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/arm-linux-androideabi/4.6.3 -L/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc -L/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/arm-linux-androideabi/4.6.3/../../../../arm-linux-androideabi/lib -L/home/viktor/arm-linux-androideabi-4.6.3/bin/../sysroot/usr/lib CMakeFiles/cmTryCompileExec962544004.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc_eh -lcrystax -Bdynamic -lstdc++ -llog -lc -ldl -lgcc -lgcc_eh /home/viktor/arm-linux-androideabi-4.6.3/bin/../sysroot/usr/lib/crtend_android.o
+gmake[1]: Lämnar katalogen "/home/viktor/userland/build/arm-android/release/CMakeFiles/CMakeTmp"
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/viktor/userland/build/arm-android/release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec962544004/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec962544004.dir/build.make CMakeFiles/cmTryCompileExec962544004.dir/build]
+  ignore line: [gmake[1]: Går till katalogen "/home/viktor/userland/build/arm-android/release/CMakeFiles/CMakeTmp"]
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec962544004.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-g++    -mcpu=arm1176jzf-s -o CMakeFiles/cmTryCompileExec962544004.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec962544004]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec962544004.dir/link.txt --verbose=1]
+  ignore line: [/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-g++        -v CMakeFiles/cmTryCompileExec962544004.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec962544004 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/viktor/arm-linux-androideabi-4.6.3/bin/../libexec/gcc/arm-linux-androideabi/4.6.3/lto-wrapper]
+  ignore line: [Target: arm-linux-androideabi]
+  ignore line: [Configured with: /home/crystax/work/ndk/toolchain/build/../gcc/gcc-4.6.3/configure --prefix=/home/crystax/work/ndk/platform/ndk/toolchains/arm-linux-androideabi-4.6.3/prebuilt/linux-x86 --target=arm-linux-androideabi --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++,objc,obj-c++ --with-gmp=/tmp/ndk-crystax/build/toolchain/temp-install --with-mpfr=/tmp/ndk-crystax/build/toolchain/temp-install --with-mpc=/tmp/ndk-crystax/build/toolchain/temp-install --with-cloog=/tmp/ndk-crystax/build/toolchain/temp-install --with-ppl=/tmp/ndk-crystax/build/toolchain/temp-install --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --enable-shared --disable-tls --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-initfini-array --disable-nls --prefix=/home/crystax/work/ndk/platform/ndk/toolchains/arm-linux-androideabi-4.6.3/prebuilt/linux-x86 --with-sysroot=/home/crystax/work/ndk/platform/ndk/toolchains/arm-linux-androideabi-4.6.3/prebuilt/linux-x86/sysroot --with-binutils-version=2.22 --with-mpfr-version=3.0.1 --with-gmp-version=5.0.2 --with-gcc-version=4.6.3 --with-gdb-version=7.3 --with-mpc-version=0.9 --with-expat-version=2.0.1 --with-cloog-ppl-version=0.15.9 --with-ppl-version=0.11.2 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.6.3 20120105 (prerelease) (Linaro GCC 4.6-2012.01) ]
+  ignore line: [COMPILER_PATH=/home/viktor/arm-linux-androideabi-4.6.3/bin/../libexec/gcc/arm-linux-androideabi/4.6.3/:/home/viktor/arm-linux-androideabi-4.6.3/bin/../libexec/gcc/:/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/arm-linux-androideabi/4.6.3/../../../../arm-linux-androideabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/arm-linux-androideabi/4.6.3/:/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/:/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/arm-linux-androideabi/4.6.3/../../../../arm-linux-androideabi/lib/:/home/viktor/arm-linux-androideabi-4.6.3/bin/../sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec962544004' '-rdynamic' '-shared-libgcc' '-march=armv5te' '-mfloat-abi=soft' '-mfpu=vfp']
+  link line: [ /home/viktor/arm-linux-androideabi-4.6.3/bin/../libexec/gcc/arm-linux-androideabi/4.6.3/collect2 --sysroot=/home/viktor/arm-linux-androideabi-4.6.3/bin/../sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -o cmTryCompileExec962544004 /home/viktor/arm-linux-androideabi-4.6.3/bin/../sysroot/usr/lib/crtbegin_dynamic.o -L/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/arm-linux-androideabi/4.6.3 -L/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc -L/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/arm-linux-androideabi/4.6.3/../../../../arm-linux-androideabi/lib -L/home/viktor/arm-linux-androideabi-4.6.3/bin/../sysroot/usr/lib CMakeFiles/cmTryCompileExec962544004.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc_eh -lcrystax -Bdynamic -lstdc++ -llog -lc -ldl -lgcc -lgcc_eh /home/viktor/arm-linux-androideabi-4.6.3/bin/../sysroot/usr/lib/crtend_android.o]
+    arg [/home/viktor/arm-linux-androideabi-4.6.3/bin/../libexec/gcc/arm-linux-androideabi/4.6.3/collect2] ==> ignore
+    arg [--sysroot=/home/viktor/arm-linux-androideabi-4.6.3/bin/../sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec962544004] ==> ignore
+    arg [/home/viktor/arm-linux-androideabi-4.6.3/bin/../sysroot/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/arm-linux-androideabi/4.6.3] ==> dir [/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/arm-linux-androideabi/4.6.3]
+    arg [-L/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc] ==> dir [/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc]
+    arg [-L/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/arm-linux-androideabi/4.6.3/../../../../arm-linux-androideabi/lib] ==> dir [/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/arm-linux-androideabi/4.6.3/../../../../arm-linux-androideabi/lib]
+    arg [-L/home/viktor/arm-linux-androideabi-4.6.3/bin/../sysroot/usr/lib] ==> dir [/home/viktor/arm-linux-androideabi-4.6.3/bin/../sysroot/usr/lib]
+    arg [CMakeFiles/cmTryCompileExec962544004.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lcrystax] ==> lib [crystax]
+    arg [-Bdynamic] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-llog] ==> lib [log]
+    arg [-lc] ==> lib [c]
+    arg [-ldl] ==> lib [dl]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [/home/viktor/arm-linux-androideabi-4.6.3/bin/../sysroot/usr/lib/crtend_android.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_eh]
+  remove lib [gcc]
+  remove lib [gcc_eh]
+  collapse dir [/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/arm-linux-androideabi/4.6.3] ==> [/home/viktor/arm-linux-androideabi-4.6.3/lib/gcc/arm-linux-androideabi/4.6.3]
+  collapse dir [/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc] ==> [/home/viktor/arm-linux-androideabi-4.6.3/lib/gcc]
+  collapse dir [/home/viktor/arm-linux-androideabi-4.6.3/bin/../lib/gcc/arm-linux-androideabi/4.6.3/../../../../arm-linux-androideabi/lib] ==> [/home/viktor/arm-linux-androideabi-4.6.3/arm-linux-androideabi/lib]
+  collapse dir [/home/viktor/arm-linux-androideabi-4.6.3/bin/../sysroot/usr/lib] ==> [/home/viktor/arm-linux-androideabi-4.6.3/sysroot/usr/lib]
+  implicit libs: [stdc++;m;crystax;stdc++;log;c;dl]
+  implicit dirs: [/home/viktor/arm-linux-androideabi-4.6.3/lib/gcc/arm-linux-androideabi/4.6.3;/home/viktor/arm-linux-androideabi-4.6.3/lib/gcc;/home/viktor/arm-linux-androideabi-4.6.3/arm-linux-androideabi/lib;/home/viktor/arm-linux-androideabi-4.6.3/sysroot/usr/lib]
+
+
