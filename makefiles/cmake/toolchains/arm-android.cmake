@@ -3,11 +3,11 @@
 #
 
 
-# Note that the compilers should be in your $PATH
+# Note that the compilers should be in $ANDROID_TOOLCHAIN
 SET(CMAKE_SYSTEM_NAME Linux)
-SET(CMAKE_C_COMPILER /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc)
-SET(CMAKE_CXX_COMPILER /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-g++)
-SET(CMAKE_ASM_COMPILER /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-as)
+SET(CMAKE_C_COMPILER $ENV{ANDROID_TOOLCHAIN}/arm-linux-androideabi-gcc)
+SET(CMAKE_CXX_COMPILER $ENV{ANDROID_TOOLCHAIN}/arm-linux-androideabi-g++)
+SET(CMAKE_ASM_COMPILER $ENV{ANDROID_TOOLCHAIN}/arm-linux-androideabi-as)
 SET(CMAKE_SYSTEM_PROCESSOR arm)
 SET(ANDROID TRUE)
 
