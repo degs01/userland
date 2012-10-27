@@ -19,7 +19,7 @@ if(ANDROID)
     # work out where android headers and library are
     #
     set(ANDROID_PRODUCT "rpi" CACHE INTERNAL "" FORCE)
-    set(ANDROID_ROOT $ENC{ANDROID_ROOT} CACHE INTERNAL "" FORCE)
+    set(ANDROID_ROOT $ENV{ANDROID_ROOT} CACHE INTERNAL "" FORCE)
     set(ANDROID_NDK_ROOT $ENV{ANDROID_NDK_ROOT} CACHE INTERNAL "" FORCE)
     set(ANDROID_LIBS $ENV{ANDROID_LIBS} CACHE INTERNAL "" FORCE)
     set(ANDROID_BIONIC $ENV{ANDROID_BIONIC} CACHE INTERNAL "" FORCE)
@@ -32,7 +32,7 @@ if(ANDROID)
                   PATH_SUFFIXES ../../../../..
                   NO_DEFAULT_PATH)
                 if("${_ANDROID_ROOT}" STREQUAL "_ANDROID_ROOT-NOTFOUND")
-                    set(_ANDROID_ROOT "" CACHE INTERNAL "" FORCE)
+                    set(_ANDROID_ROOT "$ENV{ANDROID_ROOT}" CACHE INTERNAL "" FORCE)
                 endif()
                 if("${_ANDROID_ROOT}" STREQUAL "")
             message(FATAL_ERROR "Cannot find android root directory")
