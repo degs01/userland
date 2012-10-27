@@ -1,2 +1,0 @@
-/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-ar cr ../../../../../lib/libmmal_util.a  CMakeFiles/mmal_util.dir/mmal_il.c.o CMakeFiles/mmal_util.dir/mmal_util.c.o CMakeFiles/mmal_util.dir/mmal_connection.c.o CMakeFiles/mmal_util.dir/mmal_graph.c.o CMakeFiles/mmal_util.dir/mmal_param_convert.c.o CMakeFiles/mmal_util.dir/mmal_util_params.c.o CMakeFiles/mmal_util.dir/mmal_component_wrapper.c.o
-/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-ranlib ../../../../../lib/libmmal_util.a

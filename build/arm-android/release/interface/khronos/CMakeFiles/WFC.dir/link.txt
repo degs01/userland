@@ -1,2 +1,0 @@
-/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-ar cr ../../../../lib/libWFC.a  CMakeFiles/WFC.dir/wf/wfc_client_stream.c.o CMakeFiles/WFC.dir/wf/wfc_client.c.o CMakeFiles/WFC.dir/wf/wfc_client_server_api.c.o CMakeFiles/WFC.dir/wf/wfc_client_ipc.c.o CMakeFiles/WFC.dir/common/openwfc/khrn_client_platform_openwfc.c.o
-/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-ranlib ../../../../lib/libWFC.a

@@ -1,2 +1,0 @@
-/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-ar cr ../../../../lib/libOpenVG.a  CMakeFiles/OpenVG.dir/vg/vg_client.c.o CMakeFiles/OpenVG.dir/vg/vg_int_mat3x3.c.o
-/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-ranlib ../../../../lib/libOpenVG.a

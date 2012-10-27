@@ -1,2 +1,0 @@
-/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-ar cr ../../../../lib/libkhrn_client.a  CMakeFiles/khrn_client.dir/common/khrn_client_pointermap.c.o CMakeFiles/khrn_client.dir/common/khrn_client_vector.c.o CMakeFiles/khrn_client.dir/common/khrn_int_hash.c.o CMakeFiles/khrn_client.dir/common/khrn_client_cache.c.o
-/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-ranlib ../../../../lib/libkhrn_client.a
