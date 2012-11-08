@@ -36,7 +36,18 @@ set(EGL_SOURCE
    ext/gl_oes_query_matrix_client.c
    ext/gl_oes_framebuffer_object.c
    ext/gl_oes_map_buffer.c
-   ext/gl_oes_matrix_palette_client.c)
+   glxx/glxx_client.c
+   ext/gl_oes_matrix_palette_client.c
+   common/khrn_client_pointermap.c
+   common/khrn_client_vector.c
+   common/khrn_int_hash.c
+   common/khrn_client_cache.c
+   vg/vg_client.c
+   vg/vg_int_mat3x3.c
+   wf/wfc_client_stream.c
+   wf/wfc_client.c
+   wf/wfc_client_server_api.c
+   wf/wfc_client_ipc.c)
 set(GLES_SOURCE
    glxx/glxx_client.c)
 set(VG_SOURCE
@@ -66,7 +77,7 @@ add_library(GLESv2_static STATIC ${GLES_SOURCE})
 add_library(khrn_static STATIC
    ${EGL_SOURCE} ${GLES_SOURCE} ${VG_SOURCE} ${WFC_SOURCE} ${CLIENT_SOURCE})
 
-target_link_libraries(EGL khrn_client vchiq_arm vcos bcm_host -lm)
+target_link_libraries(EGL vchiq_arm vcos bcm_host -lm)
 target_link_libraries(GLESv2 EGL khrn_client vcos)
 target_link_libraries(WFC EGL)
 target_link_libraries(OpenVG EGL)

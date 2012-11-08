@@ -85,7 +85,7 @@ vchiq_test_EXTERNAL_OBJECTS =
 ../../bin/vchiq_test: interface/vchiq_arm/CMakeFiles/vchiq_test.dir/vchiq_test.c.o
 ../../bin/vchiq_test: interface/vchiq_arm/CMakeFiles/vchiq_test.dir/build.make
 ../../bin/vchiq_test: ../../lib/libvchiq_arm.so
-../../bin/vchiq_test: ../../lib/libvcos.a
+../../bin/vchiq_test: ../../lib/libvcos.so
 ../../bin/vchiq_test: interface/vchiq_arm/CMakeFiles/vchiq_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C executable ../../../../bin/vchiq_test"
 	cd /home/viktor/userland/build/arm-android/release/interface/vchiq_arm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vchiq_test.dir/link.txt --verbose=$(VERBOSE)

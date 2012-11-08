@@ -110,11 +110,10 @@ OpenVG_EXTERNAL_OBJECTS =
 ../../lib/libOpenVG.so: interface/khronos/CMakeFiles/OpenVG.dir/vg/vg_int_mat3x3.c.o
 ../../lib/libOpenVG.so: interface/khronos/CMakeFiles/OpenVG.dir/build.make
 ../../lib/libOpenVG.so: ../../lib/libEGL.so
-../../lib/libOpenVG.so: ../../lib/libkhrn_client.a
 ../../lib/libOpenVG.so: ../../lib/libbcm_host.so
 ../../lib/libOpenVG.so: ../../lib/libvchostif.a
 ../../lib/libOpenVG.so: ../../lib/libvchiq_arm.so
-../../lib/libOpenVG.so: ../../lib/libvcos.a
+../../lib/libOpenVG.so: ../../lib/libvcos.so
 ../../lib/libOpenVG.so: ../../lib/libvcfiled_check.a
 ../../lib/libOpenVG.so: interface/khronos/CMakeFiles/OpenVG.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared library ../../../../lib/libOpenVG.so"

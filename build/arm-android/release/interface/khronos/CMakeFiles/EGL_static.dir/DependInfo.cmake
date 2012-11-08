@@ -5,7 +5,11 @@ SET(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
   "/home/viktor/userland/interface/khronos/common/khrn_client.c" "/home/viktor/userland/build/arm-android/release/interface/khronos/CMakeFiles/EGL_static.dir/common/khrn_client.c.o"
+  "/home/viktor/userland/interface/khronos/common/khrn_client_cache.c" "/home/viktor/userland/build/arm-android/release/interface/khronos/CMakeFiles/EGL_static.dir/common/khrn_client_cache.c.o"
   "/home/viktor/userland/interface/khronos/common/khrn_client_global_image_map.c" "/home/viktor/userland/build/arm-android/release/interface/khronos/CMakeFiles/EGL_static.dir/common/khrn_client_global_image_map.c.o"
+  "/home/viktor/userland/interface/khronos/common/khrn_client_pointermap.c" "/home/viktor/userland/build/arm-android/release/interface/khronos/CMakeFiles/EGL_static.dir/common/khrn_client_pointermap.c.o"
+  "/home/viktor/userland/interface/khronos/common/khrn_client_vector.c" "/home/viktor/userland/build/arm-android/release/interface/khronos/CMakeFiles/EGL_static.dir/common/khrn_client_vector.c.o"
+  "/home/viktor/userland/interface/khronos/common/khrn_int_hash.c" "/home/viktor/userland/build/arm-android/release/interface/khronos/CMakeFiles/EGL_static.dir/common/khrn_int_hash.c.o"
   "/home/viktor/userland/interface/khronos/common/khrn_int_image.c" "/home/viktor/userland/build/arm-android/release/interface/khronos/CMakeFiles/EGL_static.dir/common/khrn_int_image.c.o"
   "/home/viktor/userland/interface/khronos/common/khrn_int_util.c" "/home/viktor/userland/build/arm-android/release/interface/khronos/CMakeFiles/EGL_static.dir/common/khrn_int_util.c.o"
   "/home/viktor/userland/interface/khronos/common/khrn_options.c" "/home/viktor/userland/build/arm-android/release/interface/khronos/CMakeFiles/EGL_static.dir/common/khrn_options.c.o"
@@ -31,8 +35,13 @@ SET(CMAKE_DEPENDS_CHECK_C
   "/home/viktor/userland/interface/khronos/ext/gl_oes_map_buffer.c" "/home/viktor/userland/build/arm-android/release/interface/khronos/CMakeFiles/EGL_static.dir/ext/gl_oes_map_buffer.c.o"
   "/home/viktor/userland/interface/khronos/ext/gl_oes_matrix_palette_client.c" "/home/viktor/userland/build/arm-android/release/interface/khronos/CMakeFiles/EGL_static.dir/ext/gl_oes_matrix_palette_client.c.o"
   "/home/viktor/userland/interface/khronos/ext/gl_oes_query_matrix_client.c" "/home/viktor/userland/build/arm-android/release/interface/khronos/CMakeFiles/EGL_static.dir/ext/gl_oes_query_matrix_client.c.o"
+  "/home/viktor/userland/interface/khronos/glxx/glxx_client.c" "/home/viktor/userland/build/arm-android/release/interface/khronos/CMakeFiles/EGL_static.dir/glxx/glxx_client.c.o"
   "/home/viktor/userland/interface/khronos/vg/vg_client.c" "/home/viktor/userland/build/arm-android/release/interface/khronos/CMakeFiles/EGL_static.dir/vg/vg_client.c.o"
   "/home/viktor/userland/interface/khronos/vg/vg_int_mat3x3.c" "/home/viktor/userland/build/arm-android/release/interface/khronos/CMakeFiles/EGL_static.dir/vg/vg_int_mat3x3.c.o"
+  "/home/viktor/userland/interface/khronos/wf/wfc_client.c" "/home/viktor/userland/build/arm-android/release/interface/khronos/CMakeFiles/EGL_static.dir/wf/wfc_client.c.o"
+  "/home/viktor/userland/interface/khronos/wf/wfc_client_ipc.c" "/home/viktor/userland/build/arm-android/release/interface/khronos/CMakeFiles/EGL_static.dir/wf/wfc_client_ipc.c.o"
+  "/home/viktor/userland/interface/khronos/wf/wfc_client_server_api.c" "/home/viktor/userland/build/arm-android/release/interface/khronos/CMakeFiles/EGL_static.dir/wf/wfc_client_server_api.c.o"
+  "/home/viktor/userland/interface/khronos/wf/wfc_client_stream.c" "/home/viktor/userland/build/arm-android/release/interface/khronos/CMakeFiles/EGL_static.dir/wf/wfc_client_stream.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

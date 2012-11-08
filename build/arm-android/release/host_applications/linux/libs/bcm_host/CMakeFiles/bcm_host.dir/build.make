@@ -134,10 +134,10 @@ bcm_host_EXTERNAL_OBJECTS =
 ../../lib/libbcm_host.so: host_applications/linux/libs/bcm_host/CMakeFiles/bcm_host.dir/__/__/__/__/interface/vmcs_host/linux/vcfilesys.c.o
 ../../lib/libbcm_host.so: host_applications/linux/libs/bcm_host/CMakeFiles/bcm_host.dir/__/__/__/__/interface/vmcs_host/linux/vcfiled/vcfiled_check.c.o
 ../../lib/libbcm_host.so: host_applications/linux/libs/bcm_host/CMakeFiles/bcm_host.dir/build.make
-../../lib/libbcm_host.so: ../../lib/libvcos.a
+../../lib/libbcm_host.so: ../../lib/libvcos.so
 ../../lib/libbcm_host.so: ../../lib/libvchostif.a
 ../../lib/libbcm_host.so: ../../lib/libvchiq_arm.so
-../../lib/libbcm_host.so: ../../lib/libvcos.a
+../../lib/libbcm_host.so: ../../lib/libvcos.so
 ../../lib/libbcm_host.so: ../../lib/libvcfiled_check.a
 ../../lib/libbcm_host.so: host_applications/linux/libs/bcm_host/CMakeFiles/bcm_host.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared library ../../../../../../lib/libbcm_host.so"

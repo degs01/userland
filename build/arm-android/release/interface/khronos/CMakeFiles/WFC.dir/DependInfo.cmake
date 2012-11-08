@@ -32,7 +32,6 @@ SET(CMAKE_TARGET_DEFINITIONS
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/viktor/userland/build/arm-android/release/interface/khronos/CMakeFiles/EGL.dir/DependInfo.cmake"
-  "/home/viktor/userland/build/arm-android/release/interface/khronos/CMakeFiles/khrn_client.dir/DependInfo.cmake"
   "/home/viktor/userland/build/arm-android/release/host_applications/linux/libs/bcm_host/CMakeFiles/bcm_host.dir/DependInfo.cmake"
   "/home/viktor/userland/build/arm-android/release/interface/vmcs_host/CMakeFiles/vchostif.dir/DependInfo.cmake"
   "/home/viktor/userland/build/arm-android/release/interface/vchiq_arm/CMakeFiles/vchiq_arm.dir/DependInfo.cmake"

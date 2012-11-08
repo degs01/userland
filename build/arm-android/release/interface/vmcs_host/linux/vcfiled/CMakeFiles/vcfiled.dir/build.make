@@ -87,7 +87,7 @@ vcfiled_EXTERNAL_OBJECTS =
 ../../bin/vcfiled: ../../lib/libvcfiled_check.a
 ../../bin/vcfiled: ../../lib/libvchostif.a
 ../../bin/vcfiled: ../../lib/libvchiq_arm.so
-../../bin/vcfiled: ../../lib/libvcos.a
+../../bin/vcfiled: ../../lib/libvcos.so
 ../../bin/vcfiled: ../../lib/libvcfiled_check.a
 ../../bin/vcfiled: interface/vmcs_host/linux/vcfiled/CMakeFiles/vcfiled.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C executable ../../../../../../bin/vcfiled"

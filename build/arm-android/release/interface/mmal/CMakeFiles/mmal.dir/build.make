@@ -88,7 +88,7 @@ mmal_EXTERNAL_OBJECTS =
 ../../lib/libmmal.so: ../../lib/libmmal_util.a
 ../../lib/libmmal.so: ../../lib/libmmal_vc_client.so
 ../../lib/libmmal.so: ../../lib/libvchiq_arm.so
-../../lib/libmmal.so: ../../lib/libvcos.a
+../../lib/libmmal.so: ../../lib/libvcos.so
 ../../lib/libmmal.so: interface/mmal/CMakeFiles/mmal.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared library ../../../../lib/libmmal.so"
 	cd /home/viktor/userland/build/arm-android/release/interface/mmal && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mmal.dir/link.txt --verbose=$(VERBOSE)

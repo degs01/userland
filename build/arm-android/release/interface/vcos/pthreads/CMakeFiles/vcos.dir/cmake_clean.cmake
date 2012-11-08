@@ -14,7 +14,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/vcos.dir/__/generic/vcos_logcat.c.o"
   "CMakeFiles/vcos.dir/__/generic/vcos_generic_blockpool.c.o"
   "../../../../../lib/libvcos.pdb"
-  "../../../../../lib/libvcos.a"
+  "../../../../../lib/libvcos.so"
 )
 
 # Per-language clean rules from dependency scanning.

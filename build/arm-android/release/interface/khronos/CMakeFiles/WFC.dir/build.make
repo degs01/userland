@@ -185,11 +185,10 @@ WFC_EXTERNAL_OBJECTS =
 ../../lib/libWFC.so: interface/khronos/CMakeFiles/WFC.dir/common/openwfc/khrn_client_platform_openwfc.c.o
 ../../lib/libWFC.so: interface/khronos/CMakeFiles/WFC.dir/build.make
 ../../lib/libWFC.so: ../../lib/libEGL.so
-../../lib/libWFC.so: ../../lib/libkhrn_client.a
 ../../lib/libWFC.so: ../../lib/libbcm_host.so
 ../../lib/libWFC.so: ../../lib/libvchostif.a
 ../../lib/libWFC.so: ../../lib/libvchiq_arm.so
-../../lib/libWFC.so: ../../lib/libvcos.a
+../../lib/libWFC.so: ../../lib/libvcos.so
 ../../lib/libWFC.so: ../../lib/libvcfiled_check.a
 ../../lib/libWFC.so: interface/khronos/CMakeFiles/WFC.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared library ../../../../lib/libWFC.so"

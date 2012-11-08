@@ -86,11 +86,11 @@ GLESv2_EXTERNAL_OBJECTS =
 ../../lib/libGLESv2.so: interface/khronos/CMakeFiles/GLESv2.dir/build.make
 ../../lib/libGLESv2.so: ../../lib/libEGL.so
 ../../lib/libGLESv2.so: ../../lib/libkhrn_client.a
-../../lib/libGLESv2.so: ../../lib/libvcos.a
+../../lib/libGLESv2.so: ../../lib/libvcos.so
 ../../lib/libGLESv2.so: ../../lib/libbcm_host.so
 ../../lib/libGLESv2.so: ../../lib/libvchostif.a
 ../../lib/libGLESv2.so: ../../lib/libvchiq_arm.so
-../../lib/libGLESv2.so: ../../lib/libvcos.a
+../../lib/libGLESv2.so: ../../lib/libvcos.so
 ../../lib/libGLESv2.so: ../../lib/libvcfiled_check.a
 ../../lib/libGLESv2.so: interface/khronos/CMakeFiles/GLESv2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared library ../../../../lib/libGLESv2.so"

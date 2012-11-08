@@ -696,9 +696,32 @@ interface/khronos/CMakeFiles/EGL.dir/ext/gl_oes_map_buffer.c.o.provides: interfa
 
 interface/khronos/CMakeFiles/EGL.dir/ext/gl_oes_map_buffer.c.o.provides.build: interface/khronos/CMakeFiles/EGL.dir/ext/gl_oes_map_buffer.c.o
 
+interface/khronos/CMakeFiles/EGL.dir/glxx/glxx_client.c.o: interface/khronos/CMakeFiles/EGL.dir/flags.make
+interface/khronos/CMakeFiles/EGL.dir/glxx/glxx_client.c.o: ../../../interface/khronos/glxx/glxx_client.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_29)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object interface/khronos/CMakeFiles/EGL.dir/glxx/glxx_client.c.o"
+	cd /home/viktor/userland/build/arm-android/release/interface/khronos && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/EGL.dir/glxx/glxx_client.c.o   -c /home/viktor/userland/interface/khronos/glxx/glxx_client.c
+
+interface/khronos/CMakeFiles/EGL.dir/glxx/glxx_client.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EGL.dir/glxx/glxx_client.c.i"
+	cd /home/viktor/userland/build/arm-android/release/interface/khronos && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -E /home/viktor/userland/interface/khronos/glxx/glxx_client.c > CMakeFiles/EGL.dir/glxx/glxx_client.c.i
+
+interface/khronos/CMakeFiles/EGL.dir/glxx/glxx_client.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EGL.dir/glxx/glxx_client.c.s"
+	cd /home/viktor/userland/build/arm-android/release/interface/khronos && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -S /home/viktor/userland/interface/khronos/glxx/glxx_client.c -o CMakeFiles/EGL.dir/glxx/glxx_client.c.s
+
+interface/khronos/CMakeFiles/EGL.dir/glxx/glxx_client.c.o.requires:
+.PHONY : interface/khronos/CMakeFiles/EGL.dir/glxx/glxx_client.c.o.requires
+
+interface/khronos/CMakeFiles/EGL.dir/glxx/glxx_client.c.o.provides: interface/khronos/CMakeFiles/EGL.dir/glxx/glxx_client.c.o.requires
+	$(MAKE) -f interface/khronos/CMakeFiles/EGL.dir/build.make interface/khronos/CMakeFiles/EGL.dir/glxx/glxx_client.c.o.provides.build
+.PHONY : interface/khronos/CMakeFiles/EGL.dir/glxx/glxx_client.c.o.provides
+
+interface/khronos/CMakeFiles/EGL.dir/glxx/glxx_client.c.o.provides.build: interface/khronos/CMakeFiles/EGL.dir/glxx/glxx_client.c.o
+
 interface/khronos/CMakeFiles/EGL.dir/ext/gl_oes_matrix_palette_client.c.o: interface/khronos/CMakeFiles/EGL.dir/flags.make
 interface/khronos/CMakeFiles/EGL.dir/ext/gl_oes_matrix_palette_client.c.o: ../../../interface/khronos/ext/gl_oes_matrix_palette_client.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object interface/khronos/CMakeFiles/EGL.dir/ext/gl_oes_matrix_palette_client.c.o"
 	cd /home/viktor/userland/build/arm-android/release/interface/khronos && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/EGL.dir/ext/gl_oes_matrix_palette_client.c.o   -c /home/viktor/userland/interface/khronos/ext/gl_oes_matrix_palette_client.c
 
@@ -718,6 +741,190 @@ interface/khronos/CMakeFiles/EGL.dir/ext/gl_oes_matrix_palette_client.c.o.provid
 .PHONY : interface/khronos/CMakeFiles/EGL.dir/ext/gl_oes_matrix_palette_client.c.o.provides
 
 interface/khronos/CMakeFiles/EGL.dir/ext/gl_oes_matrix_palette_client.c.o.provides.build: interface/khronos/CMakeFiles/EGL.dir/ext/gl_oes_matrix_palette_client.c.o
+
+interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_pointermap.c.o: interface/khronos/CMakeFiles/EGL.dir/flags.make
+interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_pointermap.c.o: ../../../interface/khronos/common/khrn_client_pointermap.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_31)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_pointermap.c.o"
+	cd /home/viktor/userland/build/arm-android/release/interface/khronos && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/EGL.dir/common/khrn_client_pointermap.c.o   -c /home/viktor/userland/interface/khronos/common/khrn_client_pointermap.c
+
+interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_pointermap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EGL.dir/common/khrn_client_pointermap.c.i"
+	cd /home/viktor/userland/build/arm-android/release/interface/khronos && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -E /home/viktor/userland/interface/khronos/common/khrn_client_pointermap.c > CMakeFiles/EGL.dir/common/khrn_client_pointermap.c.i
+
+interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_pointermap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EGL.dir/common/khrn_client_pointermap.c.s"
+	cd /home/viktor/userland/build/arm-android/release/interface/khronos && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -S /home/viktor/userland/interface/khronos/common/khrn_client_pointermap.c -o CMakeFiles/EGL.dir/common/khrn_client_pointermap.c.s
+
+interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_pointermap.c.o.requires:
+.PHONY : interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_pointermap.c.o.requires
+
+interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_pointermap.c.o.provides: interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_pointermap.c.o.requires
+	$(MAKE) -f interface/khronos/CMakeFiles/EGL.dir/build.make interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_pointermap.c.o.provides.build
+.PHONY : interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_pointermap.c.o.provides
+
+interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_pointermap.c.o.provides.build: interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_pointermap.c.o
+
+interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_vector.c.o: interface/khronos/CMakeFiles/EGL.dir/flags.make
+interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_vector.c.o: ../../../interface/khronos/common/khrn_client_vector.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_32)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_vector.c.o"
+	cd /home/viktor/userland/build/arm-android/release/interface/khronos && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/EGL.dir/common/khrn_client_vector.c.o   -c /home/viktor/userland/interface/khronos/common/khrn_client_vector.c
+
+interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_vector.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EGL.dir/common/khrn_client_vector.c.i"
+	cd /home/viktor/userland/build/arm-android/release/interface/khronos && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -E /home/viktor/userland/interface/khronos/common/khrn_client_vector.c > CMakeFiles/EGL.dir/common/khrn_client_vector.c.i
+
+interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_vector.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EGL.dir/common/khrn_client_vector.c.s"
+	cd /home/viktor/userland/build/arm-android/release/interface/khronos && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -S /home/viktor/userland/interface/khronos/common/khrn_client_vector.c -o CMakeFiles/EGL.dir/common/khrn_client_vector.c.s
+
+interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_vector.c.o.requires:
+.PHONY : interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_vector.c.o.requires
+
+interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_vector.c.o.provides: interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_vector.c.o.requires
+	$(MAKE) -f interface/khronos/CMakeFiles/EGL.dir/build.make interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_vector.c.o.provides.build
+.PHONY : interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_vector.c.o.provides
+
+interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_vector.c.o.provides.build: interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_vector.c.o
+
+interface/khronos/CMakeFiles/EGL.dir/common/khrn_int_hash.c.o: interface/khronos/CMakeFiles/EGL.dir/flags.make
+interface/khronos/CMakeFiles/EGL.dir/common/khrn_int_hash.c.o: ../../../interface/khronos/common/khrn_int_hash.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_33)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object interface/khronos/CMakeFiles/EGL.dir/common/khrn_int_hash.c.o"
+	cd /home/viktor/userland/build/arm-android/release/interface/khronos && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/EGL.dir/common/khrn_int_hash.c.o   -c /home/viktor/userland/interface/khronos/common/khrn_int_hash.c
+
+interface/khronos/CMakeFiles/EGL.dir/common/khrn_int_hash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EGL.dir/common/khrn_int_hash.c.i"
+	cd /home/viktor/userland/build/arm-android/release/interface/khronos && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -E /home/viktor/userland/interface/khronos/common/khrn_int_hash.c > CMakeFiles/EGL.dir/common/khrn_int_hash.c.i
+
+interface/khronos/CMakeFiles/EGL.dir/common/khrn_int_hash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EGL.dir/common/khrn_int_hash.c.s"
+	cd /home/viktor/userland/build/arm-android/release/interface/khronos && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -S /home/viktor/userland/interface/khronos/common/khrn_int_hash.c -o CMakeFiles/EGL.dir/common/khrn_int_hash.c.s
+
+interface/khronos/CMakeFiles/EGL.dir/common/khrn_int_hash.c.o.requires:
+.PHONY : interface/khronos/CMakeFiles/EGL.dir/common/khrn_int_hash.c.o.requires
+
+interface/khronos/CMakeFiles/EGL.dir/common/khrn_int_hash.c.o.provides: interface/khronos/CMakeFiles/EGL.dir/common/khrn_int_hash.c.o.requires
+	$(MAKE) -f interface/khronos/CMakeFiles/EGL.dir/build.make interface/khronos/CMakeFiles/EGL.dir/common/khrn_int_hash.c.o.provides.build
+.PHONY : interface/khronos/CMakeFiles/EGL.dir/common/khrn_int_hash.c.o.provides
+
+interface/khronos/CMakeFiles/EGL.dir/common/khrn_int_hash.c.o.provides.build: interface/khronos/CMakeFiles/EGL.dir/common/khrn_int_hash.c.o
+
+interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_cache.c.o: interface/khronos/CMakeFiles/EGL.dir/flags.make
+interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_cache.c.o: ../../../interface/khronos/common/khrn_client_cache.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_34)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_cache.c.o"
+	cd /home/viktor/userland/build/arm-android/release/interface/khronos && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/EGL.dir/common/khrn_client_cache.c.o   -c /home/viktor/userland/interface/khronos/common/khrn_client_cache.c
+
+interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_cache.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EGL.dir/common/khrn_client_cache.c.i"
+	cd /home/viktor/userland/build/arm-android/release/interface/khronos && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -E /home/viktor/userland/interface/khronos/common/khrn_client_cache.c > CMakeFiles/EGL.dir/common/khrn_client_cache.c.i
+
+interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_cache.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EGL.dir/common/khrn_client_cache.c.s"
+	cd /home/viktor/userland/build/arm-android/release/interface/khronos && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -S /home/viktor/userland/interface/khronos/common/khrn_client_cache.c -o CMakeFiles/EGL.dir/common/khrn_client_cache.c.s
+
+interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_cache.c.o.requires:
+.PHONY : interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_cache.c.o.requires
+
+interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_cache.c.o.provides: interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_cache.c.o.requires
+	$(MAKE) -f interface/khronos/CMakeFiles/EGL.dir/build.make interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_cache.c.o.provides.build
+.PHONY : interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_cache.c.o.provides
+
+interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_cache.c.o.provides.build: interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_cache.c.o
+
+interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_stream.c.o: interface/khronos/CMakeFiles/EGL.dir/flags.make
+interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/wf/wfc_client_stream.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_35)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_stream.c.o"
+	cd /home/viktor/userland/build/arm-android/release/interface/khronos && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/EGL.dir/wf/wfc_client_stream.c.o   -c /home/viktor/userland/interface/khronos/wf/wfc_client_stream.c
+
+interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_stream.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EGL.dir/wf/wfc_client_stream.c.i"
+	cd /home/viktor/userland/build/arm-android/release/interface/khronos && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -E /home/viktor/userland/interface/khronos/wf/wfc_client_stream.c > CMakeFiles/EGL.dir/wf/wfc_client_stream.c.i
+
+interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_stream.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EGL.dir/wf/wfc_client_stream.c.s"
+	cd /home/viktor/userland/build/arm-android/release/interface/khronos && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -S /home/viktor/userland/interface/khronos/wf/wfc_client_stream.c -o CMakeFiles/EGL.dir/wf/wfc_client_stream.c.s
+
+interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_stream.c.o.requires:
+.PHONY : interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_stream.c.o.requires
+
+interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_stream.c.o.provides: interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_stream.c.o.requires
+	$(MAKE) -f interface/khronos/CMakeFiles/EGL.dir/build.make interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_stream.c.o.provides.build
+.PHONY : interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_stream.c.o.provides
+
+interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_stream.c.o.provides.build: interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_stream.c.o
+
+interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client.c.o: interface/khronos/CMakeFiles/EGL.dir/flags.make
+interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client.c.o: ../../../interface/khronos/wf/wfc_client.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_36)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client.c.o"
+	cd /home/viktor/userland/build/arm-android/release/interface/khronos && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/EGL.dir/wf/wfc_client.c.o   -c /home/viktor/userland/interface/khronos/wf/wfc_client.c
+
+interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EGL.dir/wf/wfc_client.c.i"
+	cd /home/viktor/userland/build/arm-android/release/interface/khronos && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -E /home/viktor/userland/interface/khronos/wf/wfc_client.c > CMakeFiles/EGL.dir/wf/wfc_client.c.i
+
+interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EGL.dir/wf/wfc_client.c.s"
+	cd /home/viktor/userland/build/arm-android/release/interface/khronos && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -S /home/viktor/userland/interface/khronos/wf/wfc_client.c -o CMakeFiles/EGL.dir/wf/wfc_client.c.s
+
+interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client.c.o.requires:
+.PHONY : interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client.c.o.requires
+
+interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client.c.o.provides: interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client.c.o.requires
+	$(MAKE) -f interface/khronos/CMakeFiles/EGL.dir/build.make interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client.c.o.provides.build
+.PHONY : interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client.c.o.provides
+
+interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client.c.o.provides.build: interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client.c.o
+
+interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_server_api.c.o: interface/khronos/CMakeFiles/EGL.dir/flags.make
+interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_server_api.c.o: ../../../interface/khronos/wf/wfc_client_server_api.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_37)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_server_api.c.o"
+	cd /home/viktor/userland/build/arm-android/release/interface/khronos && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/EGL.dir/wf/wfc_client_server_api.c.o   -c /home/viktor/userland/interface/khronos/wf/wfc_client_server_api.c
+
+interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_server_api.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EGL.dir/wf/wfc_client_server_api.c.i"
+	cd /home/viktor/userland/build/arm-android/release/interface/khronos && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -E /home/viktor/userland/interface/khronos/wf/wfc_client_server_api.c > CMakeFiles/EGL.dir/wf/wfc_client_server_api.c.i
+
+interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_server_api.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EGL.dir/wf/wfc_client_server_api.c.s"
+	cd /home/viktor/userland/build/arm-android/release/interface/khronos && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -S /home/viktor/userland/interface/khronos/wf/wfc_client_server_api.c -o CMakeFiles/EGL.dir/wf/wfc_client_server_api.c.s
+
+interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_server_api.c.o.requires:
+.PHONY : interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_server_api.c.o.requires
+
+interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_server_api.c.o.provides: interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_server_api.c.o.requires
+	$(MAKE) -f interface/khronos/CMakeFiles/EGL.dir/build.make interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_server_api.c.o.provides.build
+.PHONY : interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_server_api.c.o.provides
+
+interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_server_api.c.o.provides.build: interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_server_api.c.o
+
+interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_ipc.c.o: interface/khronos/CMakeFiles/EGL.dir/flags.make
+interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_ipc.c.o: ../../../interface/khronos/wf/wfc_client_ipc.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_38)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_ipc.c.o"
+	cd /home/viktor/userland/build/arm-android/release/interface/khronos && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/EGL.dir/wf/wfc_client_ipc.c.o   -c /home/viktor/userland/interface/khronos/wf/wfc_client_ipc.c
+
+interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_ipc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EGL.dir/wf/wfc_client_ipc.c.i"
+	cd /home/viktor/userland/build/arm-android/release/interface/khronos && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -E /home/viktor/userland/interface/khronos/wf/wfc_client_ipc.c > CMakeFiles/EGL.dir/wf/wfc_client_ipc.c.i
+
+interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_ipc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EGL.dir/wf/wfc_client_ipc.c.s"
+	cd /home/viktor/userland/build/arm-android/release/interface/khronos && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -S /home/viktor/userland/interface/khronos/wf/wfc_client_ipc.c -o CMakeFiles/EGL.dir/wf/wfc_client_ipc.c.s
+
+interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_ipc.c.o.requires:
+.PHONY : interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_ipc.c.o.requires
+
+interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_ipc.c.o.provides: interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_ipc.c.o.requires
+	$(MAKE) -f interface/khronos/CMakeFiles/EGL.dir/build.make interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_ipc.c.o.provides.build
+.PHONY : interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_ipc.c.o.provides
+
+interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_ipc.c.o.provides.build: interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_ipc.c.o
 
 # Object files for target EGL
 EGL_OBJECTS = \
@@ -749,7 +956,16 @@ EGL_OBJECTS = \
 "CMakeFiles/EGL.dir/ext/gl_oes_query_matrix_client.c.o" \
 "CMakeFiles/EGL.dir/ext/gl_oes_framebuffer_object.c.o" \
 "CMakeFiles/EGL.dir/ext/gl_oes_map_buffer.c.o" \
-"CMakeFiles/EGL.dir/ext/gl_oes_matrix_palette_client.c.o"
+"CMakeFiles/EGL.dir/glxx/glxx_client.c.o" \
+"CMakeFiles/EGL.dir/ext/gl_oes_matrix_palette_client.c.o" \
+"CMakeFiles/EGL.dir/common/khrn_client_pointermap.c.o" \
+"CMakeFiles/EGL.dir/common/khrn_client_vector.c.o" \
+"CMakeFiles/EGL.dir/common/khrn_int_hash.c.o" \
+"CMakeFiles/EGL.dir/common/khrn_client_cache.c.o" \
+"CMakeFiles/EGL.dir/wf/wfc_client_stream.c.o" \
+"CMakeFiles/EGL.dir/wf/wfc_client.c.o" \
+"CMakeFiles/EGL.dir/wf/wfc_client_server_api.c.o" \
+"CMakeFiles/EGL.dir/wf/wfc_client_ipc.c.o"
 
 # External object files for target EGL
 EGL_EXTERNAL_OBJECTS =
@@ -782,15 +998,23 @@ EGL_EXTERNAL_OBJECTS =
 ../../lib/libEGL.so: interface/khronos/CMakeFiles/EGL.dir/ext/gl_oes_query_matrix_client.c.o
 ../../lib/libEGL.so: interface/khronos/CMakeFiles/EGL.dir/ext/gl_oes_framebuffer_object.c.o
 ../../lib/libEGL.so: interface/khronos/CMakeFiles/EGL.dir/ext/gl_oes_map_buffer.c.o
+../../lib/libEGL.so: interface/khronos/CMakeFiles/EGL.dir/glxx/glxx_client.c.o
 ../../lib/libEGL.so: interface/khronos/CMakeFiles/EGL.dir/ext/gl_oes_matrix_palette_client.c.o
+../../lib/libEGL.so: interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_pointermap.c.o
+../../lib/libEGL.so: interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_vector.c.o
+../../lib/libEGL.so: interface/khronos/CMakeFiles/EGL.dir/common/khrn_int_hash.c.o
+../../lib/libEGL.so: interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_cache.c.o
+../../lib/libEGL.so: interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_stream.c.o
+../../lib/libEGL.so: interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client.c.o
+../../lib/libEGL.so: interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_server_api.c.o
+../../lib/libEGL.so: interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_ipc.c.o
 ../../lib/libEGL.so: interface/khronos/CMakeFiles/EGL.dir/build.make
-../../lib/libEGL.so: ../../lib/libkhrn_client.a
 ../../lib/libEGL.so: ../../lib/libvchiq_arm.so
-../../lib/libEGL.so: ../../lib/libvcos.a
+../../lib/libEGL.so: ../../lib/libvcos.so
 ../../lib/libEGL.so: ../../lib/libbcm_host.so
 ../../lib/libEGL.so: ../../lib/libvchostif.a
 ../../lib/libEGL.so: ../../lib/libvchiq_arm.so
-../../lib/libEGL.so: ../../lib/libvcos.a
+../../lib/libEGL.so: ../../lib/libvcos.so
 ../../lib/libEGL.so: ../../lib/libvcfiled_check.a
 ../../lib/libEGL.so: interface/khronos/CMakeFiles/EGL.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared library ../../../../lib/libEGL.so"
@@ -828,7 +1052,16 @@ interface/khronos/CMakeFiles/EGL.dir/requires: interface/khronos/CMakeFiles/EGL.
 interface/khronos/CMakeFiles/EGL.dir/requires: interface/khronos/CMakeFiles/EGL.dir/ext/gl_oes_query_matrix_client.c.o.requires
 interface/khronos/CMakeFiles/EGL.dir/requires: interface/khronos/CMakeFiles/EGL.dir/ext/gl_oes_framebuffer_object.c.o.requires
 interface/khronos/CMakeFiles/EGL.dir/requires: interface/khronos/CMakeFiles/EGL.dir/ext/gl_oes_map_buffer.c.o.requires
+interface/khronos/CMakeFiles/EGL.dir/requires: interface/khronos/CMakeFiles/EGL.dir/glxx/glxx_client.c.o.requires
 interface/khronos/CMakeFiles/EGL.dir/requires: interface/khronos/CMakeFiles/EGL.dir/ext/gl_oes_matrix_palette_client.c.o.requires
+interface/khronos/CMakeFiles/EGL.dir/requires: interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_pointermap.c.o.requires
+interface/khronos/CMakeFiles/EGL.dir/requires: interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_vector.c.o.requires
+interface/khronos/CMakeFiles/EGL.dir/requires: interface/khronos/CMakeFiles/EGL.dir/common/khrn_int_hash.c.o.requires
+interface/khronos/CMakeFiles/EGL.dir/requires: interface/khronos/CMakeFiles/EGL.dir/common/khrn_client_cache.c.o.requires
+interface/khronos/CMakeFiles/EGL.dir/requires: interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_stream.c.o.requires
+interface/khronos/CMakeFiles/EGL.dir/requires: interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client.c.o.requires
+interface/khronos/CMakeFiles/EGL.dir/requires: interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_server_api.c.o.requires
+interface/khronos/CMakeFiles/EGL.dir/requires: interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_ipc.c.o.requires
 .PHONY : interface/khronos/CMakeFiles/EGL.dir/requires
 
 interface/khronos/CMakeFiles/EGL.dir/clean:

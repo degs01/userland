@@ -86,7 +86,7 @@ tvservice_EXTERNAL_OBJECTS =
 ../../bin/tvservice: host_applications/linux/apps/tvservice/CMakeFiles/tvservice.dir/build.make
 ../../bin/tvservice: ../../lib/libvchostif.a
 ../../bin/tvservice: ../../lib/libvchiq_arm.so
-../../bin/tvservice: ../../lib/libvcos.a
+../../bin/tvservice: ../../lib/libvcos.so
 ../../bin/tvservice: ../../lib/libvcfiled_check.a
 ../../bin/tvservice: host_applications/linux/apps/tvservice/CMakeFiles/tvservice.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C executable ../../../../../../bin/tvservice"

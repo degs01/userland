@@ -197,7 +197,7 @@ CPACK_SOURCE_TZ:BOOL=ON
 CPACK_SOURCE_ZIP:BOOL=OFF
 
 //Dependencies for the target
-EGL_LIB_DEPENDS:STATIC=general;khrn_client;general;vchiq_arm;general;vcos;general;bcm_host;general;-lm;
+EGL_LIB_DEPENDS:STATIC=general;vchiq_arm;general;vcos;general;bcm_host;general;-lm;
 
 //Dependencies for target
 EGL_static_LIB_DEPENDS:STATIC=
@@ -250,8 +250,8 @@ vchostif_LIB_DEPENDS:STATIC=general;vchiq_arm;general;vcos;general;vcfiled_check
 //Dependencies for the target
 vcilcs_LIB_DEPENDS:STATIC=general;EGL;general;GLESv2;general;khrn_client;general;vchiq_arm;general;vcos;
 
-//Dependencies for target
-vcos_LIB_DEPENDS:STATIC=
+//Dependencies for the target
+vcos_LIB_DEPENDS:STATIC=general;dl;
 
 //Value Computed by CMake
 vmcs_host_apps_BINARY_DIR:STATIC=/home/viktor/userland/build/arm-android/release

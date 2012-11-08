@@ -1358,7 +1358,7 @@ vchiq_lib_init(void)
       vcos_mutex_create(&vchiq_lib_mutex, "vchiq-init");
 
       vcos_log_set_level( &vchiq_lib_log_category, vchiq_default_lib_log_level );
-      vcos_log_register( "vchiq_lib", &vchiq_lib_log_category );
+      //vcos_log_register( "vchiq_lib", &vchiq_lib_log_category );
 
       mutex_initialised = 1;
    }

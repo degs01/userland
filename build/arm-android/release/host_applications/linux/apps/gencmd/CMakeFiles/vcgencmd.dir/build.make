@@ -84,11 +84,11 @@ vcgencmd_EXTERNAL_OBJECTS =
 
 ../../bin/vcgencmd: host_applications/linux/apps/gencmd/CMakeFiles/vcgencmd.dir/gencmd.c.o
 ../../bin/vcgencmd: host_applications/linux/apps/gencmd/CMakeFiles/vcgencmd.dir/build.make
-../../bin/vcgencmd: ../../lib/libvcos.a
+../../bin/vcgencmd: ../../lib/libvcos.so
 ../../bin/vcgencmd: ../../lib/libvchiq_arm.so
 ../../bin/vcgencmd: ../../lib/libvchostif.a
 ../../bin/vcgencmd: ../../lib/libvchiq_arm.so
-../../bin/vcgencmd: ../../lib/libvcos.a
+../../bin/vcgencmd: ../../lib/libvcos.so
 ../../bin/vcgencmd: ../../lib/libvcfiled_check.a
 ../../bin/vcgencmd: host_applications/linux/apps/gencmd/CMakeFiles/vcgencmd.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C executable ../../../../../../bin/vcgencmd"

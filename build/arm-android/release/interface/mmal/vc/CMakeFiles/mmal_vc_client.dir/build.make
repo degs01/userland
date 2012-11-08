@@ -185,7 +185,7 @@ mmal_vc_client_EXTERNAL_OBJECTS =
 ../../lib/libmmal_vc_client.so: interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_msgnames.c.o
 ../../lib/libmmal_vc_client.so: interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/build.make
 ../../lib/libmmal_vc_client.so: ../../lib/libvchiq_arm.so
-../../lib/libmmal_vc_client.so: ../../lib/libvcos.a
+../../lib/libmmal_vc_client.so: ../../lib/libvcos.so
 ../../lib/libmmal_vc_client.so: interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared library ../../../../../lib/libmmal_vc_client.so"
 	cd /home/viktor/userland/build/arm-android/release/interface/mmal/vc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mmal_vc_client.dir/link.txt --verbose=$(VERBOSE)

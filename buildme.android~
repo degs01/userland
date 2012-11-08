@@ -1,0 +1,8 @@
+#!/bin/bash
+mkdir -p build/arm-android/release/
+pushd build/arm-android/release/
+echo "Before running this, set ANDROID_ROOT to your root-Android-dir, and ANDROID_TOOLCHAIN to your toolchain's /bin dir."
+cmake -DCMAKE_TOOLCHAIN_FILE=../../../makefiles/cmake/toolchains/arm-android.cmake -DCMAKE_BUILD_TYPE=Release ../../..
+make
+popd
+

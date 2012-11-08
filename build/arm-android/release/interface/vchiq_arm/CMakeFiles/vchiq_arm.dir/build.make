@@ -109,7 +109,7 @@ vchiq_arm_EXTERNAL_OBJECTS =
 ../../lib/libvchiq_arm.so: interface/vchiq_arm/CMakeFiles/vchiq_arm.dir/vchiq_lib.c.o
 ../../lib/libvchiq_arm.so: interface/vchiq_arm/CMakeFiles/vchiq_arm.dir/vchiq_util.c.o
 ../../lib/libvchiq_arm.so: interface/vchiq_arm/CMakeFiles/vchiq_arm.dir/build.make
-../../lib/libvchiq_arm.so: ../../lib/libvcos.a
+../../lib/libvchiq_arm.so: ../../lib/libvcos.so
 ../../lib/libvchiq_arm.so: interface/vchiq_arm/CMakeFiles/vchiq_arm.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared library ../../../../lib/libvchiq_arm.so"
 	cd /home/viktor/userland/build/arm-android/release/interface/vchiq_arm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vchiq_arm.dir/link.txt --verbose=$(VERBOSE)
