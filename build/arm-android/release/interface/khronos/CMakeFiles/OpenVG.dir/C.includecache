@@ -28,6 +28,40 @@ vcfw/rtos/rtos.h
 helpers/vc_image/metadata_fourcc.h
 ../../../helpers/vc_image/helpers/vc_image/metadata_fourcc.h
 
+../../../include/android/native_window.h
+include/android/rect.h
+../../../include/android/include/android/rect.h
+
+../../../include/android/rect.h
+
+../../../include/hardware/gralloc.h
+/home/viktor/userland/include/cutils/native_handle.h
+-
+/home/viktor/userland/include/hardware/hardware.h
+-
+stdint.h
+-
+sys/cdefs.h
+-
+sys/types.h
+-
+
+../../../include/ui/android_native_buffer.h
+include/ui/egl/android_natives.h
+../../../include/ui/include/ui/egl/android_natives.h
+
+../../../include/ui/egl/android_natives.h
+sys/types.h
+-
+string.h
+-
+include/hardware/gralloc.h
+../../../include/ui/egl/include/hardware/gralloc.h
+include/android/native_window.h
+../../../include/ui/egl/include/android/native_window.h
+include/utils/RefBase.h
+../../../include/ui/egl/include/utils/RefBase.h
+
 ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
 interface/vcos/vcos.h
 ../../../interface/khronos/common/abstract/interface/vcos/vcos.h
@@ -289,6 +323,8 @@ eglext_nvidia.h
 ../../../interface/khronos/include/EGL/eglext_android.h
 system/window.h
 -
+include/ui/android_native_buffer.h
+../../../interface/khronos/include/EGL/include/ui/android_native_buffer.h
 
 ../../../interface/khronos/include/EGL/eglext_brcm.h
 
@@ -1562,6 +1598,16 @@ sys/cdefs.h
 sys/types.h
 -
 limits.h
+-
+
+/home/viktor/userland/include/cutils/native_handle.h
+
+/home/viktor/userland/include/hardware/hardware.h
+stdint.h
+-
+sys/cdefs.h
+-
+/home/viktor/userland/include/cutils/native_handle.h
 -
 
 /home/viktor/userland/interface/khronos/vg/vg_client.c

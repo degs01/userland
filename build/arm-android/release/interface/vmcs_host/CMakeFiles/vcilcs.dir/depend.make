@@ -419,6 +419,11 @@ interface/vmcs_host/CMakeFiles/vcilcs.dir/vcilcs_in.c.o: /home/viktor/cm/bionic/
 interface/vmcs_host/CMakeFiles/vcilcs.dir/vcilcs_in.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
 interface/vmcs_host/CMakeFiles/vcilcs.dir/vcilcs_in.c.o: ../../../interface/vmcs_host/vcilcs_in.c
 
+interface/vmcs_host/CMakeFiles/vcilcs.dir/vcilcs_out.c.o: ../../../include/android/native_window.h
+interface/vmcs_host/CMakeFiles/vcilcs.dir/vcilcs_out.c.o: ../../../include/android/rect.h
+interface/vmcs_host/CMakeFiles/vcilcs.dir/vcilcs_out.c.o: ../../../include/hardware/gralloc.h
+interface/vmcs_host/CMakeFiles/vcilcs.dir/vcilcs_out.c.o: ../../../include/ui/android_native_buffer.h
+interface/vmcs_host/CMakeFiles/vcilcs.dir/vcilcs_out.c.o: ../../../include/ui/egl/android_natives.h
 interface/vmcs_host/CMakeFiles/vcilcs.dir/vcilcs_out.c.o: ../../../interface/khronos/common/khrn_client_mangle.h
 interface/vmcs_host/CMakeFiles/vcilcs.dir/vcilcs_out.c.o: ../../../interface/khronos/ext/egl_openmaxil_client.h
 interface/vmcs_host/CMakeFiles/vcilcs.dir/vcilcs_out.c.o: ../../../interface/khronos/include/EGL/../KHR/khrplatform.h
@@ -578,5 +583,7 @@ interface/vmcs_host/CMakeFiles/vcilcs.dir/vcilcs_out.c.o: /home/viktor/cm/bionic
 interface/vmcs_host/CMakeFiles/vcilcs.dir/vcilcs_out.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/string.h
 interface/vmcs_host/CMakeFiles/vcilcs.dir/vcilcs_out.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
 interface/vmcs_host/CMakeFiles/vcilcs.dir/vcilcs_out.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
+interface/vmcs_host/CMakeFiles/vcilcs.dir/vcilcs_out.c.o: ../../../include/cutils/native_handle.h
+interface/vmcs_host/CMakeFiles/vcilcs.dir/vcilcs_out.c.o: ../../../include/hardware/hardware.h
 interface/vmcs_host/CMakeFiles/vcilcs.dir/vcilcs_out.c.o: ../../../interface/vmcs_host/vcilcs_out.c
 

@@ -132,7 +132,6 @@ extern uint64_t khronos_platform_get_process_id(void);
 */
 
 #define PLATFORM_WIN_NONE     ((uint32_t)0xffffffff)
-
 #ifdef EGL_SERVER_SMALLINT
 
 static INLINE EGLNativeWindowType platform_canonical_win(EGLNativeWindowType win)

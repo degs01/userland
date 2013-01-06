@@ -38,7 +38,8 @@ extern "C" {
    #if defined(EGL_EGLEXT_ANDROID_STRUCT_HEADER)
       #include <system/window.h>
    #else
-      struct android_native_buffer_t;
+      //struct android_native_buffer_t;
+      #include "include/ui/android_native_buffer.h"
    #endif
    #define EGL_NATIVE_BUFFER_ANDROID       0x3140  /* eglCreateImageKHR target */
 #endif

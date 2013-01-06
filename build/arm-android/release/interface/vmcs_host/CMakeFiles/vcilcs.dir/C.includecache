@@ -6,6 +6,40 @@
 
 #IncludeRegexTransform: 
 
+../../../include/android/native_window.h
+include/android/rect.h
+../../../include/android/include/android/rect.h
+
+../../../include/android/rect.h
+
+../../../include/hardware/gralloc.h
+/home/viktor/userland/include/cutils/native_handle.h
+-
+/home/viktor/userland/include/hardware/hardware.h
+-
+stdint.h
+-
+sys/cdefs.h
+-
+sys/types.h
+-
+
+../../../include/ui/android_native_buffer.h
+include/ui/egl/android_natives.h
+../../../include/ui/include/ui/egl/android_natives.h
+
+../../../include/ui/egl/android_natives.h
+sys/types.h
+-
+string.h
+-
+include/hardware/gralloc.h
+../../../include/ui/egl/include/hardware/gralloc.h
+include/android/native_window.h
+../../../include/ui/egl/include/android/native_window.h
+include/utils/RefBase.h
+../../../include/ui/egl/include/utils/RefBase.h
+
 ../../../interface/khronos/common/khrn_client_mangle.h
 
 ../../../interface/khronos/ext/egl_openmaxil_client.h
@@ -43,6 +77,8 @@ eglext_nvidia.h
 ../../../interface/khronos/include/EGL/eglext_android.h
 system/window.h
 -
+include/ui/android_native_buffer.h
+../../../interface/khronos/include/EGL/include/ui/android_native_buffer.h
 
 ../../../interface/khronos/include/EGL/eglext_brcm.h
 
@@ -1108,6 +1144,16 @@ linux/types.h
 linux/posix_types.h
 -
 asm/types.h
+-
+
+/home/viktor/userland/include/cutils/native_handle.h
+
+/home/viktor/userland/include/hardware/hardware.h
+stdint.h
+-
+sys/cdefs.h
+-
+/home/viktor/userland/include/cutils/native_handle.h
 -
 
 /home/viktor/userland/interface/vmcs_host/vcilcs.c

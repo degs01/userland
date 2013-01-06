@@ -40,8 +40,8 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    /* nothing included */
 #else
    #include "vcfw/vclib/vclib.h"
-   #include "hardware_alias.h"
-#include "hardware_v3d.h"
+   //#include "hardware_alias.h"
+//#include "hardware_v3d.h"
 #endif
 
 #if defined(KHRN_CARBON)

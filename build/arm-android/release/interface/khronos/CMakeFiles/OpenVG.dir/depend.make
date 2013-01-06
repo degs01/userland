@@ -5,6 +5,11 @@ interface/khronos/CMakeFiles/OpenVG.dir/vg/vg_client.c.o: ../../../helpers/v3d/v
 interface/khronos/CMakeFiles/OpenVG.dir/vg/vg_client.c.o: ../../../helpers/vc_image/metadata_fourcc.h
 interface/khronos/CMakeFiles/OpenVG.dir/vg/vg_client.c.o: ../../../helpers/vc_image/vc_image.h
 interface/khronos/CMakeFiles/OpenVG.dir/vg/vg_client.c.o: ../../../helpers/vc_image/vc_image_metadata.h
+interface/khronos/CMakeFiles/OpenVG.dir/vg/vg_client.c.o: ../../../include/android/native_window.h
+interface/khronos/CMakeFiles/OpenVG.dir/vg/vg_client.c.o: ../../../include/android/rect.h
+interface/khronos/CMakeFiles/OpenVG.dir/vg/vg_client.c.o: ../../../include/hardware/gralloc.h
+interface/khronos/CMakeFiles/OpenVG.dir/vg/vg_client.c.o: ../../../include/ui/android_native_buffer.h
+interface/khronos/CMakeFiles/OpenVG.dir/vg/vg_client.c.o: ../../../include/ui/egl/android_natives.h
 interface/khronos/CMakeFiles/OpenVG.dir/vg/vg_client.c.o: ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
 interface/khronos/CMakeFiles/OpenVG.dir/vg/vg_client.c.o: ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
 interface/khronos/CMakeFiles/OpenVG.dir/vg/vg_client.c.o: ../../../interface/khronos/common/khrn_client.h
@@ -222,6 +227,8 @@ interface/khronos/CMakeFiles/OpenVG.dir/vg/vg_client.c.o: /home/viktor/cm/bionic
 interface/khronos/CMakeFiles/OpenVG.dir/vg/vg_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
 interface/khronos/CMakeFiles/OpenVG.dir/vg/vg_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
 interface/khronos/CMakeFiles/OpenVG.dir/vg/vg_client.c.o: /home/viktor/cm/bionic/libm/include/math.h
+interface/khronos/CMakeFiles/OpenVG.dir/vg/vg_client.c.o: ../../../include/cutils/native_handle.h
+interface/khronos/CMakeFiles/OpenVG.dir/vg/vg_client.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/OpenVG.dir/vg/vg_client.c.o: ../../../interface/khronos/vg/vg_client.c
 
 interface/khronos/CMakeFiles/OpenVG.dir/vg/vg_int_mat3x3.c.o: ../../../helpers/v3d/v3d_ver.h

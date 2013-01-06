@@ -151,8 +151,8 @@ CMAKE_SKIP_RPATH:BOOL=NO
 //Path to a program.
 CMAKE_STRIP:FILEPATH=/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-strip
 
-//The CMake toolchain file
-CMAKE_TOOLCHAIN_FILE:FILEPATH=/home/viktor/userland/makefiles/cmake/toolchains/arm-android.cmake
+//No help, variable specified on the command line.
+CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=../../../makefiles/cmake/toolchains/arm-android.cmake
 
 //If true, cmake will use relative paths in makefiles and projects.
 CMAKE_USE_RELATIVE_PATHS:BOOL=OFF
@@ -203,7 +203,7 @@ EGL_LIB_DEPENDS:STATIC=general;vchiq_arm;general;vcos;general;bcm_host;general;-
 EGL_static_LIB_DEPENDS:STATIC=
 
 //Dependencies for the target
-GLESv2_LIB_DEPENDS:STATIC=general;EGL;general;khrn_client;general;vcos;
+GLESv2_LIB_DEPENDS:STATIC=general;vchiq_arm;general;vcos;general;bcm_host;general;-lm;
 
 //Dependencies for target
 GLESv2_static_LIB_DEPENDS:STATIC=

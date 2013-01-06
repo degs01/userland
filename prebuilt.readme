@@ -1,0 +1,2 @@
+Drop the 'lib'-folder onto /system, overwriting where needed.
+After that, run /system/lib/egl/fix-libs.sh from a shell.

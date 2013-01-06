@@ -29,6 +29,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #define VCOS_LOG_CATEGORY (&egl_khr_image_client_log)
 #include "interface/khronos/common/khrn_client_mangle.h"
+#include "interface/khronos/egl/loggy.h"
 
 #include "interface/khronos/common/khrn_int_common.h"
 
@@ -46,8 +47,14 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <gralloc_brcm.h>
 #endif
 
+#define ANDROID 1
+#define KHRN_BCG_ANDROID 1
+
 #if defined(ANDROID) && defined(KHRN_BCG_ANDROID)
-#include "gralloc_priv.h"
+//#include "gralloc_priv.h"
+#include "include/gralloc/gralloc_priv.h"
+
+#include "interface/khronos/include/EGL/eglext_android.h"
 #include "middleware/khronos/common/2708/khrn_prod_4.h"
 #endif
 
@@ -83,16 +90,20 @@ EGLAPI EGLImageKHR EGLAPIENTRY eglCreateImageKHR (EGLDisplay dpy, EGLContext ctx
 #endif
             || target == EGL_IMAGE_BRCM_DUPLICATE
             ) {
+			LOGE("if-case 1");
             context = NULL;
             ctx_error = ctx != EGL_NO_CONTEXT;
          } else {
+			 LOGE("if-case 2");
             context = client_egl_get_context(thread, process, ctx);
             ctx_error = !context;
          }
          if (ctx_error) {
+			 LOGE("ctx_error");
             thread->error = EGL_BAD_PARAMETER;
          }
          else {
+			 LOGE("else init!");
             uint32_t buf[2];
             KHRN_IMAGE_FORMAT_T buffer_format = IMAGE_FORMAT_INVALID;
             uint32_t buffer_width = 0;
@@ -100,11 +111,15 @@ EGLAPI EGLImageKHR EGLAPIENTRY eglCreateImageKHR (EGLDisplay dpy, EGLContext ctx
             uint32_t buffer_stride = 0;
             bool buf_error = false;
             if (target == EGL_NATIVE_PIXMAP_KHR) {
+				LOGE("EGL_NATIVE_PIXMAP_KHR!");
                buf[0] = 0; buf[1] = (uint32_t)(-1);
                platform_get_pixmap_server_handle((EGLNativePixmapType)buffer, buf);
+               LOGE("get_pixmap_server_handle == OK!");
 #if EGL_BRCM_global_image
+				LOGE("global_image == GO!");
                if ((buf[0] == 0) && (buf[1] == (uint32_t)(-1))) { /* allow either regular or global image server-side pixmaps */
 #else
+				LOGE("global_image == NO!");
                if ((buf[0] == 0) || (buf[1] != (uint32_t)(-1))) { /* only allow regular server-side pixmaps */
 #endif
                   /* This is a client-side pixmap! TODO: implement these properly */
@@ -131,11 +146,13 @@ EGLAPI EGLImageKHR EGLAPIENTRY eglCreateImageKHR (EGLDisplay dpy, EGLContext ctx
                   }
                   else
                   {
+					  LOGE("buf_error 1");
                      buf_error = true;
                   }
                }
 #if EGL_BRCM_image_wrap
             } else if (target == EGL_IMAGE_WRAP_BRCM) {
+				LOGE("EGL_IMAGE_WRAP_BRCM!");
                KHRN_IMAGE_WRAP_T *wrap_buffer = (KHRN_IMAGE_WRAP_T *)buffer;
 
                buf[0] = (uint32_t)wrap_buffer->storage;
@@ -146,6 +163,7 @@ EGLAPI EGLImageKHR EGLAPIENTRY eglCreateImageKHR (EGLDisplay dpy, EGLContext ctx
 #endif
 #if EGL_BRCM_image_wrap_bcg
             } else if (target == EGL_IMAGE_WRAP_BRCM_BCG) {
+				LOGE("EGL_IMAGE_WRAP_BRCM_BCG!");
                EGL_IMAGE_WRAP_BRCM_BCG_IMAGE_T *wrap_buffer = (EGL_IMAGE_WRAP_BRCM_BCG_IMAGE_T *)buffer;
 
                buf[0] = (uint32_t)wrap_buffer->storage;
@@ -174,20 +192,22 @@ EGLAPI EGLImageKHR EGLAPIENTRY eglCreateImageKHR (EGLDisplay dpy, EGLContext ctx
 #if EGL_ANDROID_image_native_buffer
 #ifdef KHRN_BCG_ANDROID
             } else if (target == EGL_NATIVE_BUFFER_ANDROID) {
+				LOGE("EGL_NATIVE_BUFFER_ANDROID!");
                android_native_buffer_t *android_buffer = (android_native_buffer_t *)buffer;
                vcos_assert(ANDROID_NATIVE_BUFFER_MAGIC == android_buffer->common.magic);
+               LOGE("asserted!");
                /* TODO check that handle is a valid gralloc handle */
                /* These are shadow width/height and format, not to be confused with the
                   underlying formats configuration */
 
                buf[0] = (uint32_t)khrn_hw_unaddr(((struct private_handle_t *)android_buffer->handle)->oglPhysicalAddress);
-
-               buffer_format = ((struct private_handle_t *)android_buffer->handle)->oglFormat;
-               buffer_width = android_buffer->width;
+               
+               buffer_format = android_buffer->format;
+               buffer_width  = android_buffer->width;
                buffer_height = android_buffer->height;
-               buffer_stride = ((struct private_handle_t *)android_buffer->handle)->oglStride;
+               buffer_stride = android_buffer->stride;
 
-               switch (((struct private_handle_t *)android_buffer->handle)->oglFormat)
+               /*switch (((struct private_handle_t *)android_buffer->handle)->oglFormat)
                {
                   case BEGL_BufferFormat_eR8G8B8A8_TFormat:       buffer_format = ABGR_8888_TF;    break;
                   case BEGL_BufferFormat_eX8G8B8A8_TFormat:       buffer_format = XBGR_8888_TF;    break;
@@ -200,7 +220,10 @@ EGLAPI EGLImageKHR EGLAPIENTRY eglCreateImageKHR (EGLDisplay dpy, EGLContext ctx
                   case BEGL_BufferFormat_eR5G5B5A1_LTFormat:      buffer_format = RGBA_5551_LT;    break;
                   case  BEGL_BufferFormat_eR4G4B4A4_LTFormat:     buffer_format = RGBA_4444_LT;    break;
                   default :                                       buf_error = true;                break;
-               }
+               }*/
+               
+               buffer_format = RGB_565_TF;
+
 #else
             } else if (target == EGL_NATIVE_BUFFER_ANDROID) {
                gralloc_private_handle_t *gpriv = gralloc_private_handle_from_client_buffer(buffer);
@@ -242,6 +265,7 @@ EGLAPI EGLImageKHR EGLAPIENTRY eglCreateImageKHR (EGLDisplay dpy, EGLContext ctx
                buf[0] = (uint32_t)buffer;
             }
             if (buf_error) {
+				LOGE("buf_error 2");
                thread->error = EGL_BAD_PARAMETER;
             }
             else {
@@ -267,6 +291,7 @@ EGLAPI EGLImageKHR EGLAPIENTRY eglCreateImageKHR (EGLDisplay dpy, EGLContext ctx
                   }
                }
                if (attr_error) {
+				   LOGE("attr_error");
                   thread->error = EGL_BAD_PARAMETER;
                }
                else {
@@ -293,6 +318,8 @@ EGLAPI EGLImageKHR EGLAPIENTRY eglCreateImageKHR (EGLDisplay dpy, EGLContext ctx
                      EGLint results[2];
 
                      vcos_log_info("%s: width %d height %d target %x buffer %p", __FUNCTION__, buffer_width, buffer_height, target, buffer);
+                     LOGE("RPC-Call inc: width %d height %d target %x buffer %p buf[0] %x", buffer_width, buffer_height, target, buffer, buf[0]);
+                     
                      RPC_CALL10_OUT_CTRL(eglCreateImageKHR_impl,
                         thread,
                         EGLCREATEIMAGEKHR_ID,
@@ -309,7 +336,7 @@ EGLAPI EGLImageKHR EGLAPIENTRY eglCreateImageKHR (EGLDisplay dpy, EGLContext ctx
 
                      result = (EGLImageKHR)(intptr_t)results[0];
                      thread->error = results[1];
-
+					LOGE("error after RPC-call == 0x%x", results[1]);
                      if (target == EGL_NATIVE_PIXMAP_CLIENT_SIDE_BRCM || target == EGL_IMAGE_FROM_SURFACE_BRCM)
                      {
                         khrn_platform_bind_pixmap_to_egl_image((EGLNativePixmapType)buffer, result, target == EGL_NATIVE_PIXMAP_CLIENT_SIDE_BRCM);

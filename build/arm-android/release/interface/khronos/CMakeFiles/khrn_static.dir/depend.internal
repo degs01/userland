@@ -6,6 +6,13 @@ interface/khronos/CMakeFiles/khrn_static.dir/common/khrn_client.c.o
  ../../../helpers/vc_image/metadata_fourcc.h
  ../../../helpers/vc_image/vc_image.h
  ../../../helpers/vc_image/vc_image_metadata.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/cutils/native_handle.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/hardware/hardware.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client.h
@@ -230,6 +237,13 @@ interface/khronos/CMakeFiles/khrn_static.dir/common/khrn_client_cache.c.o
  ../../../helpers/vc_image/metadata_fourcc.h
  ../../../helpers/vc_image/vc_image.h
  ../../../helpers/vc_image/vc_image_metadata.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/cutils/native_handle.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/hardware/hardware.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client.h
@@ -443,6 +457,13 @@ interface/khronos/CMakeFiles/khrn_static.dir/common/khrn_client_cache.c.o
  /home/viktor/userland/interface/khronos/common/khrn_client_cache.c
 interface/khronos/CMakeFiles/khrn_static.dir/common/khrn_client_global_image_map.c.o
  ../../../helpers/v3d/v3d_ver.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/cutils/native_handle.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/hardware/hardware.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client_global_image_map.h
@@ -578,6 +599,13 @@ interface/khronos/CMakeFiles/khrn_static.dir/common/khrn_client_global_image_map
  /home/viktor/userland/interface/khronos/common/khrn_client_global_image_map.c
 interface/khronos/CMakeFiles/khrn_static.dir/common/khrn_client_pointermap.c.o
  ../../../helpers/v3d/v3d_ver.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/cutils/native_handle.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/hardware/hardware.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client_mangle.h
@@ -713,6 +741,13 @@ interface/khronos/CMakeFiles/khrn_static.dir/common/khrn_client_pointermap.c.o
  /home/viktor/userland/interface/khronos/common/khrn_client_pointermap.c
 interface/khronos/CMakeFiles/khrn_static.dir/common/khrn_client_vector.c.o
  ../../../helpers/v3d/v3d_ver.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/cutils/native_handle.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/hardware/hardware.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client_mangle.h
@@ -1126,6 +1161,11 @@ interface/khronos/CMakeFiles/khrn_static.dir/common/linux/khrn_client_platform_l
  ../../../helpers/vc_image/metadata_fourcc.h
  ../../../helpers/vc_image/vc_image.h
  ../../../helpers/vc_image/vc_image_metadata.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client.h
@@ -1334,12 +1374,21 @@ interface/khronos/CMakeFiles/khrn_static.dir/common/linux/khrn_client_platform_l
  /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
  /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
  /home/viktor/cm/bionic/libm/include/math.h
+ /home/viktor/userland/include/cutils/native_handle.h
+ /home/viktor/userland/include/hardware/hardware.h
  /home/viktor/userland/interface/khronos/common/linux/khrn_client_platform_linux.c
 interface/khronos/CMakeFiles/khrn_static.dir/common/linux/khrn_client_rpc_linux.c.o
  ../../../helpers/v3d/v3d_ver.h
  ../../../helpers/vc_image/metadata_fourcc.h
  ../../../helpers/vc_image/vc_image.h
  ../../../helpers/vc_image/vc_image_metadata.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/cutils/native_handle.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/hardware/hardware.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client.h
@@ -1552,6 +1601,13 @@ interface/khronos/CMakeFiles/khrn_static.dir/common/linux/khrn_client_rpc_linux.
  /home/viktor/userland/interface/khronos/common/linux/khrn_client_rpc_linux.c
 interface/khronos/CMakeFiles/khrn_static.dir/common/openwfc/khrn_client_platform_openwfc.c.o
  ../../../helpers/v3d/v3d_ver.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/cutils/native_handle.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/hardware/hardware.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client_mangle.h
@@ -1686,6 +1742,11 @@ interface/khronos/CMakeFiles/khrn_static.dir/egl/egl_client.c.o
  ../../../helpers/vc_image/metadata_fourcc.h
  ../../../helpers/vc_image/vc_image.h
  ../../../helpers/vc_image/vc_image_metadata.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client.h
@@ -1899,9 +1960,18 @@ interface/khronos/CMakeFiles/khrn_static.dir/egl/egl_client.c.o
  /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
  /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
  /home/viktor/cm/bionic/libm/include/math.h
+ /home/viktor/cm/development/ndk/platforms/android-3/include/android/log.h
+ /home/viktor/userland/include/cutils/native_handle.h
+ /home/viktor/userland/include/hardware/hardware.h
  /home/viktor/userland/interface/khronos/egl/egl_client.c
+ /home/viktor/userland/interface/khronos/egl/loggy.h
 interface/khronos/CMakeFiles/khrn_static.dir/egl/egl_client_config.c.o
  ../../../helpers/v3d/v3d_ver.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client_mangle.h
@@ -2032,12 +2102,19 @@ interface/khronos/CMakeFiles/khrn_static.dir/egl/egl_client_config.c.o
  /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
  /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
  /home/viktor/cm/bionic/libm/include/math.h
+ /home/viktor/userland/include/cutils/native_handle.h
+ /home/viktor/userland/include/hardware/hardware.h
  /home/viktor/userland/interface/khronos/egl/egl_client_config.c
 interface/khronos/CMakeFiles/khrn_static.dir/egl/egl_client_context.c.o
  ../../../helpers/v3d/v3d_ver.h
  ../../../helpers/vc_image/metadata_fourcc.h
  ../../../helpers/vc_image/vc_image.h
  ../../../helpers/vc_image/vc_image_metadata.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client.h
@@ -2252,12 +2329,19 @@ interface/khronos/CMakeFiles/khrn_static.dir/egl/egl_client_context.c.o
  /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
  /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
  /home/viktor/cm/bionic/libm/include/math.h
+ /home/viktor/userland/include/cutils/native_handle.h
+ /home/viktor/userland/include/hardware/hardware.h
  /home/viktor/userland/interface/khronos/egl/egl_client_context.c
 interface/khronos/CMakeFiles/khrn_static.dir/egl/egl_client_get_proc.c.o
  ../../../helpers/v3d/v3d_ver.h
  ../../../helpers/vc_image/metadata_fourcc.h
  ../../../helpers/vc_image/vc_image.h
  ../../../helpers/vc_image/vc_image_metadata.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client.h
@@ -2472,12 +2556,19 @@ interface/khronos/CMakeFiles/khrn_static.dir/egl/egl_client_get_proc.c.o
  /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
  /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
  /home/viktor/cm/bionic/libm/include/math.h
+ /home/viktor/userland/include/cutils/native_handle.h
+ /home/viktor/userland/include/hardware/hardware.h
  /home/viktor/userland/interface/khronos/egl/egl_client_get_proc.c
 interface/khronos/CMakeFiles/khrn_static.dir/egl/egl_client_surface.c.o
  ../../../helpers/v3d/v3d_ver.h
  ../../../helpers/vc_image/metadata_fourcc.h
  ../../../helpers/vc_image/vc_image.h
  ../../../helpers/vc_image/vc_image_metadata.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client.h
@@ -2689,12 +2780,19 @@ interface/khronos/CMakeFiles/khrn_static.dir/egl/egl_client_surface.c.o
  /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
  /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
  /home/viktor/cm/bionic/libm/include/math.h
+ /home/viktor/userland/include/cutils/native_handle.h
+ /home/viktor/userland/include/hardware/hardware.h
  /home/viktor/userland/interface/khronos/egl/egl_client_surface.c
 interface/khronos/CMakeFiles/khrn_static.dir/ext/egl_brcm_driver_monitor_client.c.o
  ../../../helpers/v3d/v3d_ver.h
  ../../../helpers/vc_image/metadata_fourcc.h
  ../../../helpers/vc_image/vc_image.h
  ../../../helpers/vc_image/vc_image_metadata.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client.h
@@ -2906,12 +3004,19 @@ interface/khronos/CMakeFiles/khrn_static.dir/ext/egl_brcm_driver_monitor_client.
  /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
  /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
  /home/viktor/cm/bionic/libm/include/math.h
+ /home/viktor/userland/include/cutils/native_handle.h
+ /home/viktor/userland/include/hardware/hardware.h
  /home/viktor/userland/interface/khronos/ext/egl_brcm_driver_monitor_client.c
 interface/khronos/CMakeFiles/khrn_static.dir/ext/egl_brcm_flush_client.c.o
  ../../../helpers/v3d/v3d_ver.h
  ../../../helpers/vc_image/metadata_fourcc.h
  ../../../helpers/vc_image/vc_image.h
  ../../../helpers/vc_image/vc_image_metadata.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client.h
@@ -3120,12 +3225,19 @@ interface/khronos/CMakeFiles/khrn_static.dir/ext/egl_brcm_flush_client.c.o
  /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
  /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
  /home/viktor/cm/bionic/libm/include/math.h
+ /home/viktor/userland/include/cutils/native_handle.h
+ /home/viktor/userland/include/hardware/hardware.h
  /home/viktor/userland/interface/khronos/ext/egl_brcm_flush_client.c
 interface/khronos/CMakeFiles/khrn_static.dir/ext/egl_brcm_global_image_client.c.o
  ../../../helpers/v3d/v3d_ver.h
  ../../../helpers/vc_image/metadata_fourcc.h
  ../../../helpers/vc_image/vc_image.h
  ../../../helpers/vc_image/vc_image_metadata.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client.h
@@ -3336,12 +3448,19 @@ interface/khronos/CMakeFiles/khrn_static.dir/ext/egl_brcm_global_image_client.c.
  /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
  /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
  /home/viktor/cm/bionic/libm/include/math.h
+ /home/viktor/userland/include/cutils/native_handle.h
+ /home/viktor/userland/include/hardware/hardware.h
  /home/viktor/userland/interface/khronos/ext/egl_brcm_global_image_client.c
 interface/khronos/CMakeFiles/khrn_static.dir/ext/egl_brcm_perf_monitor_client.c.o
  ../../../helpers/v3d/v3d_ver.h
  ../../../helpers/vc_image/metadata_fourcc.h
  ../../../helpers/vc_image/vc_image.h
  ../../../helpers/vc_image/vc_image_metadata.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client.h
@@ -3553,12 +3672,20 @@ interface/khronos/CMakeFiles/khrn_static.dir/ext/egl_brcm_perf_monitor_client.c.
  /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
  /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
  /home/viktor/cm/bionic/libm/include/math.h
+ /home/viktor/userland/include/cutils/native_handle.h
+ /home/viktor/userland/include/hardware/hardware.h
  /home/viktor/userland/interface/khronos/ext/egl_brcm_perf_monitor_client.c
 interface/khronos/CMakeFiles/khrn_static.dir/ext/egl_khr_image_client.c.o
  ../../../helpers/v3d/v3d_ver.h
  ../../../helpers/vc_image/metadata_fourcc.h
  ../../../helpers/vc_image/vc_image.h
  ../../../helpers/vc_image/vc_image_metadata.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/gralloc/gralloc_priv.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client.h
@@ -3581,6 +3708,7 @@ interface/khronos/CMakeFiles/khrn_static.dir/ext/egl_khr_image_client.c.o
  ../../../interface/khronos/egl/egl_client_surface.h
  ../../../interface/khronos/egl/egl_int.h
  ../../../interface/khronos/egl/egl_int_impl.h
+ ../../../interface/khronos/egl/loggy.h
  ../../../interface/khronos/glxx/gl11_int_config.h
  ../../../interface/khronos/glxx/gl11_int_impl.h
  ../../../interface/khronos/glxx/gl20_int_impl.h
@@ -3764,6 +3892,7 @@ interface/khronos/CMakeFiles/khrn_static.dir/ext/egl_khr_image_client.c.o
  /home/viktor/cm/bionic/libc/kernel/common/linux/capability.h
  /home/viktor/cm/bionic/libc/kernel/common/linux/compiler.h
  /home/viktor/cm/bionic/libc/kernel/common/linux/errno.h
+ /home/viktor/cm/bionic/libc/kernel/common/linux/fb.h
  /home/viktor/cm/bionic/libc/kernel/common/linux/limits.h
  /home/viktor/cm/bionic/libc/kernel/common/linux/posix_types.h
  /home/viktor/cm/bionic/libc/kernel/common/linux/stddef.h
@@ -3771,12 +3900,21 @@ interface/khronos/CMakeFiles/khrn_static.dir/ext/egl_khr_image_client.c.o
  /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
  /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
  /home/viktor/cm/bionic/libm/include/math.h
+ /home/viktor/cm/development/ndk/platforms/android-3/include/android/log.h
+ /home/viktor/userland/include/cutils/native_handle.h
+ /home/viktor/userland/include/hardware/gralloc.h
+ /home/viktor/userland/include/hardware/hardware.h
  /home/viktor/userland/interface/khronos/ext/egl_khr_image_client.c
 interface/khronos/CMakeFiles/khrn_static.dir/ext/egl_khr_lock_surface_client.c.o
  ../../../helpers/v3d/v3d_ver.h
  ../../../helpers/vc_image/metadata_fourcc.h
  ../../../helpers/vc_image/vc_image.h
  ../../../helpers/vc_image/vc_image_metadata.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client.h
@@ -3987,12 +4125,19 @@ interface/khronos/CMakeFiles/khrn_static.dir/ext/egl_khr_lock_surface_client.c.o
  /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
  /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
  /home/viktor/cm/bionic/libm/include/math.h
+ /home/viktor/userland/include/cutils/native_handle.h
+ /home/viktor/userland/include/hardware/hardware.h
  /home/viktor/userland/interface/khronos/ext/egl_khr_lock_surface_client.c
 interface/khronos/CMakeFiles/khrn_static.dir/ext/egl_khr_sync_client.c.o
  ../../../helpers/v3d/v3d_ver.h
  ../../../helpers/vc_image/metadata_fourcc.h
  ../../../helpers/vc_image/vc_image.h
  ../../../helpers/vc_image/vc_image_metadata.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client.h
@@ -4202,12 +4347,21 @@ interface/khronos/CMakeFiles/khrn_static.dir/ext/egl_khr_sync_client.c.o
  /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
  /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
  /home/viktor/cm/bionic/libm/include/math.h
+ /home/viktor/userland/include/cutils/native_handle.h
+ /home/viktor/userland/include/hardware/hardware.h
  /home/viktor/userland/interface/khronos/ext/egl_khr_sync_client.c
 interface/khronos/CMakeFiles/khrn_static.dir/ext/egl_openmaxil_client.c.o
  ../../../helpers/v3d/v3d_ver.h
  ../../../helpers/vc_image/metadata_fourcc.h
  ../../../helpers/vc_image/vc_image.h
  ../../../helpers/vc_image/vc_image_metadata.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/cutils/native_handle.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/hardware/hardware.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client.h
@@ -4423,6 +4577,11 @@ interface/khronos/CMakeFiles/khrn_static.dir/ext/ext_gl_debug_marker.c.o
  ../../../helpers/vc_image/metadata_fourcc.h
  ../../../helpers/vc_image/vc_image.h
  ../../../helpers/vc_image/vc_image_metadata.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client.h
@@ -4634,12 +4793,21 @@ interface/khronos/CMakeFiles/khrn_static.dir/ext/ext_gl_debug_marker.c.o
  /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
  /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
  /home/viktor/cm/bionic/libm/include/math.h
+ /home/viktor/userland/include/cutils/native_handle.h
+ /home/viktor/userland/include/hardware/hardware.h
  /home/viktor/userland/interface/khronos/ext/ext_gl_debug_marker.c
 interface/khronos/CMakeFiles/khrn_static.dir/ext/gl_oes_draw_texture_client.c.o
  ../../../helpers/v3d/v3d_ver.h
  ../../../helpers/vc_image/metadata_fourcc.h
  ../../../helpers/vc_image/vc_image.h
  ../../../helpers/vc_image/vc_image_metadata.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/cutils/native_handle.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/hardware/hardware.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client.h
@@ -4856,6 +5024,11 @@ interface/khronos/CMakeFiles/khrn_static.dir/ext/gl_oes_egl_image_client.c.o
  ../../../helpers/vc_image/metadata_fourcc.h
  ../../../helpers/vc_image/vc_image.h
  ../../../helpers/vc_image/vc_image_metadata.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client.h
@@ -5067,12 +5240,21 @@ interface/khronos/CMakeFiles/khrn_static.dir/ext/gl_oes_egl_image_client.c.o
  /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
  /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
  /home/viktor/cm/bionic/libm/include/math.h
+ /home/viktor/userland/include/cutils/native_handle.h
+ /home/viktor/userland/include/hardware/hardware.h
  /home/viktor/userland/interface/khronos/ext/gl_oes_egl_image_client.c
 interface/khronos/CMakeFiles/khrn_static.dir/ext/gl_oes_framebuffer_object.c.o
  ../../../helpers/v3d/v3d_ver.h
  ../../../helpers/vc_image/metadata_fourcc.h
  ../../../helpers/vc_image/vc_image.h
  ../../../helpers/vc_image/vc_image_metadata.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/cutils/native_handle.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/hardware/hardware.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client.h
@@ -5289,6 +5471,13 @@ interface/khronos/CMakeFiles/khrn_static.dir/ext/gl_oes_map_buffer.c.o
  ../../../helpers/vc_image/metadata_fourcc.h
  ../../../helpers/vc_image/vc_image.h
  ../../../helpers/vc_image/vc_image_metadata.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/cutils/native_handle.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/hardware/hardware.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client.h
@@ -5505,6 +5694,13 @@ interface/khronos/CMakeFiles/khrn_static.dir/ext/gl_oes_matrix_palette_client.c.
  ../../../helpers/vc_image/metadata_fourcc.h
  ../../../helpers/vc_image/vc_image.h
  ../../../helpers/vc_image/vc_image_metadata.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/cutils/native_handle.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/hardware/hardware.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client.h
@@ -5721,6 +5917,13 @@ interface/khronos/CMakeFiles/khrn_static.dir/ext/gl_oes_query_matrix_client.c.o
  ../../../helpers/vc_image/metadata_fourcc.h
  ../../../helpers/vc_image/vc_image.h
  ../../../helpers/vc_image/vc_image_metadata.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/cutils/native_handle.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/hardware/hardware.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client.h
@@ -5937,6 +6140,13 @@ interface/khronos/CMakeFiles/khrn_static.dir/glxx/glxx_client.c.o
  ../../../helpers/vc_image/metadata_fourcc.h
  ../../../helpers/vc_image/vc_image.h
  ../../../helpers/vc_image/vc_image_metadata.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/cutils/native_handle.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/hardware/hardware.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client.h
@@ -6155,6 +6365,13 @@ interface/khronos/CMakeFiles/khrn_static.dir/vg/vg_client.c.o
  ../../../helpers/vc_image/metadata_fourcc.h
  ../../../helpers/vc_image/vc_image.h
  ../../../helpers/vc_image/vc_image_metadata.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/cutils/native_handle.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/hardware/hardware.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client.h
@@ -6479,6 +6696,13 @@ interface/khronos/CMakeFiles/khrn_static.dir/wf/wfc_client.c.o
  ../../../helpers/vc_image/metadata_fourcc.h
  ../../../helpers/vc_image/vc_image.h
  ../../../helpers/vc_image/vc_image_metadata.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/cutils/native_handle.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/hardware/hardware.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client.h
@@ -6690,6 +6914,13 @@ interface/khronos/CMakeFiles/khrn_static.dir/wf/wfc_client.c.o
  /home/viktor/cm/bionic/libm/include/math.h
  /home/viktor/userland/interface/khronos/wf/wfc_client.c
 interface/khronos/CMakeFiles/khrn_static.dir/wf/wfc_client_ipc.c.o
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/cutils/native_handle.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/hardware/hardware.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/khrn_client_mangle.h
  ../../../interface/khronos/include/EGL/eglext.h
  ../../../interface/khronos/include/EGL/eglext_android.h
@@ -6840,6 +7071,13 @@ interface/khronos/CMakeFiles/khrn_static.dir/wf/wfc_client_ipc.c.o
  /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
  /home/viktor/userland/interface/khronos/wf/wfc_client_ipc.c
 interface/khronos/CMakeFiles/khrn_static.dir/wf/wfc_client_server_api.c.o
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/cutils/native_handle.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/hardware/hardware.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/khrn_client_mangle.h
  ../../../interface/khronos/include/EGL/eglext.h
  ../../../interface/khronos/include/EGL/eglext_android.h
@@ -6961,6 +7199,13 @@ interface/khronos/CMakeFiles/khrn_static.dir/wf/wfc_client_server_api.c.o
  /home/viktor/userland/interface/khronos/wf/wfc_client_server_api.c
 interface/khronos/CMakeFiles/khrn_static.dir/wf/wfc_client_stream.c.o
  ../../../helpers/v3d/v3d_ver.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/cutils/native_handle.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/hardware/hardware.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client_mangle.h

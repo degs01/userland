@@ -821,5 +821,32 @@ uint32_t platform_get_handle(EGLDisplay dpy, EGLNativeWindowType win)
 
 #endif
 
+#ifdef ANDROID
+//Major hack, MUST FIX!
+void platform_get_dimensions(EGLDisplay dpy, EGLNativeWindowType win,
+      uint32_t *width, uint32_t *height, uint32_t *swapchain_count)
+{
+	*width = 640;
+	*height = 480;
+	*swapchain_count = 0;
+}
+
+bool platform_get_pixmap_info(EGLNativePixmapType pixmap, KHRN_IMAGE_WRAP_T *image)
+{
+   image->format = convert_format(((uint32_t *)pixmap)[4]);
+   image->width = ((uint32_t *)pixmap)[2];
+   image->height = ((uint32_t *)pixmap)[3];
+
+   /* can't actually access data */
+   image->stride = 0;
+   image->aux = 0;
+   image->storage = 0;
+
+   return image->format != 0;
+}
+
+//End major hack
+#endif
+
 uint32_t platform_get_color_format ( uint32_t format ) { return format; }
 void platform_dequeue(EGLDisplay dpy, EGLNativeWindowType window) {}

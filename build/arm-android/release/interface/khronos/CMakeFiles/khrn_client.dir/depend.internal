@@ -6,6 +6,11 @@ interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_cache.c.o
  ../../../helpers/vc_image/metadata_fourcc.h
  ../../../helpers/vc_image/vc_image.h
  ../../../helpers/vc_image/vc_image_metadata.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client.h
@@ -216,9 +221,16 @@ interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_cache.c.o
  /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
  /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
  /home/viktor/cm/bionic/libm/include/math.h
+ /home/viktor/userland/include/cutils/native_handle.h
+ /home/viktor/userland/include/hardware/hardware.h
  /home/viktor/userland/interface/khronos/common/khrn_client_cache.c
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_pointermap.c.o
  ../../../helpers/v3d/v3d_ver.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client_mangle.h
@@ -351,9 +363,16 @@ interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_pointermap.c.o
  /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
  /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
  /home/viktor/cm/bionic/libm/include/math.h
+ /home/viktor/userland/include/cutils/native_handle.h
+ /home/viktor/userland/include/hardware/hardware.h
  /home/viktor/userland/interface/khronos/common/khrn_client_pointermap.c
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_vector.c.o
  ../../../helpers/v3d/v3d_ver.h
+ ../../../include/android/native_window.h
+ ../../../include/android/rect.h
+ ../../../include/hardware/gralloc.h
+ ../../../include/ui/android_native_buffer.h
+ ../../../include/ui/egl/android_natives.h
  ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
  ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
  ../../../interface/khronos/common/khrn_client_mangle.h
@@ -482,6 +501,8 @@ interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_vector.c.o
  /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
  /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
  /home/viktor/cm/bionic/libm/include/math.h
+ /home/viktor/userland/include/cutils/native_handle.h
+ /home/viktor/userland/include/hardware/hardware.h
  /home/viktor/userland/interface/khronos/common/khrn_client_vector.c
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_int_hash.c.o
  ../../../helpers/v3d/v3d_ver.h

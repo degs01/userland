@@ -123,6 +123,7 @@ by an attribute value"
 #define VCOS_LOG_CATEGORY (&egl_client_log_cat)
 
 #include "interface/khronos/common/khrn_client_mangle.h"
+#include "loggy.h"
 
 #include "interface/khronos/common/khrn_int_common.h"
 #include "interface/khronos/common/khrn_options.h"
@@ -581,16 +582,18 @@ EGLAPI EGLSurface EGLAPIENTRY eglCreateWindowSurface(EGLDisplay dpy, EGLConfig c
    EGLSurface result;
 
    vcos_log_trace("eglCreateWindowSurface for window %p", win);
-
+   LOGE("inside native eglCreateWindowSurface");
    if (CLIENT_LOCK_AND_GET_STATES(dpy, &thread, &process))
    {
       uint32_t handle = platform_get_handle(dpy, win);
 
       if ((int)(size_t)config < 1 || (int)(size_t)config > EGL_MAX_CONFIGS) {
+		 LOGE("BAD_CONFIG");
          thread->error = EGL_BAD_CONFIG;
          result = EGL_NO_SURFACE;
       } else if (handle == PLATFORM_WIN_NONE) {
          // The platform reports that this is an invalid window handle
+         LOGE("BAD_NATIVE_WINDOW 1");
          thread->error = EGL_BAD_NATIVE_WINDOW;
          result = EGL_NO_SURFACE;
       } else {
@@ -599,6 +602,7 @@ EGLAPI EGLSurface EGLAPIENTRY eglCreateWindowSurface(EGLDisplay dpy, EGLConfig c
          bool single = false;
 
          if (!egl_surface_check_attribs(WINDOW, attrib_list, &linear, &premult, &single, 0, 0, 0, 0, 0, 0)) {
+			LOGE("BAD_ATTRIBUTE");
             thread->error = EGL_BAD_ATTRIBUTE;
             result = EGL_NO_SURFACE;
          } else {
@@ -621,8 +625,44 @@ EGLAPI EGLSurface EGLAPIENTRY eglCreateWindowSurface(EGLDisplay dpy, EGLConfig c
 
             if (width <= 0 || width > EGL_CONFIG_MAX_WIDTH || height <= 0 || height > EGL_CONFIG_MAX_HEIGHT) {
                /* TODO: Maybe EGL_BAD_ALLOC might be more appropriate? */
+               LOGE("BAD_NATIVE_WINDOW 2; width = %d, height = %d, max_width = %d, max_height = %d", width, height, EGL_CONFIG_MAX_WIDTH, EGL_CONFIG_MAX_HEIGHT);
                thread->error = EGL_BAD_NATIVE_WINDOW;
                result = EGL_NO_SURFACE;
+               surface = egl_surface_create(
+				(EGLSurface)(size_t)process->next_surface,
+                WINDOW,
+                linear ? LINEAR : SRGB,
+                premult ? PRE : NONPRE,
+#ifdef DIRECT_RENDERING
+                1,
+#else
+                (uint32_t)(single ? 1 : num_buffers),
+#endif
+                640, 480,
+                config,
+                win,
+                handle,
+                false,
+                false,
+                false,
+                EGL_NO_TEXTURE,
+                EGL_NO_TEXTURE,
+                0, 0);
+               if (surface) {
+                  if (khrn_pointer_map_insert(&process->surfaces, process->next_surface, surface)) {
+                     thread->error = EGL_SUCCESS;
+                     result = (EGLSurface)(size_t)process->next_surface++;
+                  } else {
+					 LOGE("BAD_ALLOC 0,1");
+                     thread->error = EGL_BAD_ALLOC;
+                     result = EGL_NO_SURFACE;
+                     egl_surface_free(surface);
+                  }
+               } else {
+				  LOGE("BAD_ALLOC 0,2");
+                  thread->error = EGL_BAD_ALLOC;
+                  result = EGL_NO_SURFACE;
+               }
             } else {
                surface = egl_surface_create(
                                 (EGLSurface)(size_t)process->next_surface,
@@ -650,11 +690,13 @@ EGLAPI EGLSurface EGLAPIENTRY eglCreateWindowSurface(EGLDisplay dpy, EGLConfig c
                      thread->error = EGL_SUCCESS;
                      result = (EGLSurface)(size_t)process->next_surface++;
                   } else {
+					 LOGE("BAD_ALLOC 1");
                      thread->error = EGL_BAD_ALLOC;
                      result = EGL_NO_SURFACE;
                      egl_surface_free(surface);
                   }
                } else {
+				  LOGE("BAD_ALLOC 2");
                   thread->error = EGL_BAD_ALLOC;
                   result = EGL_NO_SURFACE;
                }
@@ -663,11 +705,12 @@ EGLAPI EGLSurface EGLAPIENTRY eglCreateWindowSurface(EGLDisplay dpy, EGLConfig c
       }
       CLIENT_UNLOCK();
    }
-   else
+   else{
+	  LOGE("UNABLE TO LOCK :(");
       result = EGL_NO_SURFACE;
-
+   }
    vcos_log_trace("eglCreateWindowSurface end %i", (int) result);
-
+   LOGE("eglCreateWindowSurface end.");
    return result;
 }
 
@@ -1541,22 +1584,25 @@ EGLAPI EGLContext EGLAPIENTRY eglCreateContext(EGLDisplay dpy, EGLConfig config,
    EGLContext result;
 
 vcos_log_trace("eglCreateContext start");
-
+LOGE("eglCreateContext!");
    if (CLIENT_LOCK_AND_GET_STATES(dpy, &thread, &process))
    {
       if ((int)(size_t)config < 1 || (int)(size_t)config > EGL_MAX_CONFIGS) {
          thread->error = EGL_BAD_CONFIG;
+         LOGE("BAD_CONFIG 1");
          result = EGL_NO_CONTEXT;
       } else {
          EGLint max_version = (EGLint) (thread->bound_api == EGL_OPENGL_ES_API ? 2 : 1);
          EGLint version = 1;
 
          if (!egl_context_check_attribs(attrib_list, max_version, &version)) {
+			 LOGE("BAD_ATTRIBUTE 1");
             thread->error = EGL_BAD_ATTRIBUTE;
             result = EGL_NO_CONTEXT;
          } else if (!(egl_config_get_api_support((int)(intptr_t)config - 1) &
             ((thread->bound_api == EGL_OPENVG_API) ? EGL_OPENVG_BIT :
             ((version == 1) ? EGL_OPENGL_ES_BIT : EGL_OPENGL_ES2_BIT)))) {
+				LOGE("BAD_CONFIG 2");
             thread->error = EGL_BAD_CONFIG;
             result = EGL_NO_CONTEXT;
          } else {
@@ -1568,10 +1614,12 @@ vcos_log_trace("eglCreateContext start");
                if (share_context) {
                   if ((share_context->type == OPENVG && thread->bound_api != EGL_OPENVG_API) ||
                      (share_context->type != OPENVG && thread->bound_api == EGL_OPENVG_API)) {
+						 LOGE("BAD_MATCH 1");
                      thread->error = EGL_BAD_MATCH;
                      share_context = NULL;
                   }
                } else {
+				   LOGE("BAD_CONTEXT 1");
                   thread->error = EGL_BAD_CONTEXT;
                }
             } else {
@@ -1599,15 +1647,18 @@ vcos_log_trace("eglCreateContext start");
 
                if (context) {
                   if (khrn_pointer_map_insert(&process->contexts, process->next_context, context)) {
+					  LOGE("SUCCESS!");
                      thread->error = EGL_SUCCESS;
                      result = (EGLContext)(size_t)process->next_context++;
                   } else {
+					  LOGE("BAD_ALLOC 1");
                      thread->error = EGL_BAD_ALLOC;
                      result = EGL_NO_CONTEXT;
                      egl_context_term(context);
                      khrn_platform_free(context);
                   }
                } else {
+				   LOGE("BAD_ALLOC 2");
                   thread->error = EGL_BAD_ALLOC;
                   result = EGL_NO_CONTEXT;
                }
@@ -1619,9 +1670,11 @@ vcos_log_trace("eglCreateContext start");
       }
       CLIENT_UNLOCK();
    }
-   else
+   else{
+		LOGE("UNABLE TO LOCK :(");
       result = EGL_NO_CONTEXT;
-
+	}
+	LOGE("eglCreateContext -> ended");
    vcos_log_trace("eglCreateContext end");
 
    return result;
@@ -2240,13 +2293,13 @@ EGLAPI EGLBoolean EGLAPIENTRY eglSwapBuffers(EGLDisplay dpy, EGLSurface surf)
       EGL_SURFACE_T *surface;
 
       thread->error = EGL_SUCCESS;
-
+//	LOGE("EGL_SUCCESS!");
       surface = client_egl_get_surface(thread, process, surf);
 
       vcos_log_trace("eglSwapBuffers get surface %x",(int)surface);
 
       if (surface) {
-
+//		LOGE("surface found.");
 #if !(EGL_KHR_lock_surface)
          /* Surface to be displayed must be bound to current context and API */
          /* This check is disabled if we have the EGL_KHR_lock_surface extension */
@@ -2274,9 +2327,10 @@ EGLAPI EGLBoolean EGLAPIENTRY eglSwapBuffers(EGLDisplay dpy, EGLSurface surf)
 
                width = surface->width;
                height = surface->height;
-
-               platform_get_dimensions(dpy, surface->win,
-                     &width, &height, &swapchain_count);
+			   // LORD OF ALL HACKS
+			   
+               //platform_get_dimensions(dpy, surface->win,
+               //      &width, &height, &swapchain_count);
 
                if((width!=surface->width)||(height!=surface->height)) {
                   uint32_t handle = platform_get_handle(dpy, surface->win);
