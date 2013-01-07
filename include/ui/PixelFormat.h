@@ -28,11 +28,11 @@
 
 #include <stdint.h>
 #include <sys/types.h>
-#include <utils/Errors.h>
-#include <pixelflinger/format.h>
-#include <hardware/hardware.h>
+//#include <utils/Errors.h>
+#include "include/pixelflinger/format.h"
+#include "include/hardware/hardware.h"
 
-namespace android {
+//namespace android {
 
 enum {
     //
@@ -76,7 +76,7 @@ enum {
 
 typedef int32_t PixelFormat;
 
-struct PixelFormatInfo
+/*struct PixelFormatInfo
 {
     enum {
         INDEX_ALPHA   = 0,
@@ -133,5 +133,5 @@ ssize_t     bitsPerPixel(PixelFormat format);
 status_t    getPixelFormatInfo(PixelFormat format, PixelFormatInfo* info);
 
 }; // namespace android
-
+*/
 #endif // UI_PIXELFORMAT_H

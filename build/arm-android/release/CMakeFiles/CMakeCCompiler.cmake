@@ -1,12 +1,12 @@
-SET(CMAKE_C_COMPILER "/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc")
+SET(CMAKE_C_COMPILER "/usr/lib64/ccache/gcc")
 SET(CMAKE_C_COMPILER_ARG1 "")
 SET(CMAKE_C_COMPILER_ID "GNU")
-SET(CMAKE_C_COMPILER_VERSION "4.6.3")
+SET(CMAKE_C_COMPILER_VERSION "4.7.2")
 SET(CMAKE_C_PLATFORM_ID "Linux")
 
-SET(CMAKE_AR "/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-ar")
-SET(CMAKE_RANLIB "/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-ranlib")
-SET(CMAKE_LINKER "/home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-ld")
+SET(CMAKE_AR "/usr/bin/ar")
+SET(CMAKE_RANLIB "/usr/bin/ranlib")
+SET(CMAKE_LINKER "/usr/bin/ld")
 SET(CMAKE_COMPILER_IS_GNUCC 1)
 SET(CMAKE_C_COMPILER_LOADED 1)
 SET(CMAKE_COMPILER_IS_MINGW )
@@ -27,7 +27,7 @@ SET(CMAKE_C_IGNORE_EXTENSIONS h;H;o;O;obj;OBJ;def;DEF;rc;RC)
 SET(CMAKE_C_LINKER_PREFERENCE 10)
 
 # Save compiler ABI information.
-SET(CMAKE_C_SIZEOF_DATA_PTR "4")
+SET(CMAKE_C_SIZEOF_DATA_PTR "8")
 SET(CMAKE_C_COMPILER_ABI "ELF")
 SET(CMAKE_C_LIBRARY_ARCHITECTURE "")
 
@@ -46,8 +46,8 @@ ENDIF()
 SET(CMAKE_C_HAS_ISYSROOT "")
 
 
-SET(CMAKE_C_IMPLICIT_LINK_LIBRARIES "crystax;stdc++;log;c;dl")
-SET(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/home/viktor/arm-linux-androideabi-4.6.3/lib/gcc/arm-linux-androideabi/4.6.3;/home/viktor/arm-linux-androideabi-4.6.3/lib/gcc;/home/viktor/arm-linux-androideabi-4.6.3/arm-linux-androideabi/lib;/home/viktor/arm-linux-androideabi-4.6.3/sysroot/usr/lib")
+SET(CMAKE_C_IMPLICIT_LINK_LIBRARIES "c")
+SET(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/usr/lib/gcc/x86_64-redhat-linux/4.7.2;/usr/lib64;/lib64;/usr/lib")
 
 
 

@@ -48,11 +48,10 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #endif
 
 #define ANDROID 1
-#define KHRN_BCG_ANDROID 1
 
-#if defined(ANDROID) && defined(KHRN_BCG_ANDROID)
+#if defined(ANDROID)
 //#include "gralloc_priv.h"
-#include "include/gralloc/gralloc_priv.h"
+#include "gralloc/gralloc.h"
 
 #include "interface/khronos/include/EGL/eglext_android.h"
 #include "middleware/khronos/common/2708/khrn_prod_4.h"

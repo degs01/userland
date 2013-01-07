@@ -612,8 +612,11 @@ EGLAPI EGLSurface EGLAPIENTRY eglCreateWindowSurface(EGLDisplay dpy, EGLConfig c
             uint32_t num_buffers = 3;
             uint32_t swapchain_count;
 
-            platform_get_dimensions(dpy,
-                  win, &width, &height, &swapchain_count);
+            /*platform_get_dimensions(dpy,
+                  win, &width, &height, &swapchain_count);*/
+                  
+            width=1920;
+			height=1200;
 
             if (swapchain_count > 0)
                num_buffers = swapchain_count;
@@ -2293,13 +2296,13 @@ EGLAPI EGLBoolean EGLAPIENTRY eglSwapBuffers(EGLDisplay dpy, EGLSurface surf)
       EGL_SURFACE_T *surface;
 
       thread->error = EGL_SUCCESS;
-//	LOGE("EGL_SUCCESS!");
+      LOGE("EGL_SUCCESS!");
       surface = client_egl_get_surface(thread, process, surf);
 
       vcos_log_trace("eglSwapBuffers get surface %x",(int)surface);
 
       if (surface) {
-//		LOGE("surface found.");
+      LOGE("surface found.");
 #if !(EGL_KHR_lock_surface)
          /* Surface to be displayed must be bound to current context and API */
          /* This check is disabled if we have the EGL_KHR_lock_surface extension */
@@ -2353,7 +2356,7 @@ EGLAPI EGLBoolean EGLAPIENTRY eglSwapBuffers(EGLDisplay dpy, EGLSurface surf)
                // the server side).
 
                platform_surface_update(surface->internal_handle);
-
+               LOGE("server call!");
                vcos_log_trace("eglSwapBuffers server call");
 
                RPC_CALL6(eglIntSwapBuffers_impl,
@@ -2410,7 +2413,7 @@ EGLAPI EGLBoolean EGLAPIENTRY eglSwapBuffers(EGLDisplay dpy, EGLSurface surf)
       result = EGL_FALSE;
 
    vcos_log_trace("eglSwapBuffers end");
-
+   LOGE("eglSwapBuffers end!");
    return result;
 #endif // DIRECT_RENDERING
 }

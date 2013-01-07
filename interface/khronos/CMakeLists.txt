@@ -117,8 +117,8 @@ add_library(GLESv2_static STATIC ${GLES_SOURCE})
 add_library(khrn_static STATIC
    ${EGL_SOURCE} ${GLES_SOURCE} ${VG_SOURCE} ${WFC_SOURCE} ${CLIENT_SOURCE})
 
-target_link_libraries(GLESv2 vchiq_arm vcos bcm_host -lm)
-target_link_libraries(EGL vchiq_arm vcos bcm_host -lm)
+target_link_libraries(GLESv2 vchiq_arm grlc vcos bcm_host -lm)
+target_link_libraries(EGL vchiq_arm grlc vcos bcm_host -lm)
 target_link_libraries(WFC EGL)
 target_link_libraries(OpenVG EGL)
 

@@ -48,6 +48,8 @@ add_definitions(-D__VIDEOCORE4__)
 if(KHRONOS_EGL_PLATFORM MATCHES "openwfc")
    add_definitions(-DKHRONOS_EGL_PLATFORM_OPENWFC)
 endif()
+# "gralloc"
+add_subdirectory(gralloc)
 
 # List of subsidiary CMakeLists
 add_subdirectory(interface/vcos)
