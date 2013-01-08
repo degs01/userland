@@ -13,7 +13,7 @@ set(VCOS_PTHREADS_BUILD_SHARED TRUE)
 include(makefiles/cmake/global_settings.cmake)
 
 if(DRONE)
-include(makefiles/cmake/drone-arm.cmake)
+include(makefiles/cmake/arm-drone.cmake)
 endif()
 
 if(NOT DRONE)
