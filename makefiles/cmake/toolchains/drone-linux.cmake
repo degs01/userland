@@ -4,7 +4,7 @@
 
 
 # Note that the compilers should be in $ANDROID_TOOLCHAIN
-SET(CMAKE_SYSTEM_NAME Linux)
+SET(CMAKE_SYSTEM_NAME Drone)
 SET(CMAKE_C_COMPILER arm-linux-gnueabi-gcc-4.6)
 SET(CMAKE_CXX_COMPILER arm-linux-gnueabi-g++-4.6)
 SET(CMAKE_ASM_COMPILER arm-linux-gnueabi-as)

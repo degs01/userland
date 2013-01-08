@@ -1,0 +1,130 @@
+# setup environment for cross compile to arm-linux
+
+if (DEFINED CMAKE_TOOLCHAIN_FILE)
+else()
+   message(FATAL_ERROR 
+	"  *********************************************************\n"
+   	"  *   CMAKE_TOOLCHAIN_FILE not defined                    *\n"
+	"  *   Please DELETE the build directory and re-run with:  *\n"
+	"  *   -DCMAKE_TOOLCHAIN_FILE=toolchain_file.cmake         *\n"
+	"  *                                                       *\n"
+   	"  *   Toolchain files are in makefiles/cmake/toolchains.  *\n"
+	"  *********************************************************"
+       )
+endif()
+
+# pull in headers for android
+if(ANDROID)
+    # build shared libs
+    OPTION (BUILD_SHARED_LIBS ON)
+
+    #
+    # work out where android headers and library are
+    #
+    set(ANDROID_PRODUCT "rpi" CACHE INTERNAL "" FORCE)
+    set(ANDROID_ROOT $ENV{ANDROID_ROOT} CACHE INTERNAL "" FORCE)
+    set(ANDROID_NDK_ROOT $ENV{ANDROID_NDK_ROOT} CACHE INTERNAL "" FORCE)
+    set(ANDROID_LIBS $ENV{ANDROID_LIBS} CACHE INTERNAL "" FORCE)
+    set(ANDROID_BIONIC $ENV{ANDROID_BIONIC} CACHE INTERNAL "" FORCE)
+    set(ANDROID_LDSCRIPTS $ENV{ANDROID_LDSCRIPTS} CACHE INTERNAL "" FORCE)
+      
+    if("${ANDROID_NDK_ROOT}" STREQUAL "")
+        find_program(ANDROID_COMPILER arm-eabi-gcc)
+        get_filename_component(ANDROID_BIN ${ANDROID_COMPILER} PATH CACHE)
+        find_path(_ANDROID_ROOT Makefile PATHS ${ANDROID_BIN}
+                  PATH_SUFFIXES ../../../../..
+                  NO_DEFAULT_PATH)
+                if("${_ANDROID_ROOT}" STREQUAL "_ANDROID_ROOT-NOTFOUND")
+                    set(_ANDROID_ROOT "$ENV{ANDROID_ROOT}" CACHE INTERNAL "" FORCE)
+                endif()
+                if("${_ANDROID_ROOT}" STREQUAL "")
+            # message(FATAL_ERROR "Cannot find android root directory")
+	    SET(ANDROID_ROOT ".")
+        endif()
+        get_filename_component(ANDROID_ROOT ${_ANDROID_ROOT} ABSOLUTE CACHE)
+        #
+        # top level of cross-compiler target include and lib directory structure
+        #
+        set(ANDROID_NDK_ROOT
+            "${ANDROID_ROOT}/prebuilt/ndk" CACHE INTERNAL "" FORCE)
+        set(ANDROID_BIONIC
+            "${ANDROID_ROOT}/bionic" CACHE INTERNAL "" FORCE)
+        set(ANDROID_LDSCRIPTS
+            "${ANDROID_ROOT}/build/core" CACHE INTERNAL "" FORCE)
+        set(ANDROID_LIBS
+            "${ANDROID_ROOT}/out/target/product/${ANDROID_PRODUCT}/obj/lib"
+            CACHE INTERNAL "" FORCE)
+    endif()
+
+    if("${ANDROID_NDK_ROOT}" STREQUAL "")
+        message(FATAL_ERROR "Cannot find Android NDK root directory")
+    endif()
+    if("${ANDROID_BIONIC}" STREQUAL "")
+        message(FATAL_ERROR "Cannot find Android BIONIC directory")
+    endif()
+    if("${ANDROID_LDSCRIPTS}" STREQUAL "")
+        message(FATAL_ERROR "Cannot find Android LD scripts directory")
+    endif()
+    
+    set(CMAKE_SYSTEM_PREFIX_PATH "${ANDROID_NDK_ROOT}/android-ndk-r${ANDROID_NDK_RELEASE}/platforms/android-${ANDROID_NDK_PLATFORM}/arch-${CMAKE_SYSTEM_PROCESSOR}/usr")
+    
+    if("${ANDROID_LIBS}" STREQUAL "")
+        set(ANDROID_LIBS "${CMAKE_SYSTEM_PREFIX_PATH}/lib"
+            CACHE INTERNAL "" FORCE)
+        # message(FATAL_ERROR "Cannot find android libraries")
+    endif()
+
+    #
+    # add include directories for pthreads
+    #
+    include_directories("${CMAKE_SYSTEM_PREFIX_PATH}/include" BEFORE SYSTEM)
+    include_directories("${ANDROID_BIONIC}/libc/include/arch-arm/include" BEFORE SYSTEM)
+    include_directories("${ANDROID_BIONIC}/libc/include" BEFORE SYSTEM)
+    include_directories("${ANDROID_BIONIC}/libc/kernel/arch-arm" BEFORE SYSTEM)
+    include_directories("${ANDROID_BIONIC}/libc/kernel/common" BEFORE SYSTEM)
+    include_directories("${ANDROID_BIONIC}/libm/include" BEFORE SYSTEM)
+    include_directories("${ANDROID_BIONIC}/libm/include/arch/arm" BEFORE SYSTEM)
+    include_directories("${ANDROID_BIONIC}/libstdc++/include" BEFORE SYSTEM)
+    
+
+    #
+    # Pull in Android link options manually
+    #
+    set(ANDROID_SHARED_CRTBEGIN "${ANDROID_TOOLCHAIN}/../lib/gcc/arm-linux-androideabi/4.6.3/crtbeginS.o")
+    set(ANDROID_SHARED_CRTEND "${ANDROID_TOOLCHAIN}/../lib/gcc/arm-linux-androideabi/4.6.3/crtendS.o")
+    set(CMAKE_SHARED_LINKER_FLAGS "-nostdlib ${ANDROID_SHARED_CRTBEGIN} -Wl,-Bdynamic -Wl,-T${ANDROID_LDSCRIPTS}/armelf.x")
+    # set(ANDROID_CRTBEGIN "/home/viktor/arm-linux-androideabi-4.6.3/lib/gcc/arm-linux-androideabi/4.6.3/crtbegin.o")
+    # set(ANDROID_CRTEND "/home/viktor/arm-linux-androideabi-4.6.3/lib/gcc/arm-linux-androideabi/4.6.3/crtend.o")
+
+    link_directories(${ANDROID_LIBS})
+    set(CMAKE_EXE_LINKER_FLAGS "-nostdlib ${ANDROID_SHARED_CRTBEGIN} -nostdlib -Wl,-z,noexecstack") 
+    set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-dynamic-linker,/system/bin/linker -Wl,-rpath,${CMAKE_INSTALL_PREFIX}/lib")
+    set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-T${ANDROID_LDSCRIPTS}/armelf.x -Wl,--gc-sections")
+    set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-z,nocopyreloc -Wl,-z,noexecstack -Wl,--fix-cortex-a8 -Wl,--no-undefined")
+
+    set(CMAKE_C_STANDARD_LIBRARIES "-llog -lc -lgcc ${ANDROID_SHARED_CRTEND}" CACHE INTERNAL "" FORCE)
+    
+    set(SHARED "SHARED")
+else()
+    set(SHARED "SHARED")
+endif()
+
+
+# All linux systems have sbrk()
+add_definitions(-D_HAVE_SBRK)
+
+# pull in declarations of lseek64 and friends
+add_definitions(-D_LARGEFILE64_SOURCE)
+	
+# test for glibc malloc debugging extensions
+try_compile(HAVE_MTRACE
+            ${CMAKE_BINARY_DIR}
+            ${CMAKE_SOURCE_DIR}/makefiles/cmake/srcs/test-mtrace.c
+            OUTPUT_VARIABLE foo)
+
+add_definitions(-DHAVE_CMAKE_CONFIG)
+configure_file (
+    "makefiles/cmake/cmake_config.h.in"
+    "${PROJECT_BINARY_DIR}/cmake_config.h"
+    )
+ 
