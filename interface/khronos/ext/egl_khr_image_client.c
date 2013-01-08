@@ -226,7 +226,7 @@ EGLAPI EGLImageKHR EGLAPIENTRY eglCreateImageKHR (EGLDisplay dpy, EGLContext ctx
 #else
             } else if (target == EGL_NATIVE_BUFFER_ANDROID) {
                gralloc_private_handle_t *gpriv = gralloc_private_handle_from_client_buffer(buffer);
-               int res_type = gralloc_private_handle_get_res_type(gpriv);
+               int res_type = gpriv->res_type;
 
                if (res_type == GRALLOC_PRIV_TYPE_GL_RESOURCE) {
                   /* just return the a copy of the EGLImageKHR gralloc created earlier
@@ -242,7 +242,7 @@ EGLAPI EGLImageKHR EGLAPIENTRY eglCreateImageKHR (EGLDisplay dpy, EGLContext ctx
                    * So, we create the image in the normal way.
                    * EGL_NATIVE_BUFFER_ANDROID is passed as the target.
                    */
-                  if (gpriv->gl_format == GRALLOC_MAGICS_HAL_PIXEL_FORMAT_OPAQUE)
+                  if (gralloc_get_pf(gpriv) == GRALLOC_MAGICS_HAL_PIXEL_FORMAT_OPAQUE)
                      target = EGL_IMAGE_BRCM_MULTIMEDIA;
                   else
                      target = EGL_IMAGE_BRCM_RAW_PIXELS;
