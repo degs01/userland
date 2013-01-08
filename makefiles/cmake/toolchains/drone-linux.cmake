@@ -11,6 +11,7 @@ SET(CMAKE_ASM_COMPILER arm-linux-gnueabi-as)
 SET(CMAKE_SYSTEM_PROCESSOR arm)
 SET(ANDROID_ROOT lib)
 SET(ANDROID TRUE)
+SET(DRONE TRUE)
 
 #ADD_DEFINITIONS("-march=armv6")
 add_definitions("-mcpu=arm1176jzf-s")

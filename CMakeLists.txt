@@ -11,7 +11,15 @@ get_filename_component(VIDEOCORE_ROOT . ABSOLUTE)
 set(VCOS_PTHREADS_BUILD_SHARED TRUE)
 
 include(makefiles/cmake/global_settings.cmake)
+
+if(DRONE)
+include(makefiles/cmake/drone-arm.cmake)
+endif()
+
+if(NOT DRONE)
 include(makefiles/cmake/arm-linux.cmake)
+endif()
+
 include(makefiles/cmake/vmcs.cmake)
 
 # Global include paths
