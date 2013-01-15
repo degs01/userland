@@ -7,7 +7,7 @@ target_link_libraries(vchiq_arm
                       vcos)
 
 install(TARGETS vchiq_arm DESTINATION lib)
-install(FILES etc/10-vchiq.rules DESTINATION /etc/udev/rules.d)
+#install(FILES etc/10-vchiq.rules DESTINATION /etc/udev/rules.d)
 
 include_directories(../..)
 

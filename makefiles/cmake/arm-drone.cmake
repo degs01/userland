@@ -30,7 +30,7 @@ if(ANDROID)
       
     if("${ANDROID_NDK_ROOT}" STREQUAL "")
         find_program(ANDROID_COMPILER arm-eabi-gcc)
-        get_filename_component(ANDROID_BIN ${ANDROID_COMPILER} PATH CACHE)
+        get_filename_component(ANDROID_BIN ${ANDROID_COMPILER} PATH)
         find_path(_ANDROID_ROOT Makefile PATHS ${ANDROID_BIN}
                   PATH_SUFFIXES ../../../../..
                   NO_DEFAULT_PATH)
