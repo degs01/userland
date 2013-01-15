@@ -1,7 +1,6 @@
-
 #ifndef __LOGGY__
 #define NO_OPENVG 1
-#include "/home/viktor/cm/development/ndk/platforms/android-3/include/android/log.h"
+#include "include/android/log.h"
 #define LOG_TAG "LOGGY_WARG"
 
 # define LOGI(...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
