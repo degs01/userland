@@ -18,8 +18,8 @@
 
 
 
-static gralloc_private_handle_t *dupes;
-static int szDupes = 0;
+gralloc_private_handle_t *dupes;
+int szDupes = 0;
 static int bufs_are_eq(android_native_buffer_t * a, android_native_buffer_t * b){
 	return a == b;
 }
@@ -70,6 +70,22 @@ uint32_t gralloc_private_handle_get_egl_image(gralloc_private_handle_t *b){
 		return 0;
 }
 
+static int get_size_pf(android_native_buffer_t * buffer){
+	int szPf = 0;
+	switch (((android_native_buffer_t *)handle->buffer)->format)
+		{
+		  case PIXEL_FORMAT_RGBA_8888:	szPf = 4; break;
+		  case PIXEL_FORMAT_BGRA_8888:	szPf = 4; break;
+		  case PIXEL_FORMAT_RGBA_5551:	szPf = 2; break;
+		  case PIXEL_FORMAT_RGBA_4444:	szPf = 2; break;
+		  case PIXEL_FORMAT_RGBX_8888:	szPf = 4; break;
+		  case PIXEL_FORMAT_RGB_565:	szPf = 2; break;
+		  case PIXEL_FORMAT_RGB_888:    szPf = 3; break;
+		  
+		  default :                     szPf = 4; break;
+	    }
+	    return szPf;
+}
 
 
 gralloc_private_handle_t* gralloc_private_handle_from_client_buffer(EGLClientBuffer buffer){
@@ -85,7 +101,7 @@ gralloc_private_handle_t* gralloc_private_handle_from_client_buffer(EGLClientBuf
 	retVal->res_type		= is_dupe(retVal) ? GRALLOC_PRIV_TYPE_GL_RESOURCE : GRALLOC_PRIV_TYPE_MM_RESOURCE;
 
 	if(!is_dupe(retVal)){
-		retVal->vcHandle	= do_allocate((retVal->w * retVal->h) * 4);
+		retVal->vcHandle	= do_allocate((retVal->w * retVal->h) * get_size_pf(android_buffer));
 		add_to_dupes(*retVal);
 	}
 
@@ -111,7 +127,7 @@ int gralloc_get_pf(gralloc_private_handle_t* handle){
 		  default :                     buffer_format = -1;              break;
 	    }
 	if(buffer_format == -1){
-		LOGE("gralloc -> invalid buffer format, rething ASAP!");
+		LOGE("gralloc -> invalid buffer format, rethink ASAP!");
 	}else{
 		LOGE("gralloc -> format = GO!");
 	}
