@@ -35,6 +35,7 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/viktor/userland/build/arm-android/release/interface/khronos/CMakeFiles/khrn_client.dir/DependInfo.cmake"
   "/home/viktor/userland/build/arm-android/release/interface/vchiq_arm/CMakeFiles/vchiq_arm.dir/DependInfo.cmake"
   "/home/viktor/userland/build/arm-android/release/interface/vcos/pthreads/CMakeFiles/vcos.dir/DependInfo.cmake"
+  "/home/viktor/userland/build/arm-android/release/gralloc/CMakeFiles/grlc.dir/DependInfo.cmake"
   "/home/viktor/userland/build/arm-android/release/host_applications/linux/libs/bcm_host/CMakeFiles/bcm_host.dir/DependInfo.cmake"
   "/home/viktor/userland/build/arm-android/release/interface/vmcs_host/CMakeFiles/vchostif.dir/DependInfo.cmake"
   "/home/viktor/userland/build/arm-android/release/interface/vmcs_host/linux/vcfiled/CMakeFiles/vcfiled_check.dir/DependInfo.cmake"

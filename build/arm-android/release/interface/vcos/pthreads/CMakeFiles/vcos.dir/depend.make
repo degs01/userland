@@ -3,7 +3,15 @@
 
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_abort.c.o: ../../../host_support/include/vc_debug_sym.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_abort.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_abort.c.o: ../../../interface/vcos/user_nodefs.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_abort.c.o: ../../../interface/vcos/vcos_cfg.h
+interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_abort.c.o: ../../../interface/vctypes/vc_image_types.h
+interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_abort.c.o: ../../../vcfw/drivers/driver.h
+interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_abort.c.o: ../../../vcfw/logging/logging.h
+interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_abort.c.o: ../../../vcfw/rtos/rtos.h
+interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_abort.c.o: ../../../vcfw/vclib/vclib.h
+interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_abort.c.o: ../../../vcinclude/common.h
+interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_abort.c.o: ../../../vcinclude/vcore.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_abort.c.o: ../../inc/interface/vcos/generic/vcos_common.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_abort.c.o: ../../inc/interface/vcos/generic/vcos_generic_blockpool.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_abort.c.o: ../../inc/interface/vcos/generic/vcos_generic_event_flags.h
@@ -95,6 +103,7 @@ interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_abort.c.o: /home/vik
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_abort.c.o: ../../../interface/vcos/generic/vcos_abort.c
 
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_cmd.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_cmd.c.o: ../../../interface/vcos/user_nodefs.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_cmd.c.o: ../../../interface/vcos/vcos_build_info.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_cmd.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_cmd.c.o: ../../../vcfw/logging/logging.h
@@ -190,6 +199,7 @@ interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_cmd.c.o: /home/vikto
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_cmd.c.o: ../../../interface/vcos/generic/vcos_cmd.c
 
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_blockpool.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_blockpool.c.o: ../../../interface/vcos/user_nodefs.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_blockpool.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_blockpool.c.o: ../../inc/interface/vcos/generic/vcos_common.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_blockpool.c.o: ../../inc/interface/vcos/generic/vcos_generic_blockpool.h
@@ -282,6 +292,7 @@ interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_blockpool.c.
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_blockpool.c.o: ../../../interface/vcos/generic/vcos_generic_blockpool.c
 
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_event_flags.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_event_flags.c.o: ../../../interface/vcos/user_nodefs.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_event_flags.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_event_flags.c.o: ../../inc/interface/vcos/generic/vcos_common.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_event_flags.c.o: ../../inc/interface/vcos/generic/vcos_generic_blockpool.h
@@ -374,6 +385,7 @@ interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_event_flags.
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_event_flags.c.o: ../../../interface/vcos/generic/vcos_generic_event_flags.c
 
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_named_sem.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_named_sem.c.o: ../../../interface/vcos/user_nodefs.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_named_sem.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_named_sem.c.o: ../../inc/interface/vcos/generic/vcos_common.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_named_sem.c.o: ../../inc/interface/vcos/generic/vcos_generic_blockpool.h
@@ -466,6 +478,7 @@ interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_named_sem.c.
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_named_sem.c.o: ../../../interface/vcos/generic/vcos_generic_named_sem.c
 
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_reentrant_mtx.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_reentrant_mtx.c.o: ../../../interface/vcos/user_nodefs.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_reentrant_mtx.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_reentrant_mtx.c.o: ../../inc/interface/vcos/generic/vcos_common.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_reentrant_mtx.c.o: ../../inc/interface/vcos/generic/vcos_generic_blockpool.h
@@ -558,6 +571,7 @@ interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_reentrant_mt
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_reentrant_mtx.c.o: ../../../interface/vcos/generic/vcos_generic_reentrant_mtx.c
 
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_safe_string.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_safe_string.c.o: ../../../interface/vcos/user_nodefs.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_safe_string.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_safe_string.c.o: ../../inc/interface/vcos/generic/vcos_common.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_safe_string.c.o: ../../inc/interface/vcos/generic/vcos_generic_blockpool.h
@@ -710,6 +724,7 @@ interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_safe_string.
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_generic_safe_string.c.o: ../../../interface/vcos/generic/vcos_generic_safe_string.c
 
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_init.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_init.c.o: ../../../interface/vcos/user_nodefs.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_init.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_init.c.o: ../../inc/interface/vcos/generic/vcos_common.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_init.c.o: ../../inc/interface/vcos/generic/vcos_generic_blockpool.h
@@ -803,6 +818,7 @@ interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_init.c.o: ../../../i
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_init.c.o: ../../../interface/vcos/generic/vcos_init.c
 
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_logcat.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_logcat.c.o: ../../../interface/vcos/user_nodefs.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_logcat.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_logcat.c.o: ../../../interface/vcos/vcos_ctype.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_logcat.c.o: ../../inc/interface/vcos/generic/vcos_common.h
@@ -898,6 +914,7 @@ interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_logcat.c.o: /home/vi
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_logcat.c.o: ../../../interface/vcos/generic/vcos_logcat.c
 
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_mem_from_malloc.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_mem_from_malloc.c.o: ../../../interface/vcos/user_nodefs.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_mem_from_malloc.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_mem_from_malloc.c.o: ../../inc/interface/vcos/generic/vcos_common.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_mem_from_malloc.c.o: ../../inc/interface/vcos/generic/vcos_generic_blockpool.h
@@ -990,6 +1007,7 @@ interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_mem_from_malloc.c.o:
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_mem_from_malloc.c.o: ../../../interface/vcos/generic/vcos_mem_from_malloc.c
 
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_msgqueue.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_msgqueue.c.o: ../../../interface/vcos/user_nodefs.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_msgqueue.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_msgqueue.c.o: ../../inc/interface/vcos/generic/vcos_common.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_msgqueue.c.o: ../../inc/interface/vcos/generic/vcos_generic_blockpool.h
@@ -1084,6 +1102,7 @@ interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_msgqueue.c.o: /home/
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/generic/vcos_msgqueue.c.o: ../../../interface/vcos/generic/vcos_msgqueue.c
 
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/glibc/vcos_backtrace.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/vcos/pthreads/CMakeFiles/vcos.dir/__/glibc/vcos_backtrace.c.o: ../../../interface/vcos/user_nodefs.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/glibc/vcos_backtrace.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/glibc/vcos_backtrace.c.o: ../../inc/interface/vcos/generic/vcos_common.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/glibc/vcos_backtrace.c.o: ../../inc/interface/vcos/generic/vcos_generic_blockpool.h
@@ -1177,6 +1196,7 @@ interface/vcos/pthreads/CMakeFiles/vcos.dir/__/glibc/vcos_backtrace.c.o: /home/v
 interface/vcos/pthreads/CMakeFiles/vcos.dir/__/glibc/vcos_backtrace.c.o: ../../../interface/vcos/glibc/vcos_backtrace.c
 
 interface/vcos/pthreads/CMakeFiles/vcos.dir/vcos_dlfcn.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/vcos/pthreads/CMakeFiles/vcos.dir/vcos_dlfcn.c.o: ../../../interface/vcos/user_nodefs.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/vcos_dlfcn.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/vcos_dlfcn.c.o: ../../inc/interface/vcos/generic/vcos_common.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/vcos_dlfcn.c.o: ../../inc/interface/vcos/generic/vcos_generic_blockpool.h
@@ -1271,6 +1291,7 @@ interface/vcos/pthreads/CMakeFiles/vcos.dir/vcos_dlfcn.c.o: /home/viktor/cm/bion
 interface/vcos/pthreads/CMakeFiles/vcos.dir/vcos_dlfcn.c.o: ../../../interface/vcos/pthreads/vcos_dlfcn.c
 
 interface/vcos/pthreads/CMakeFiles/vcos.dir/vcos_pthreads.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/vcos/pthreads/CMakeFiles/vcos.dir/vcos_pthreads.c.o: ../../../interface/vcos/user_nodefs.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/vcos_pthreads.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/vcos_pthreads.c.o: ../../inc/interface/vcos/generic/vcos_common.h
 interface/vcos/pthreads/CMakeFiles/vcos.dir/vcos_pthreads.c.o: ../../inc/interface/vcos/generic/vcos_generic_blockpool.h

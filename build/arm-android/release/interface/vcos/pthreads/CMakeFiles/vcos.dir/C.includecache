@@ -18,6 +18,8 @@ interface/vcos/vcos_types.h
 vcos_platform.h
 ../../../interface/vcos/pthreads/vcos_platform.h
 
+../../../interface/vcos/user_nodefs.h
+
 ../../../interface/vcos/vcos_build_info.h
 
 ../../../interface/vcos/vcos_cfg.h
@@ -32,6 +34,14 @@ linux/ctype.h
 ctype.h
 -
 
+../../../interface/vctypes/vc_image_types.h
+interface/vcos/vcos_stdint.h
+../../../interface/vctypes/interface/vcos/vcos_stdint.h
+
+../../../vcfw/drivers/driver.h
+vcinclude/common.h
+../../../vcfw/drivers/vcinclude/common.h
+
 ../../../vcfw/logging/logging.h
 stdarg.h
 -
@@ -40,6 +50,36 @@ vcinclude/vcore.h
 vcfw/blogging/blogging.h
 ../../../vcfw/logging/vcfw/blogging/blogging.h
 assert.h
+-
+
+../../../vcfw/rtos/rtos.h
+vcinclude/common.h
+../../../vcfw/rtos/vcinclude/common.h
+vcfw/drivers/driver.h
+../../../vcfw/rtos/vcfw/drivers/driver.h
+host_support/include/vc_debug_sym.h
+../../../vcfw/rtos/host_support/include/vc_debug_sym.h
+stdlib.h
+-
+
+../../../vcfw/vclib/vclib.h
+vcfw/rtos/rtos.h
+../../../vcfw/vclib/vcfw/rtos/rtos.h
+vcfw/logging/logging.h
+../../../vcfw/vclib/vcfw/logging/logging.h
+stdlib.h
+-
+
+../../../vcinclude/common.h
+interface/vcos/vcos_stdint.h
+../../../vcinclude/interface/vcos/vcos_stdint.h
+interface/vctypes/vc_image_types.h
+../../../vcinclude/interface/vctypes/vc_image_types.h
+vc/intrinsics.h
+-
+limits.h
+-
+limits.h
 -
 
 ../../../vcinclude/vcore.h
@@ -131,6 +171,8 @@ interface/vcos/vcos_cmd.h
 ../../inc/interface/vcos/vcos_assert.h
 interface/vcos/vcos_types.h
 ../../inc/interface/vcos/interface/vcos/vcos_types.h
+interface/vcos/user_nodefs.h
+../../inc/interface/vcos/interface/vcos/user_nodefs.h
 assert.h
 ../../inc/interface/vcos/assert.h
 
@@ -351,6 +393,8 @@ vcos_platform.h
 ../../inc/interface/vcos/vcos_platform.h
 
 ../../inc/interface/vcos/vcos_types.h
+stddef.h
+-
 vcos_platform_types.h
 ../../inc/interface/vcos/vcos_platform_types.h
 
@@ -985,6 +1029,8 @@ interface/vcos/vcos.h
 /home/viktor/userland/interface/vcos/generic/interface/vcos/vcos.h
 host_support/include/vc_debug_sym.h
 /home/viktor/userland/interface/vcos/generic/host_support/include/vc_debug_sym.h
+vcfw/vclib/vclib.h
+/home/viktor/userland/interface/vcos/generic/vcfw/vclib/vclib.h
 stdlib.h
 -
 

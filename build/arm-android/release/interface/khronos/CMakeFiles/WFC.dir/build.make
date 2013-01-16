@@ -185,6 +185,7 @@ WFC_EXTERNAL_OBJECTS =
 ../../lib/libWFC.so: interface/khronos/CMakeFiles/WFC.dir/common/openwfc/khrn_client_platform_openwfc.c.o
 ../../lib/libWFC.so: interface/khronos/CMakeFiles/WFC.dir/build.make
 ../../lib/libWFC.so: ../../lib/libEGL.so
+../../lib/libWFC.so: ../../lib/libgrlc.so
 ../../lib/libWFC.so: ../../lib/libbcm_host.so
 ../../lib/libWFC.so: ../../lib/libvchostif.a
 ../../lib/libWFC.so: ../../lib/libvchiq_arm.so

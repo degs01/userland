@@ -1010,6 +1010,7 @@ GLESv2_EXTERNAL_OBJECTS =
 ../../lib/libGLESv2.so: interface/khronos/CMakeFiles/GLESv2.dir/wf/wfc_client_ipc.c.o
 ../../lib/libGLESv2.so: interface/khronos/CMakeFiles/GLESv2.dir/build.make
 ../../lib/libGLESv2.so: ../../lib/libvchiq_arm.so
+../../lib/libGLESv2.so: ../../lib/libgrlc.so
 ../../lib/libGLESv2.so: ../../lib/libvcos.so
 ../../lib/libGLESv2.so: ../../lib/libbcm_host.so
 ../../lib/libGLESv2.so: ../../lib/libvchostif.a

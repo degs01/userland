@@ -98,9 +98,32 @@ interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_port.c.o.provides: interface/m
 
 interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_port.c.o.provides.build: interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_port.c.o
 
+interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_port_clock.c.o: interface/mmal/core/CMakeFiles/mmal_core.dir/flags.make
+interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_port_clock.c.o: ../../../interface/mmal/core/mmal_port_clock.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_port_clock.c.o"
+	cd /home/viktor/userland/build/arm-android/release/interface/mmal/core && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mmal_core.dir/mmal_port_clock.c.o   -c /home/viktor/userland/interface/mmal/core/mmal_port_clock.c
+
+interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_port_clock.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mmal_core.dir/mmal_port_clock.c.i"
+	cd /home/viktor/userland/build/arm-android/release/interface/mmal/core && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -E /home/viktor/userland/interface/mmal/core/mmal_port_clock.c > CMakeFiles/mmal_core.dir/mmal_port_clock.c.i
+
+interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_port_clock.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mmal_core.dir/mmal_port_clock.c.s"
+	cd /home/viktor/userland/build/arm-android/release/interface/mmal/core && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -S /home/viktor/userland/interface/mmal/core/mmal_port_clock.c -o CMakeFiles/mmal_core.dir/mmal_port_clock.c.s
+
+interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_port_clock.c.o.requires:
+.PHONY : interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_port_clock.c.o.requires
+
+interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_port_clock.c.o.provides: interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_port_clock.c.o.requires
+	$(MAKE) -f interface/mmal/core/CMakeFiles/mmal_core.dir/build.make interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_port_clock.c.o.provides.build
+.PHONY : interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_port_clock.c.o.provides
+
+interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_port_clock.c.o.provides.build: interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_port_clock.c.o
+
 interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_component.c.o: interface/mmal/core/CMakeFiles/mmal_core.dir/flags.make
 interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_component.c.o: ../../../interface/mmal/core/mmal_component.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_component.c.o"
 	cd /home/viktor/userland/build/arm-android/release/interface/mmal/core && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mmal_core.dir/mmal_component.c.o   -c /home/viktor/userland/interface/mmal/core/mmal_component.c
 
@@ -123,7 +146,7 @@ interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_component.c.o.provides.build: 
 
 interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_buffer.c.o: interface/mmal/core/CMakeFiles/mmal_core.dir/flags.make
 interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_buffer.c.o: ../../../interface/mmal/core/mmal_buffer.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_buffer.c.o"
 	cd /home/viktor/userland/build/arm-android/release/interface/mmal/core && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mmal_core.dir/mmal_buffer.c.o   -c /home/viktor/userland/interface/mmal/core/mmal_buffer.c
 
@@ -146,7 +169,7 @@ interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_buffer.c.o.provides.build: int
 
 interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_queue.c.o: interface/mmal/core/CMakeFiles/mmal_core.dir/flags.make
 interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_queue.c.o: ../../../interface/mmal/core/mmal_queue.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_queue.c.o"
 	cd /home/viktor/userland/build/arm-android/release/interface/mmal/core && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mmal_core.dir/mmal_queue.c.o   -c /home/viktor/userland/interface/mmal/core/mmal_queue.c
 
@@ -169,7 +192,7 @@ interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_queue.c.o.provides.build: inte
 
 interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_pool.c.o: interface/mmal/core/CMakeFiles/mmal_core.dir/flags.make
 interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_pool.c.o: ../../../interface/mmal/core/mmal_pool.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_pool.c.o"
 	cd /home/viktor/userland/build/arm-android/release/interface/mmal/core && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mmal_core.dir/mmal_pool.c.o   -c /home/viktor/userland/interface/mmal/core/mmal_pool.c
 
@@ -192,7 +215,7 @@ interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_pool.c.o.provides.build: inter
 
 interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_events.c.o: interface/mmal/core/CMakeFiles/mmal_core.dir/flags.make
 interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_events.c.o: ../../../interface/mmal/core/mmal_events.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_events.c.o"
 	cd /home/viktor/userland/build/arm-android/release/interface/mmal/core && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mmal_core.dir/mmal_events.c.o   -c /home/viktor/userland/interface/mmal/core/mmal_events.c
 
@@ -215,7 +238,7 @@ interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_events.c.o.provides.build: int
 
 interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_logging.c.o: interface/mmal/core/CMakeFiles/mmal_core.dir/flags.make
 interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_logging.c.o: ../../../interface/mmal/core/mmal_logging.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_logging.c.o"
 	cd /home/viktor/userland/build/arm-android/release/interface/mmal/core && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mmal_core.dir/mmal_logging.c.o   -c /home/viktor/userland/interface/mmal/core/mmal_logging.c
 
@@ -236,28 +259,55 @@ interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_logging.c.o.provides: interfac
 
 interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_logging.c.o.provides.build: interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_logging.c.o
 
+interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_clock.c.o: interface/mmal/core/CMakeFiles/mmal_core.dir/flags.make
+interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_clock.c.o: ../../../interface/mmal/core/mmal_clock.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_10)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_clock.c.o"
+	cd /home/viktor/userland/build/arm-android/release/interface/mmal/core && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mmal_core.dir/mmal_clock.c.o   -c /home/viktor/userland/interface/mmal/core/mmal_clock.c
+
+interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_clock.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mmal_core.dir/mmal_clock.c.i"
+	cd /home/viktor/userland/build/arm-android/release/interface/mmal/core && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -E /home/viktor/userland/interface/mmal/core/mmal_clock.c > CMakeFiles/mmal_core.dir/mmal_clock.c.i
+
+interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_clock.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mmal_core.dir/mmal_clock.c.s"
+	cd /home/viktor/userland/build/arm-android/release/interface/mmal/core && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -S /home/viktor/userland/interface/mmal/core/mmal_clock.c -o CMakeFiles/mmal_core.dir/mmal_clock.c.s
+
+interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_clock.c.o.requires:
+.PHONY : interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_clock.c.o.requires
+
+interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_clock.c.o.provides: interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_clock.c.o.requires
+	$(MAKE) -f interface/mmal/core/CMakeFiles/mmal_core.dir/build.make interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_clock.c.o.provides.build
+.PHONY : interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_clock.c.o.provides
+
+interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_clock.c.o.provides.build: interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_clock.c.o
+
 # Object files for target mmal_core
 mmal_core_OBJECTS = \
 "CMakeFiles/mmal_core.dir/mmal_format.c.o" \
 "CMakeFiles/mmal_core.dir/mmal_port.c.o" \
+"CMakeFiles/mmal_core.dir/mmal_port_clock.c.o" \
 "CMakeFiles/mmal_core.dir/mmal_component.c.o" \
 "CMakeFiles/mmal_core.dir/mmal_buffer.c.o" \
 "CMakeFiles/mmal_core.dir/mmal_queue.c.o" \
 "CMakeFiles/mmal_core.dir/mmal_pool.c.o" \
 "CMakeFiles/mmal_core.dir/mmal_events.c.o" \
-"CMakeFiles/mmal_core.dir/mmal_logging.c.o"
+"CMakeFiles/mmal_core.dir/mmal_logging.c.o" \
+"CMakeFiles/mmal_core.dir/mmal_clock.c.o"
 
 # External object files for target mmal_core
 mmal_core_EXTERNAL_OBJECTS =
 
 ../../lib/libmmal_core.a: interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_format.c.o
 ../../lib/libmmal_core.a: interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_port.c.o
+../../lib/libmmal_core.a: interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_port_clock.c.o
 ../../lib/libmmal_core.a: interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_component.c.o
 ../../lib/libmmal_core.a: interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_buffer.c.o
 ../../lib/libmmal_core.a: interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_queue.c.o
 ../../lib/libmmal_core.a: interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_pool.c.o
 ../../lib/libmmal_core.a: interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_events.c.o
 ../../lib/libmmal_core.a: interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_logging.c.o
+../../lib/libmmal_core.a: interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_clock.c.o
 ../../lib/libmmal_core.a: interface/mmal/core/CMakeFiles/mmal_core.dir/build.make
 ../../lib/libmmal_core.a: interface/mmal/core/CMakeFiles/mmal_core.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C static library ../../../../../lib/libmmal_core.a"
@@ -270,12 +320,14 @@ interface/mmal/core/CMakeFiles/mmal_core.dir/build: ../../lib/libmmal_core.a
 
 interface/mmal/core/CMakeFiles/mmal_core.dir/requires: interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_format.c.o.requires
 interface/mmal/core/CMakeFiles/mmal_core.dir/requires: interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_port.c.o.requires
+interface/mmal/core/CMakeFiles/mmal_core.dir/requires: interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_port_clock.c.o.requires
 interface/mmal/core/CMakeFiles/mmal_core.dir/requires: interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_component.c.o.requires
 interface/mmal/core/CMakeFiles/mmal_core.dir/requires: interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_buffer.c.o.requires
 interface/mmal/core/CMakeFiles/mmal_core.dir/requires: interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_queue.c.o.requires
 interface/mmal/core/CMakeFiles/mmal_core.dir/requires: interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_pool.c.o.requires
 interface/mmal/core/CMakeFiles/mmal_core.dir/requires: interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_events.c.o.requires
 interface/mmal/core/CMakeFiles/mmal_core.dir/requires: interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_logging.c.o.requires
+interface/mmal/core/CMakeFiles/mmal_core.dir/requires: interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_clock.c.o.requires
 .PHONY : interface/mmal/core/CMakeFiles/mmal_core.dir/requires
 
 interface/mmal/core/CMakeFiles/mmal_core.dir/clean:

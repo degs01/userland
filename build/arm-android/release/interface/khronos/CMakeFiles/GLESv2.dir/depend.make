@@ -3537,13 +3537,13 @@ interface/khronos/CMakeFiles/GLESv2.dir/ext/egl_brcm_perf_monitor_client.c.o: ..
 interface/khronos/CMakeFiles/GLESv2.dir/ext/egl_brcm_perf_monitor_client.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2.dir/ext/egl_brcm_perf_monitor_client.c.o: ../../../interface/khronos/ext/egl_brcm_perf_monitor_client.c
 
+interface/khronos/CMakeFiles/GLESv2.dir/ext/egl_khr_image_client.c.o: ../../../gralloc/gralloc.h
 interface/khronos/CMakeFiles/GLESv2.dir/ext/egl_khr_image_client.c.o: ../../../helpers/v3d/v3d_ver.h
 interface/khronos/CMakeFiles/GLESv2.dir/ext/egl_khr_image_client.c.o: ../../../helpers/vc_image/metadata_fourcc.h
 interface/khronos/CMakeFiles/GLESv2.dir/ext/egl_khr_image_client.c.o: ../../../helpers/vc_image/vc_image.h
 interface/khronos/CMakeFiles/GLESv2.dir/ext/egl_khr_image_client.c.o: ../../../helpers/vc_image/vc_image_metadata.h
 interface/khronos/CMakeFiles/GLESv2.dir/ext/egl_khr_image_client.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2.dir/ext/egl_khr_image_client.c.o: ../../../include/android/rect.h
-interface/khronos/CMakeFiles/GLESv2.dir/ext/egl_khr_image_client.c.o: ../../../include/gralloc/gralloc_priv.h
 interface/khronos/CMakeFiles/GLESv2.dir/ext/egl_khr_image_client.c.o: ../../../include/hardware/gralloc.h
 interface/khronos/CMakeFiles/GLESv2.dir/ext/egl_khr_image_client.c.o: ../../../include/ui/android_native_buffer.h
 interface/khronos/CMakeFiles/GLESv2.dir/ext/egl_khr_image_client.c.o: ../../../include/ui/egl/android_natives.h
@@ -3753,7 +3753,6 @@ interface/khronos/CMakeFiles/GLESv2.dir/ext/egl_khr_image_client.c.o: /home/vikt
 interface/khronos/CMakeFiles/GLESv2.dir/ext/egl_khr_image_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/capability.h
 interface/khronos/CMakeFiles/GLESv2.dir/ext/egl_khr_image_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/compiler.h
 interface/khronos/CMakeFiles/GLESv2.dir/ext/egl_khr_image_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/errno.h
-interface/khronos/CMakeFiles/GLESv2.dir/ext/egl_khr_image_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/fb.h
 interface/khronos/CMakeFiles/GLESv2.dir/ext/egl_khr_image_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/limits.h
 interface/khronos/CMakeFiles/GLESv2.dir/ext/egl_khr_image_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/posix_types.h
 interface/khronos/CMakeFiles/GLESv2.dir/ext/egl_khr_image_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/stddef.h
@@ -3763,7 +3762,6 @@ interface/khronos/CMakeFiles/GLESv2.dir/ext/egl_khr_image_client.c.o: /home/vikt
 interface/khronos/CMakeFiles/GLESv2.dir/ext/egl_khr_image_client.c.o: /home/viktor/cm/bionic/libm/include/math.h
 interface/khronos/CMakeFiles/GLESv2.dir/ext/egl_khr_image_client.c.o: /home/viktor/cm/development/ndk/platforms/android-3/include/android/log.h
 interface/khronos/CMakeFiles/GLESv2.dir/ext/egl_khr_image_client.c.o: ../../../include/cutils/native_handle.h
-interface/khronos/CMakeFiles/GLESv2.dir/ext/egl_khr_image_client.c.o: ../../../include/hardware/gralloc.h
 interface/khronos/CMakeFiles/GLESv2.dir/ext/egl_khr_image_client.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2.dir/ext/egl_khr_image_client.c.o: ../../../interface/khronos/ext/egl_khr_image_client.c
 

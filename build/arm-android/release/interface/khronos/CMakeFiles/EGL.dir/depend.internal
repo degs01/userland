@@ -3538,13 +3538,13 @@ interface/khronos/CMakeFiles/EGL.dir/ext/egl_brcm_perf_monitor_client.c.o
  /home/viktor/userland/include/hardware/hardware.h
  /home/viktor/userland/interface/khronos/ext/egl_brcm_perf_monitor_client.c
 interface/khronos/CMakeFiles/EGL.dir/ext/egl_khr_image_client.c.o
+ ../../../gralloc/gralloc.h
  ../../../helpers/v3d/v3d_ver.h
  ../../../helpers/vc_image/metadata_fourcc.h
  ../../../helpers/vc_image/vc_image.h
  ../../../helpers/vc_image/vc_image_metadata.h
  ../../../include/android/native_window.h
  ../../../include/android/rect.h
- ../../../include/gralloc/gralloc_priv.h
  ../../../include/hardware/gralloc.h
  ../../../include/ui/android_native_buffer.h
  ../../../include/ui/egl/android_natives.h
@@ -3754,7 +3754,6 @@ interface/khronos/CMakeFiles/EGL.dir/ext/egl_khr_image_client.c.o
  /home/viktor/cm/bionic/libc/kernel/common/linux/capability.h
  /home/viktor/cm/bionic/libc/kernel/common/linux/compiler.h
  /home/viktor/cm/bionic/libc/kernel/common/linux/errno.h
- /home/viktor/cm/bionic/libc/kernel/common/linux/fb.h
  /home/viktor/cm/bionic/libc/kernel/common/linux/limits.h
  /home/viktor/cm/bionic/libc/kernel/common/linux/posix_types.h
  /home/viktor/cm/bionic/libc/kernel/common/linux/stddef.h
@@ -3764,7 +3763,6 @@ interface/khronos/CMakeFiles/EGL.dir/ext/egl_khr_image_client.c.o
  /home/viktor/cm/bionic/libm/include/math.h
  /home/viktor/cm/development/ndk/platforms/android-3/include/android/log.h
  /home/viktor/userland/include/cutils/native_handle.h
- /home/viktor/userland/include/hardware/gralloc.h
  /home/viktor/userland/include/hardware/hardware.h
  /home/viktor/userland/interface/khronos/ext/egl_khr_image_client.c
 interface/khronos/CMakeFiles/EGL.dir/ext/egl_khr_lock_surface_client.c.o

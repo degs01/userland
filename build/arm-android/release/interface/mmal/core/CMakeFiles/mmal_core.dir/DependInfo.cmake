@@ -5,12 +5,14 @@ SET(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
   "/home/viktor/userland/interface/mmal/core/mmal_buffer.c" "/home/viktor/userland/build/arm-android/release/interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_buffer.c.o"
+  "/home/viktor/userland/interface/mmal/core/mmal_clock.c" "/home/viktor/userland/build/arm-android/release/interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_clock.c.o"
   "/home/viktor/userland/interface/mmal/core/mmal_component.c" "/home/viktor/userland/build/arm-android/release/interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_component.c.o"
   "/home/viktor/userland/interface/mmal/core/mmal_events.c" "/home/viktor/userland/build/arm-android/release/interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_events.c.o"
   "/home/viktor/userland/interface/mmal/core/mmal_format.c" "/home/viktor/userland/build/arm-android/release/interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_format.c.o"
   "/home/viktor/userland/interface/mmal/core/mmal_logging.c" "/home/viktor/userland/build/arm-android/release/interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_logging.c.o"
   "/home/viktor/userland/interface/mmal/core/mmal_pool.c" "/home/viktor/userland/build/arm-android/release/interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_pool.c.o"
   "/home/viktor/userland/interface/mmal/core/mmal_port.c" "/home/viktor/userland/build/arm-android/release/interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_port.c.o"
+  "/home/viktor/userland/interface/mmal/core/mmal_port_clock.c" "/home/viktor/userland/build/arm-android/release/interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_port_clock.c.o"
   "/home/viktor/userland/interface/mmal/core/mmal_queue.c" "/home/viktor/userland/build/arm-android/release/interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_queue.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")

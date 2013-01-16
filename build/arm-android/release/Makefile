@@ -163,6 +163,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named grlc
+
+# Build rule for target.
+grlc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 grlc
+.PHONY : grlc
+
+# fast build rule for target.
+grlc/fast:
+	$(MAKE) -f gralloc/CMakeFiles/grlc.dir/build.make gralloc/CMakeFiles/grlc.dir/build
+.PHONY : grlc/fast
+
+#=============================================================================
 # Target rules for targets named vcos
 
 # Build rule for target.
@@ -488,6 +501,7 @@ help:
 	@echo "... package"
 	@echo "... package_source"
 	@echo "... rebuild_cache"
+	@echo "... grlc"
 	@echo "... vcos"
 	@echo "... vchostif"
 	@echo "... vcilcs"

@@ -56,6 +56,56 @@ CMAKE_SOURCE_DIR = /home/viktor/userland
 CMAKE_BINARY_DIR = /home/viktor/userland/build/arm-android/release
 
 #=============================================================================
+# Directory level rules for directory gralloc
+
+# Convenience name for "all" pass in the directory.
+gralloc/all: gralloc/CMakeFiles/grlc.dir/all
+.PHONY : gralloc/all
+
+# Convenience name for "clean" pass in the directory.
+gralloc/clean: gralloc/CMakeFiles/grlc.dir/clean
+.PHONY : gralloc/clean
+
+# Convenience name for "preinstall" pass in the directory.
+gralloc/preinstall:
+.PHONY : gralloc/preinstall
+
+#=============================================================================
+# Target rules for target gralloc/CMakeFiles/grlc.dir
+
+# All Build rule for target.
+gralloc/CMakeFiles/grlc.dir/all: interface/vcos/pthreads/CMakeFiles/vcos.dir/all
+	$(MAKE) -f gralloc/CMakeFiles/grlc.dir/build.make gralloc/CMakeFiles/grlc.dir/depend
+	$(MAKE) -f gralloc/CMakeFiles/grlc.dir/build.make gralloc/CMakeFiles/grlc.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles 
+	@echo "Built target grlc"
+.PHONY : gralloc/CMakeFiles/grlc.dir/all
+
+# Include target in all.
+all: gralloc/CMakeFiles/grlc.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+gralloc/CMakeFiles/grlc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 gralloc/CMakeFiles/grlc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 0
+.PHONY : gralloc/CMakeFiles/grlc.dir/rule
+
+# Convenience name for target.
+grlc: gralloc/CMakeFiles/grlc.dir/rule
+.PHONY : grlc
+
+# clean rule for target.
+gralloc/CMakeFiles/grlc.dir/clean:
+	$(MAKE) -f gralloc/CMakeFiles/grlc.dir/build.make gralloc/CMakeFiles/grlc.dir/clean
+.PHONY : gralloc/CMakeFiles/grlc.dir/clean
+
+# clean rule for target.
+clean: gralloc/CMakeFiles/grlc.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Directory level rules for directory interface/vcos
 
 # Convenience name for "all" pass in the directory.
@@ -165,7 +215,7 @@ interface/vmcs_host/CMakeFiles/vchostif.dir/all: interface/vmcs_host/linux/vcfil
 interface/vmcs_host/CMakeFiles/vchostif.dir/all: interface/vchiq_arm/CMakeFiles/vchiq_arm.dir/all
 	$(MAKE) -f interface/vmcs_host/CMakeFiles/vchostif.dir/build.make interface/vmcs_host/CMakeFiles/vchostif.dir/depend
 	$(MAKE) -f interface/vmcs_host/CMakeFiles/vchostif.dir/build.make interface/vmcs_host/CMakeFiles/vchostif.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles  89 90 91 92
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles  90 91 92
 	@echo "Built target vchostif"
 .PHONY : interface/vmcs_host/CMakeFiles/vchostif.dir/all
 
@@ -175,7 +225,7 @@ all: interface/vmcs_host/CMakeFiles/vchostif.dir/all
 
 # Build rule for subdir invocation for target.
 interface/vmcs_host/CMakeFiles/vchostif.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 interface/vmcs_host/CMakeFiles/vchostif.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 0
 .PHONY : interface/vmcs_host/CMakeFiles/vchostif.dir/rule
@@ -214,7 +264,7 @@ all: interface/vmcs_host/CMakeFiles/vcilcs.dir/all
 
 # Build rule for subdir invocation for target.
 interface/vmcs_host/CMakeFiles/vcilcs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 44
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 41
 	$(MAKE) -f CMakeFiles/Makefile2 interface/vmcs_host/CMakeFiles/vcilcs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 0
 .PHONY : interface/vmcs_host/CMakeFiles/vcilcs.dir/rule
@@ -255,8 +305,8 @@ interface/vmcs_host/linux/vcfiled/preinstall:
 # Target rules for target interface/vmcs_host/linux/vcfiled/CMakeFiles/vcfiled.dir
 
 # All Build rule for target.
-interface/vmcs_host/linux/vcfiled/CMakeFiles/vcfiled.dir/all: interface/vcos/pthreads/CMakeFiles/vcos.dir/all
 interface/vmcs_host/linux/vcfiled/CMakeFiles/vcfiled.dir/all: interface/vmcs_host/CMakeFiles/vchostif.dir/all
+interface/vmcs_host/linux/vcfiled/CMakeFiles/vcfiled.dir/all: interface/vcos/pthreads/CMakeFiles/vcos.dir/all
 interface/vmcs_host/linux/vcfiled/CMakeFiles/vcfiled.dir/all: interface/vmcs_host/linux/vcfiled/CMakeFiles/vcfiled_check.dir/all
 interface/vmcs_host/linux/vcfiled/CMakeFiles/vcfiled.dir/all: interface/vchiq_arm/CMakeFiles/vchiq_arm.dir/all
 	$(MAKE) -f interface/vmcs_host/linux/vcfiled/CMakeFiles/vcfiled.dir/build.make interface/vmcs_host/linux/vcfiled/CMakeFiles/vcfiled.dir/depend
@@ -271,7 +321,7 @@ all: interface/vmcs_host/linux/vcfiled/CMakeFiles/vcfiled.dir/all
 
 # Build rule for subdir invocation for target.
 interface/vmcs_host/linux/vcfiled/CMakeFiles/vcfiled.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 interface/vmcs_host/linux/vcfiled/CMakeFiles/vcfiled.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 0
 .PHONY : interface/vmcs_host/linux/vcfiled/CMakeFiles/vcfiled.dir/rule
@@ -383,7 +433,7 @@ interface/vchiq_arm/preinstall:
 interface/vchiq_arm/CMakeFiles/vchiq_arm.dir/all: interface/vcos/pthreads/CMakeFiles/vcos.dir/all
 	$(MAKE) -f interface/vchiq_arm/CMakeFiles/vchiq_arm.dir/build.make interface/vchiq_arm/CMakeFiles/vchiq_arm.dir/depend
 	$(MAKE) -f interface/vchiq_arm/CMakeFiles/vchiq_arm.dir/build.make interface/vchiq_arm/CMakeFiles/vchiq_arm.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles  88
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles 
 	@echo "Built target vchiq_arm"
 .PHONY : interface/vchiq_arm/CMakeFiles/vchiq_arm.dir/all
 
@@ -393,7 +443,7 @@ all: interface/vchiq_arm/CMakeFiles/vchiq_arm.dir/all
 
 # Build rule for subdir invocation for target.
 interface/vchiq_arm/CMakeFiles/vchiq_arm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 interface/vchiq_arm/CMakeFiles/vchiq_arm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 0
 .PHONY : interface/vchiq_arm/CMakeFiles/vchiq_arm.dir/rule
@@ -419,7 +469,7 @@ interface/vchiq_arm/CMakeFiles/vchiq_test.dir/all: interface/vcos/pthreads/CMake
 interface/vchiq_arm/CMakeFiles/vchiq_test.dir/all: interface/vchiq_arm/CMakeFiles/vchiq_arm.dir/all
 	$(MAKE) -f interface/vchiq_arm/CMakeFiles/vchiq_test.dir/build.make interface/vchiq_arm/CMakeFiles/vchiq_test.dir/depend
 	$(MAKE) -f interface/vchiq_arm/CMakeFiles/vchiq_test.dir/build.make interface/vchiq_arm/CMakeFiles/vchiq_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles  89
 	@echo "Built target vchiq_test"
 .PHONY : interface/vchiq_arm/CMakeFiles/vchiq_test.dir/all
 
@@ -480,6 +530,7 @@ interface/khronos/preinstall:
 # Target rules for target interface/khronos/CMakeFiles/EGL.dir
 
 # All Build rule for target.
+interface/khronos/CMakeFiles/EGL.dir/all: gralloc/CMakeFiles/grlc.dir/all
 interface/khronos/CMakeFiles/EGL.dir/all: interface/vcos/pthreads/CMakeFiles/vcos.dir/all
 interface/khronos/CMakeFiles/EGL.dir/all: interface/vchiq_arm/CMakeFiles/vchiq_arm.dir/all
 interface/khronos/CMakeFiles/EGL.dir/all: host_applications/linux/libs/bcm_host/CMakeFiles/bcm_host.dir/all
@@ -495,7 +546,7 @@ all: interface/khronos/CMakeFiles/EGL.dir/all
 
 # Build rule for subdir invocation for target.
 interface/khronos/CMakeFiles/EGL.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 24
 	$(MAKE) -f CMakeFiles/Makefile2 interface/khronos/CMakeFiles/EGL.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 0
 .PHONY : interface/khronos/CMakeFiles/EGL.dir/rule
@@ -552,12 +603,13 @@ clean: interface/khronos/CMakeFiles/EGL_static.dir/clean
 # Target rules for target interface/khronos/CMakeFiles/GLESv2.dir
 
 # All Build rule for target.
+interface/khronos/CMakeFiles/GLESv2.dir/all: gralloc/CMakeFiles/grlc.dir/all
 interface/khronos/CMakeFiles/GLESv2.dir/all: interface/vcos/pthreads/CMakeFiles/vcos.dir/all
 interface/khronos/CMakeFiles/GLESv2.dir/all: interface/vchiq_arm/CMakeFiles/vchiq_arm.dir/all
 interface/khronos/CMakeFiles/GLESv2.dir/all: host_applications/linux/libs/bcm_host/CMakeFiles/bcm_host.dir/all
 	$(MAKE) -f interface/khronos/CMakeFiles/GLESv2.dir/build.make interface/khronos/CMakeFiles/GLESv2.dir/depend
 	$(MAKE) -f interface/khronos/CMakeFiles/GLESv2.dir/build.make interface/khronos/CMakeFiles/GLESv2.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles  29 30 31 32 33 34 35 36 37 38 39 40 41 42 43
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles  29 30 31 32 33 34 35 36 37 38 39 40 41 42
 	@echo "Built target GLESv2"
 .PHONY : interface/khronos/CMakeFiles/GLESv2.dir/all
 
@@ -567,7 +619,7 @@ all: interface/khronos/CMakeFiles/GLESv2.dir/all
 
 # Build rule for subdir invocation for target.
 interface/khronos/CMakeFiles/GLESv2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 24
 	$(MAKE) -f CMakeFiles/Makefile2 interface/khronos/CMakeFiles/GLESv2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 0
 .PHONY : interface/khronos/CMakeFiles/GLESv2.dir/rule
@@ -592,7 +644,7 @@ clean: interface/khronos/CMakeFiles/GLESv2.dir/clean
 interface/khronos/CMakeFiles/GLESv2_static.dir/all:
 	$(MAKE) -f interface/khronos/CMakeFiles/GLESv2_static.dir/build.make interface/khronos/CMakeFiles/GLESv2_static.dir/depend
 	$(MAKE) -f interface/khronos/CMakeFiles/GLESv2_static.dir/build.make interface/khronos/CMakeFiles/GLESv2_static.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles  44 45 46 47 48 49 50 51 52 53 54 55 56 57
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles  43 44 45 46 47 48 49 50 51 52 53 54 55 56
 	@echo "Built target GLESv2_static"
 .PHONY : interface/khronos/CMakeFiles/GLESv2_static.dir/all
 
@@ -627,7 +679,7 @@ clean: interface/khronos/CMakeFiles/GLESv2_static.dir/clean
 interface/khronos/CMakeFiles/OpenVG.dir/all: interface/khronos/CMakeFiles/EGL.dir/all
 	$(MAKE) -f interface/khronos/CMakeFiles/OpenVG.dir/build.make interface/khronos/CMakeFiles/OpenVG.dir/depend
 	$(MAKE) -f interface/khronos/CMakeFiles/OpenVG.dir/build.make interface/khronos/CMakeFiles/OpenVG.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles  58
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles  57
 	@echo "Built target OpenVG"
 .PHONY : interface/khronos/CMakeFiles/OpenVG.dir/all
 
@@ -637,7 +689,7 @@ all: interface/khronos/CMakeFiles/OpenVG.dir/all
 
 # Build rule for subdir invocation for target.
 interface/khronos/CMakeFiles/OpenVG.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 interface/khronos/CMakeFiles/OpenVG.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 0
 .PHONY : interface/khronos/CMakeFiles/OpenVG.dir/rule
@@ -662,7 +714,7 @@ clean: interface/khronos/CMakeFiles/OpenVG.dir/clean
 interface/khronos/CMakeFiles/WFC.dir/all: interface/khronos/CMakeFiles/EGL.dir/all
 	$(MAKE) -f interface/khronos/CMakeFiles/WFC.dir/build.make interface/khronos/CMakeFiles/WFC.dir/depend
 	$(MAKE) -f interface/khronos/CMakeFiles/WFC.dir/build.make interface/khronos/CMakeFiles/WFC.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles  59 60
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles  58 59
 	@echo "Built target WFC"
 .PHONY : interface/khronos/CMakeFiles/WFC.dir/all
 
@@ -672,7 +724,7 @@ all: interface/khronos/CMakeFiles/WFC.dir/all
 
 # Build rule for subdir invocation for target.
 interface/khronos/CMakeFiles/WFC.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 26
 	$(MAKE) -f CMakeFiles/Makefile2 interface/khronos/CMakeFiles/WFC.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 0
 .PHONY : interface/khronos/CMakeFiles/WFC.dir/rule
@@ -697,7 +749,7 @@ clean: interface/khronos/CMakeFiles/WFC.dir/clean
 interface/khronos/CMakeFiles/khrn_client.dir/all:
 	$(MAKE) -f interface/khronos/CMakeFiles/khrn_client.dir/build.make interface/khronos/CMakeFiles/khrn_client.dir/depend
 	$(MAKE) -f interface/khronos/CMakeFiles/khrn_client.dir/build.make interface/khronos/CMakeFiles/khrn_client.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles  62 63
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles  61 62
 	@echo "Built target khrn_client"
 .PHONY : interface/khronos/CMakeFiles/khrn_client.dir/all
 
@@ -732,7 +784,7 @@ clean: interface/khronos/CMakeFiles/khrn_client.dir/clean
 interface/khronos/CMakeFiles/khrn_static.dir/all:
 	$(MAKE) -f interface/khronos/CMakeFiles/khrn_static.dir/build.make interface/khronos/CMakeFiles/khrn_static.dir/depend
 	$(MAKE) -f interface/khronos/CMakeFiles/khrn_static.dir/build.make interface/khronos/CMakeFiles/khrn_static.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles  64 65 66 67 68 69 70 71 72 73 74 75 76 77
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles  63 64 65 66 67 68 69 70 71 72 73 74 75 76
 	@echo "Built target khrn_static"
 .PHONY : interface/khronos/CMakeFiles/khrn_static.dir/all
 
@@ -792,7 +844,7 @@ interface/mmal/CMakeFiles/mmal.dir/all: interface/mmal/util/CMakeFiles/mmal_util
 interface/mmal/CMakeFiles/mmal.dir/all: interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/all
 	$(MAKE) -f interface/mmal/CMakeFiles/mmal.dir/build.make interface/mmal/CMakeFiles/mmal.dir/depend
 	$(MAKE) -f interface/mmal/CMakeFiles/mmal.dir/build.make interface/mmal/CMakeFiles/mmal.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles  78
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles 
 	@echo "Built target mmal"
 .PHONY : interface/mmal/CMakeFiles/mmal.dir/all
 
@@ -802,7 +854,7 @@ all: interface/mmal/CMakeFiles/mmal.dir/all
 
 # Build rule for subdir invocation for target.
 interface/mmal/CMakeFiles/mmal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 interface/mmal/CMakeFiles/mmal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 0
 .PHONY : interface/mmal/CMakeFiles/mmal.dir/rule
@@ -842,7 +894,7 @@ interface/mmal/core/preinstall:
 interface/mmal/core/CMakeFiles/mmal_core.dir/all: interface/vcos/pthreads/CMakeFiles/vcos.dir/all
 	$(MAKE) -f interface/mmal/core/CMakeFiles/mmal_core.dir/build.make interface/mmal/core/CMakeFiles/mmal_core.dir/depend
 	$(MAKE) -f interface/mmal/core/CMakeFiles/mmal_core.dir/build.make interface/mmal/core/CMakeFiles/mmal_core.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles  79 80 81
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles  77 78 79 80
 	@echo "Built target mmal_core"
 .PHONY : interface/mmal/core/CMakeFiles/mmal_core.dir/all
 
@@ -852,7 +904,7 @@ all: interface/mmal/core/CMakeFiles/mmal_core.dir/all
 
 # Build rule for subdir invocation for target.
 interface/mmal/core/CMakeFiles/mmal_core.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 interface/mmal/core/CMakeFiles/mmal_core.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 0
 .PHONY : interface/mmal/core/CMakeFiles/mmal_core.dir/rule
@@ -892,7 +944,7 @@ interface/mmal/util/preinstall:
 interface/mmal/util/CMakeFiles/mmal_util.dir/all: interface/vcos/pthreads/CMakeFiles/vcos.dir/all
 	$(MAKE) -f interface/mmal/util/CMakeFiles/mmal_util.dir/build.make interface/mmal/util/CMakeFiles/mmal_util.dir/depend
 	$(MAKE) -f interface/mmal/util/CMakeFiles/mmal_util.dir/build.make interface/mmal/util/CMakeFiles/mmal_util.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles  82 83 84
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles  81 82 83 84
 	@echo "Built target mmal_util"
 .PHONY : interface/mmal/util/CMakeFiles/mmal_util.dir/all
 
@@ -902,7 +954,7 @@ all: interface/mmal/util/CMakeFiles/mmal_util.dir/all
 
 # Build rule for subdir invocation for target.
 interface/mmal/util/CMakeFiles/mmal_util.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 interface/mmal/util/CMakeFiles/mmal_util.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 0
 .PHONY : interface/mmal/util/CMakeFiles/mmal_util.dir/rule
@@ -943,7 +995,7 @@ interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/all: interface/vcos/pthreads/CMa
 interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/all: interface/vchiq_arm/CMakeFiles/vchiq_arm.dir/all
 	$(MAKE) -f interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/build.make interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/depend
 	$(MAKE) -f interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/build.make interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles  85
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles  85 86
 	@echo "Built target mmal_vc_client"
 .PHONY : interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/all
 
@@ -1076,11 +1128,11 @@ host_applications/linux/libs/bcm_host/preinstall:
 # Target rules for target host_applications/linux/libs/bcm_host/CMakeFiles/bcm_host.dir
 
 # All Build rule for target.
-host_applications/linux/libs/bcm_host/CMakeFiles/bcm_host.dir/all: interface/vcos/pthreads/CMakeFiles/vcos.dir/all
 host_applications/linux/libs/bcm_host/CMakeFiles/bcm_host.dir/all: interface/vmcs_host/CMakeFiles/vchostif.dir/all
+host_applications/linux/libs/bcm_host/CMakeFiles/bcm_host.dir/all: interface/vcos/pthreads/CMakeFiles/vcos.dir/all
 	$(MAKE) -f host_applications/linux/libs/bcm_host/CMakeFiles/bcm_host.dir/build.make host_applications/linux/libs/bcm_host/CMakeFiles/bcm_host.dir/depend
 	$(MAKE) -f host_applications/linux/libs/bcm_host/CMakeFiles/bcm_host.dir/build.make host_applications/linux/libs/bcm_host/CMakeFiles/bcm_host.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles  61
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles  60
 	@echo "Built target bcm_host"
 .PHONY : host_applications/linux/libs/bcm_host/CMakeFiles/bcm_host.dir/all
 
@@ -1090,7 +1142,7 @@ all: host_applications/linux/libs/bcm_host/CMakeFiles/bcm_host.dir/all
 
 # Build rule for subdir invocation for target.
 host_applications/linux/libs/bcm_host/CMakeFiles/bcm_host.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 host_applications/linux/libs/bcm_host/CMakeFiles/bcm_host.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 0
 .PHONY : host_applications/linux/libs/bcm_host/CMakeFiles/bcm_host.dir/rule
@@ -1127,12 +1179,12 @@ host_applications/linux/apps/gencmd/preinstall:
 # Target rules for target host_applications/linux/apps/gencmd/CMakeFiles/vcgencmd.dir
 
 # All Build rule for target.
-host_applications/linux/apps/gencmd/CMakeFiles/vcgencmd.dir/all: interface/vcos/pthreads/CMakeFiles/vcos.dir/all
 host_applications/linux/apps/gencmd/CMakeFiles/vcgencmd.dir/all: interface/vmcs_host/CMakeFiles/vchostif.dir/all
+host_applications/linux/apps/gencmd/CMakeFiles/vcgencmd.dir/all: interface/vcos/pthreads/CMakeFiles/vcos.dir/all
 host_applications/linux/apps/gencmd/CMakeFiles/vcgencmd.dir/all: interface/vchiq_arm/CMakeFiles/vchiq_arm.dir/all
 	$(MAKE) -f host_applications/linux/apps/gencmd/CMakeFiles/vcgencmd.dir/build.make host_applications/linux/apps/gencmd/CMakeFiles/vcgencmd.dir/depend
 	$(MAKE) -f host_applications/linux/apps/gencmd/CMakeFiles/vcgencmd.dir/build.make host_applications/linux/apps/gencmd/CMakeFiles/vcgencmd.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles  88
 	@echo "Built target vcgencmd"
 .PHONY : host_applications/linux/apps/gencmd/CMakeFiles/vcgencmd.dir/all
 
@@ -1142,7 +1194,7 @@ all: host_applications/linux/apps/gencmd/CMakeFiles/vcgencmd.dir/all
 
 # Build rule for subdir invocation for target.
 host_applications/linux/apps/gencmd/CMakeFiles/vcgencmd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 host_applications/linux/apps/gencmd/CMakeFiles/vcgencmd.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 0
 .PHONY : host_applications/linux/apps/gencmd/CMakeFiles/vcgencmd.dir/rule
@@ -1182,7 +1234,7 @@ host_applications/linux/apps/tvservice/preinstall:
 host_applications/linux/apps/tvservice/CMakeFiles/tvservice.dir/all: interface/vmcs_host/CMakeFiles/vchostif.dir/all
 	$(MAKE) -f host_applications/linux/apps/tvservice/CMakeFiles/tvservice.dir/build.make host_applications/linux/apps/tvservice/CMakeFiles/tvservice.dir/depend
 	$(MAKE) -f host_applications/linux/apps/tvservice/CMakeFiles/tvservice.dir/build.make host_applications/linux/apps/tvservice/CMakeFiles/tvservice.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles  86
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles 
 	@echo "Built target tvservice"
 .PHONY : host_applications/linux/apps/tvservice/CMakeFiles/tvservice.dir/all
 
@@ -1192,7 +1244,7 @@ all: host_applications/linux/apps/tvservice/CMakeFiles/tvservice.dir/all
 
 # Build rule for subdir invocation for target.
 host_applications/linux/apps/tvservice/CMakeFiles/tvservice.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 host_applications/linux/apps/tvservice/CMakeFiles/tvservice.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/userland/build/arm-android/release/CMakeFiles 0
 .PHONY : host_applications/linux/apps/tvservice/CMakeFiles/tvservice.dir/rule

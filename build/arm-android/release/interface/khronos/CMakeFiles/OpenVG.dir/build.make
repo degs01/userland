@@ -110,6 +110,7 @@ OpenVG_EXTERNAL_OBJECTS =
 ../../lib/libOpenVG.so: interface/khronos/CMakeFiles/OpenVG.dir/vg/vg_int_mat3x3.c.o
 ../../lib/libOpenVG.so: interface/khronos/CMakeFiles/OpenVG.dir/build.make
 ../../lib/libOpenVG.so: ../../lib/libEGL.so
+../../lib/libOpenVG.so: ../../lib/libgrlc.so
 ../../lib/libOpenVG.so: ../../lib/libbcm_host.so
 ../../lib/libOpenVG.so: ../../lib/libvchostif.a
 ../../lib/libOpenVG.so: ../../lib/libvchiq_arm.so

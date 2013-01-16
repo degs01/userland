@@ -200,6 +200,30 @@ mmal_buffer.c.s:
 	cd /home/viktor/userland/build/arm-android/release && $(MAKE) -f interface/mmal/core/CMakeFiles/mmal_core.dir/build.make interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_buffer.c.s
 .PHONY : mmal_buffer.c.s
 
+mmal_clock.o: mmal_clock.c.o
+.PHONY : mmal_clock.o
+
+# target to build an object file
+mmal_clock.c.o:
+	cd /home/viktor/userland/build/arm-android/release && $(MAKE) -f interface/mmal/core/CMakeFiles/mmal_core.dir/build.make interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_clock.c.o
+.PHONY : mmal_clock.c.o
+
+mmal_clock.i: mmal_clock.c.i
+.PHONY : mmal_clock.i
+
+# target to preprocess a source file
+mmal_clock.c.i:
+	cd /home/viktor/userland/build/arm-android/release && $(MAKE) -f interface/mmal/core/CMakeFiles/mmal_core.dir/build.make interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_clock.c.i
+.PHONY : mmal_clock.c.i
+
+mmal_clock.s: mmal_clock.c.s
+.PHONY : mmal_clock.s
+
+# target to generate assembly for a file
+mmal_clock.c.s:
+	cd /home/viktor/userland/build/arm-android/release && $(MAKE) -f interface/mmal/core/CMakeFiles/mmal_core.dir/build.make interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_clock.c.s
+.PHONY : mmal_clock.c.s
+
 mmal_component.o: mmal_component.c.o
 .PHONY : mmal_component.o
 
@@ -344,6 +368,30 @@ mmal_port.c.s:
 	cd /home/viktor/userland/build/arm-android/release && $(MAKE) -f interface/mmal/core/CMakeFiles/mmal_core.dir/build.make interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_port.c.s
 .PHONY : mmal_port.c.s
 
+mmal_port_clock.o: mmal_port_clock.c.o
+.PHONY : mmal_port_clock.o
+
+# target to build an object file
+mmal_port_clock.c.o:
+	cd /home/viktor/userland/build/arm-android/release && $(MAKE) -f interface/mmal/core/CMakeFiles/mmal_core.dir/build.make interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_port_clock.c.o
+.PHONY : mmal_port_clock.c.o
+
+mmal_port_clock.i: mmal_port_clock.c.i
+.PHONY : mmal_port_clock.i
+
+# target to preprocess a source file
+mmal_port_clock.c.i:
+	cd /home/viktor/userland/build/arm-android/release && $(MAKE) -f interface/mmal/core/CMakeFiles/mmal_core.dir/build.make interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_port_clock.c.i
+.PHONY : mmal_port_clock.c.i
+
+mmal_port_clock.s: mmal_port_clock.c.s
+.PHONY : mmal_port_clock.s
+
+# target to generate assembly for a file
+mmal_port_clock.c.s:
+	cd /home/viktor/userland/build/arm-android/release && $(MAKE) -f interface/mmal/core/CMakeFiles/mmal_core.dir/build.make interface/mmal/core/CMakeFiles/mmal_core.dir/mmal_port_clock.c.s
+.PHONY : mmal_port_clock.c.s
+
 mmal_queue.o: mmal_queue.c.o
 .PHONY : mmal_queue.o
 
@@ -386,6 +434,9 @@ help:
 	@echo "... mmal_buffer.o"
 	@echo "... mmal_buffer.i"
 	@echo "... mmal_buffer.s"
+	@echo "... mmal_clock.o"
+	@echo "... mmal_clock.i"
+	@echo "... mmal_clock.s"
 	@echo "... mmal_component.o"
 	@echo "... mmal_component.i"
 	@echo "... mmal_component.s"
@@ -404,6 +455,9 @@ help:
 	@echo "... mmal_port.o"
 	@echo "... mmal_port.i"
 	@echo "... mmal_port.s"
+	@echo "... mmal_port_clock.o"
+	@echo "... mmal_port_clock.i"
+	@echo "... mmal_port_clock.s"
 	@echo "... mmal_queue.o"
 	@echo "... mmal_queue.i"
 	@echo "... mmal_queue.s"

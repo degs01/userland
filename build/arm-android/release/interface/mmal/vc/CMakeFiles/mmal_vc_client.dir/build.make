@@ -167,13 +167,37 @@ interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_msgnames.c.o.provides: i
 
 interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_msgnames.c.o.provides.build: interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_msgnames.c.o
 
+interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_api_drm.c.o: interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/flags.make
+interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_api_drm.c.o: ../../../interface/mmal/vc/mmal_vc_api_drm.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_api_drm.c.o"
+	cd /home/viktor/userland/build/arm-android/release/interface/mmal/vc && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mmal_vc_client.dir/mmal_vc_api_drm.c.o   -c /home/viktor/userland/interface/mmal/vc/mmal_vc_api_drm.c
+
+interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_api_drm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mmal_vc_client.dir/mmal_vc_api_drm.c.i"
+	cd /home/viktor/userland/build/arm-android/release/interface/mmal/vc && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -E /home/viktor/userland/interface/mmal/vc/mmal_vc_api_drm.c > CMakeFiles/mmal_vc_client.dir/mmal_vc_api_drm.c.i
+
+interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_api_drm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mmal_vc_client.dir/mmal_vc_api_drm.c.s"
+	cd /home/viktor/userland/build/arm-android/release/interface/mmal/vc && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -S /home/viktor/userland/interface/mmal/vc/mmal_vc_api_drm.c -o CMakeFiles/mmal_vc_client.dir/mmal_vc_api_drm.c.s
+
+interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_api_drm.c.o.requires:
+.PHONY : interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_api_drm.c.o.requires
+
+interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_api_drm.c.o.provides: interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_api_drm.c.o.requires
+	$(MAKE) -f interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/build.make interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_api_drm.c.o.provides.build
+.PHONY : interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_api_drm.c.o.provides
+
+interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_api_drm.c.o.provides.build: interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_api_drm.c.o
+
 # Object files for target mmal_vc_client
 mmal_vc_client_OBJECTS = \
 "CMakeFiles/mmal_vc_client.dir/mmal_vc_client.c.o" \
 "CMakeFiles/mmal_vc_client.dir/mmal_vc_shm.c.o" \
 "CMakeFiles/mmal_vc_client.dir/mmal_vc_api.c.o" \
 "CMakeFiles/mmal_vc_client.dir/mmal_vc_opaque_alloc.c.o" \
-"CMakeFiles/mmal_vc_client.dir/mmal_vc_msgnames.c.o"
+"CMakeFiles/mmal_vc_client.dir/mmal_vc_msgnames.c.o" \
+"CMakeFiles/mmal_vc_client.dir/mmal_vc_api_drm.c.o"
 
 # External object files for target mmal_vc_client
 mmal_vc_client_EXTERNAL_OBJECTS =
@@ -183,6 +207,7 @@ mmal_vc_client_EXTERNAL_OBJECTS =
 ../../lib/libmmal_vc_client.so: interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_api.c.o
 ../../lib/libmmal_vc_client.so: interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_opaque_alloc.c.o
 ../../lib/libmmal_vc_client.so: interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_msgnames.c.o
+../../lib/libmmal_vc_client.so: interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_api_drm.c.o
 ../../lib/libmmal_vc_client.so: interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/build.make
 ../../lib/libmmal_vc_client.so: ../../lib/libvchiq_arm.so
 ../../lib/libmmal_vc_client.so: ../../lib/libvcos.so
@@ -199,6 +224,7 @@ interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/requires: interface/mmal/vc/CMak
 interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/requires: interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_api.c.o.requires
 interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/requires: interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_opaque_alloc.c.o.requires
 interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/requires: interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_msgnames.c.o.requires
+interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/requires: interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_api_drm.c.o.requires
 .PHONY : interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/requires
 
 interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/clean:

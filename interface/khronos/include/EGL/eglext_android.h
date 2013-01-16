@@ -64,7 +64,7 @@ typedef enum
 ** long as it satisfies Android expectations).
 */
 #ifndef EGL_ANDROID_swap_rectangle
-#define EGL_ANDROID_swap_rectangle 1
+#define EGL_ANDROID_swap_rectangle 0
 #endif
 
 #if EGL_ANDROID_swap_rectangle
@@ -76,7 +76,7 @@ typedef EGLBoolean (EGLAPIENTRYP PFNEGLSETSWAPRECTANGLEANDROIDPROC) (EGLDisplay 
 
 
 #ifndef EGL_ANDROID_render_buffer
-#define EGL_ANDROID_render_buffer 1
+#define EGL_ANDROID_render_buffer 0
 #endif
 
 #if EGL_ANDROID_render_buffer

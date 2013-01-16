@@ -4,6 +4,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/mmal_vc_client.dir/mmal_vc_api.c.o"
   "CMakeFiles/mmal_vc_client.dir/mmal_vc_opaque_alloc.c.o"
   "CMakeFiles/mmal_vc_client.dir/mmal_vc_msgnames.c.o"
+  "CMakeFiles/mmal_vc_client.dir/mmal_vc_api_drm.c.o"
   "../../../../../lib/libmmal_vc_client.pdb"
   "../../../../../lib/libmmal_vc_client.so"
 )

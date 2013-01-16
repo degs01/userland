@@ -200,6 +200,30 @@ mmal_vc_api.c.s:
 	cd /home/viktor/userland/build/arm-android/release && $(MAKE) -f interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/build.make interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_api.c.s
 .PHONY : mmal_vc_api.c.s
 
+mmal_vc_api_drm.o: mmal_vc_api_drm.c.o
+.PHONY : mmal_vc_api_drm.o
+
+# target to build an object file
+mmal_vc_api_drm.c.o:
+	cd /home/viktor/userland/build/arm-android/release && $(MAKE) -f interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/build.make interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_api_drm.c.o
+.PHONY : mmal_vc_api_drm.c.o
+
+mmal_vc_api_drm.i: mmal_vc_api_drm.c.i
+.PHONY : mmal_vc_api_drm.i
+
+# target to preprocess a source file
+mmal_vc_api_drm.c.i:
+	cd /home/viktor/userland/build/arm-android/release && $(MAKE) -f interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/build.make interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_api_drm.c.i
+.PHONY : mmal_vc_api_drm.c.i
+
+mmal_vc_api_drm.s: mmal_vc_api_drm.c.s
+.PHONY : mmal_vc_api_drm.s
+
+# target to generate assembly for a file
+mmal_vc_api_drm.c.s:
+	cd /home/viktor/userland/build/arm-android/release && $(MAKE) -f interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/build.make interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_api_drm.c.s
+.PHONY : mmal_vc_api_drm.c.s
+
 mmal_vc_client.o: mmal_vc_client.c.o
 .PHONY : mmal_vc_client.o
 
@@ -314,6 +338,9 @@ help:
 	@echo "... mmal_vc_api.o"
 	@echo "... mmal_vc_api.i"
 	@echo "... mmal_vc_api.s"
+	@echo "... mmal_vc_api_drm.o"
+	@echo "... mmal_vc_api_drm.i"
+	@echo "... mmal_vc_api_drm.s"
 	@echo "... mmal_vc_client.o"
 	@echo "... mmal_vc_client.i"
 	@echo "... mmal_vc_client.s"

@@ -615,8 +615,8 @@ EGLAPI EGLSurface EGLAPIENTRY eglCreateWindowSurface(EGLDisplay dpy, EGLConfig c
             /*platform_get_dimensions(dpy,
                   win, &width, &height, &swapchain_count);*/
                   
-            width=1920;
-			height=1200;
+            width=640;
+			height=480;
 
             if (swapchain_count > 0)
                num_buffers = swapchain_count;

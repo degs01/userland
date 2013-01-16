@@ -6,6 +6,7 @@ interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_cache.c.o
  ../../../helpers/vc_image/metadata_fourcc.h
  ../../../helpers/vc_image/vc_image.h
  ../../../helpers/vc_image/vc_image_metadata.h
+ ../../../host_support/include/vc_debug_sym.h
  ../../../include/android/native_window.h
  ../../../include/android/rect.h
  ../../../include/hardware/gralloc.h
@@ -64,7 +65,6 @@ interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_cache.c.o
  ../../../interface/khronos/vg/vg_int_impl.h
  ../../../interface/khronos/vg/vg_int_mat3x3.h
  ../../../interface/khronos/wf/wfc_int.h
- ../../../interface/khronos/wf/wfc_server_api.h
  ../../../interface/vchi/connections/connection.h
  ../../../interface/vchi/message_drivers/message.h
  ../../../interface/vchi/vchi.h
@@ -103,6 +103,7 @@ interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_cache.c.o
  ../../../interface/vchiq_arm/vcos_timer.h
  ../../../interface/vchiq_arm/vcos_tls.h
  ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+ ../../../interface/vcos/user_nodefs.h
  ../../../interface/vcos/vcos_cfg.h
  ../../../interface/vcos/vcos_stdbool.h
  ../../../interface/vctypes/vc_display_types.h
@@ -263,6 +264,7 @@ interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_pointermap.c.o
  ../../../interface/vchi/vchi_common.h
  ../../../interface/vchi/vchi_mh.h
  ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+ ../../../interface/vcos/user_nodefs.h
  ../../../interface/vcos/vcos_cfg.h
  ../../../interface/vcos/vcos_stdbool.h
  ../../../interface/vctypes/vc_display_types.h
@@ -403,6 +405,7 @@ interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_vector.c.o
  ../../../interface/vchi/vchi_common.h
  ../../../interface/vchi/vchi_mh.h
  ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+ ../../../interface/vcos/user_nodefs.h
  ../../../interface/vcos/vcos_cfg.h
  ../../../interface/vcos/vcos_stdbool.h
  ../../../interface/vctypes/vc_display_types.h
@@ -508,6 +511,7 @@ interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_int_hash.c.o
  ../../../helpers/v3d/v3d_ver.h
  ../../../interface/khronos/common/khrn_int_common.h
  ../../../interface/khronos/common/khrn_int_hash.h
+ ../../../interface/vcos/user_nodefs.h
  ../../../interface/vcos/vcos_stdbool.h
  ../../inc/interface/vcos/vcos_assert.h
  ../../inc/interface/vcos/vcos_inttypes.h

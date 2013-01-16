@@ -5,6 +5,7 @@ interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_cache.c.o: ../..
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_cache.c.o: ../../../helpers/vc_image/metadata_fourcc.h
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_cache.c.o: ../../../helpers/vc_image/vc_image.h
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_cache.c.o: ../../../helpers/vc_image/vc_image_metadata.h
+interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_cache.c.o: ../../../host_support/include/vc_debug_sym.h
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_cache.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_cache.c.o: ../../../include/android/rect.h
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_cache.c.o: ../../../include/hardware/gralloc.h
@@ -63,7 +64,6 @@ interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_cache.c.o: ../..
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_cache.c.o: ../../../interface/khronos/vg/vg_int_impl.h
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_cache.c.o: ../../../interface/khronos/vg/vg_int_mat3x3.h
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_cache.c.o: ../../../interface/khronos/wf/wfc_int.h
-interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_cache.c.o: ../../../interface/khronos/wf/wfc_server_api.h
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_cache.c.o: ../../../interface/vchi/connections/connection.h
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_cache.c.o: ../../../interface/vchi/message_drivers/message.h
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_cache.c.o: ../../../interface/vchi/vchi.h
@@ -102,6 +102,7 @@ interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_cache.c.o: ../..
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_cache.c.o: ../../../interface/vchiq_arm/vcos_timer.h
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_cache.c.o: ../../../interface/vchiq_arm/vcos_tls.h
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_cache.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_cache.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_cache.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_cache.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_cache.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -262,6 +263,7 @@ interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_pointermap.c.o: 
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_pointermap.c.o: ../../../interface/vchi/vchi_common.h
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_pointermap.c.o: ../../../interface/vchi/vchi_mh.h
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_pointermap.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_pointermap.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_pointermap.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_pointermap.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_pointermap.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -402,6 +404,7 @@ interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_vector.c.o: ../.
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_vector.c.o: ../../../interface/vchi/vchi_common.h
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_vector.c.o: ../../../interface/vchi/vchi_mh.h
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_vector.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_vector.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_vector.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_vector.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_vector.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -507,6 +510,7 @@ interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_client_vector.c.o: ../.
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_int_hash.c.o: ../../../helpers/v3d/v3d_ver.h
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_int_hash.c.o: ../../../interface/khronos/common/khrn_int_common.h
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_int_hash.c.o: ../../../interface/khronos/common/khrn_int_hash.h
+interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_int_hash.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_int_hash.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_int_hash.c.o: ../../inc/interface/vcos/vcos_assert.h
 interface/khronos/CMakeFiles/khrn_client.dir/common/khrn_int_hash.c.o: ../../inc/interface/vcos/vcos_inttypes.h

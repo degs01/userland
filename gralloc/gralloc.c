@@ -72,7 +72,7 @@ uint32_t gralloc_private_handle_get_egl_image(gralloc_private_handle_t *b){
 
 static int get_size_pf(android_native_buffer_t * buffer){
 	int szPf = 0;
-	switch (((android_native_buffer_t *)handle->buffer)->format)
+	switch (buffer->format)
 		{
 		  case PIXEL_FORMAT_RGBA_8888:	szPf = 4; break;
 		  case PIXEL_FORMAT_BGRA_8888:	szPf = 4; break;

@@ -5,6 +5,7 @@
 /home/viktor/userland/build/arm-android/release/interface/khronos/CMakeFiles/OpenVG.dir
 /home/viktor/userland/build/arm-android/release/interface/khronos/CMakeFiles/WFC.dir
 /home/viktor/userland/build/arm-android/release/host_applications/linux/libs/bcm_host/CMakeFiles/bcm_host.dir
+/home/viktor/userland/build/arm-android/release/gralloc/CMakeFiles/grlc.dir
 /home/viktor/userland/build/arm-android/release/interface/khronos/CMakeFiles/khrn_client.dir
 /home/viktor/userland/build/arm-android/release/interface/khronos/CMakeFiles/khrn_static.dir
 /home/viktor/userland/build/arm-android/release/interface/mmal/CMakeFiles/mmal.dir

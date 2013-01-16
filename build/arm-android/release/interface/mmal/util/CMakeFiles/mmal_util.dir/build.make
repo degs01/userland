@@ -144,9 +144,32 @@ interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_graph.c.o.provides: interface/
 
 interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_graph.c.o.provides.build: interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_graph.c.o
 
+interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_list.c.o: interface/mmal/util/CMakeFiles/mmal_util.dir/flags.make
+interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_list.c.o: ../../../interface/mmal/util/mmal_list.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_list.c.o"
+	cd /home/viktor/userland/build/arm-android/release/interface/mmal/util && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mmal_util.dir/mmal_list.c.o   -c /home/viktor/userland/interface/mmal/util/mmal_list.c
+
+interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mmal_util.dir/mmal_list.c.i"
+	cd /home/viktor/userland/build/arm-android/release/interface/mmal/util && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -E /home/viktor/userland/interface/mmal/util/mmal_list.c > CMakeFiles/mmal_util.dir/mmal_list.c.i
+
+interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mmal_util.dir/mmal_list.c.s"
+	cd /home/viktor/userland/build/arm-android/release/interface/mmal/util && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -S /home/viktor/userland/interface/mmal/util/mmal_list.c -o CMakeFiles/mmal_util.dir/mmal_list.c.s
+
+interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_list.c.o.requires:
+.PHONY : interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_list.c.o.requires
+
+interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_list.c.o.provides: interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_list.c.o.requires
+	$(MAKE) -f interface/mmal/util/CMakeFiles/mmal_util.dir/build.make interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_list.c.o.provides.build
+.PHONY : interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_list.c.o.provides
+
+interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_list.c.o.provides.build: interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_list.c.o
+
 interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_param_convert.c.o: interface/mmal/util/CMakeFiles/mmal_util.dir/flags.make
 interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_param_convert.c.o: ../../../interface/mmal/util/mmal_param_convert.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_param_convert.c.o"
 	cd /home/viktor/userland/build/arm-android/release/interface/mmal/util && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mmal_util.dir/mmal_param_convert.c.o   -c /home/viktor/userland/interface/mmal/util/mmal_param_convert.c
 
@@ -169,7 +192,7 @@ interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_param_convert.c.o.provides.bui
 
 interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_util_params.c.o: interface/mmal/util/CMakeFiles/mmal_util.dir/flags.make
 interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_util_params.c.o: ../../../interface/mmal/util/mmal_util_params.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_util_params.c.o"
 	cd /home/viktor/userland/build/arm-android/release/interface/mmal/util && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mmal_util.dir/mmal_util_params.c.o   -c /home/viktor/userland/interface/mmal/util/mmal_util_params.c
 
@@ -192,7 +215,7 @@ interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_util_params.c.o.provides.build
 
 interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_component_wrapper.c.o: interface/mmal/util/CMakeFiles/mmal_util.dir/flags.make
 interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_component_wrapper.c.o: ../../../interface/mmal/util/mmal_component_wrapper.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_component_wrapper.c.o"
 	cd /home/viktor/userland/build/arm-android/release/interface/mmal/util && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mmal_util.dir/mmal_component_wrapper.c.o   -c /home/viktor/userland/interface/mmal/util/mmal_component_wrapper.c
 
@@ -213,15 +236,40 @@ interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_component_wrapper.c.o.provides
 
 interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_component_wrapper.c.o.provides.build: interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_component_wrapper.c.o
 
+interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_util_rational.c.o: interface/mmal/util/CMakeFiles/mmal_util.dir/flags.make
+interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_util_rational.c.o: ../../../interface/mmal/util/mmal_util_rational.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viktor/userland/build/arm-android/release/CMakeFiles $(CMAKE_PROGRESS_9)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_util_rational.c.o"
+	cd /home/viktor/userland/build/arm-android/release/interface/mmal/util && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mmal_util.dir/mmal_util_rational.c.o   -c /home/viktor/userland/interface/mmal/util/mmal_util_rational.c
+
+interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_util_rational.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mmal_util.dir/mmal_util_rational.c.i"
+	cd /home/viktor/userland/build/arm-android/release/interface/mmal/util && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -E /home/viktor/userland/interface/mmal/util/mmal_util_rational.c > CMakeFiles/mmal_util.dir/mmal_util_rational.c.i
+
+interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_util_rational.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mmal_util.dir/mmal_util_rational.c.s"
+	cd /home/viktor/userland/build/arm-android/release/interface/mmal/util && /home/viktor/arm-linux-androideabi-4.6.3/bin/arm-linux-androideabi-gcc  $(C_DEFINES) $(C_FLAGS) -S /home/viktor/userland/interface/mmal/util/mmal_util_rational.c -o CMakeFiles/mmal_util.dir/mmal_util_rational.c.s
+
+interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_util_rational.c.o.requires:
+.PHONY : interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_util_rational.c.o.requires
+
+interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_util_rational.c.o.provides: interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_util_rational.c.o.requires
+	$(MAKE) -f interface/mmal/util/CMakeFiles/mmal_util.dir/build.make interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_util_rational.c.o.provides.build
+.PHONY : interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_util_rational.c.o.provides
+
+interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_util_rational.c.o.provides.build: interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_util_rational.c.o
+
 # Object files for target mmal_util
 mmal_util_OBJECTS = \
 "CMakeFiles/mmal_util.dir/mmal_il.c.o" \
 "CMakeFiles/mmal_util.dir/mmal_util.c.o" \
 "CMakeFiles/mmal_util.dir/mmal_connection.c.o" \
 "CMakeFiles/mmal_util.dir/mmal_graph.c.o" \
+"CMakeFiles/mmal_util.dir/mmal_list.c.o" \
 "CMakeFiles/mmal_util.dir/mmal_param_convert.c.o" \
 "CMakeFiles/mmal_util.dir/mmal_util_params.c.o" \
-"CMakeFiles/mmal_util.dir/mmal_component_wrapper.c.o"
+"CMakeFiles/mmal_util.dir/mmal_component_wrapper.c.o" \
+"CMakeFiles/mmal_util.dir/mmal_util_rational.c.o"
 
 # External object files for target mmal_util
 mmal_util_EXTERNAL_OBJECTS =
@@ -230,9 +278,11 @@ mmal_util_EXTERNAL_OBJECTS =
 ../../lib/libmmal_util.a: interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_util.c.o
 ../../lib/libmmal_util.a: interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_connection.c.o
 ../../lib/libmmal_util.a: interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_graph.c.o
+../../lib/libmmal_util.a: interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_list.c.o
 ../../lib/libmmal_util.a: interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_param_convert.c.o
 ../../lib/libmmal_util.a: interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_util_params.c.o
 ../../lib/libmmal_util.a: interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_component_wrapper.c.o
+../../lib/libmmal_util.a: interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_util_rational.c.o
 ../../lib/libmmal_util.a: interface/mmal/util/CMakeFiles/mmal_util.dir/build.make
 ../../lib/libmmal_util.a: interface/mmal/util/CMakeFiles/mmal_util.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C static library ../../../../../lib/libmmal_util.a"
@@ -247,9 +297,11 @@ interface/mmal/util/CMakeFiles/mmal_util.dir/requires: interface/mmal/util/CMake
 interface/mmal/util/CMakeFiles/mmal_util.dir/requires: interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_util.c.o.requires
 interface/mmal/util/CMakeFiles/mmal_util.dir/requires: interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_connection.c.o.requires
 interface/mmal/util/CMakeFiles/mmal_util.dir/requires: interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_graph.c.o.requires
+interface/mmal/util/CMakeFiles/mmal_util.dir/requires: interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_list.c.o.requires
 interface/mmal/util/CMakeFiles/mmal_util.dir/requires: interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_param_convert.c.o.requires
 interface/mmal/util/CMakeFiles/mmal_util.dir/requires: interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_util_params.c.o.requires
 interface/mmal/util/CMakeFiles/mmal_util.dir/requires: interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_component_wrapper.c.o.requires
+interface/mmal/util/CMakeFiles/mmal_util.dir/requires: interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_util_rational.c.o.requires
 .PHONY : interface/mmal/util/CMakeFiles/mmal_util.dir/requires
 
 interface/mmal/util/CMakeFiles/mmal_util.dir/clean:

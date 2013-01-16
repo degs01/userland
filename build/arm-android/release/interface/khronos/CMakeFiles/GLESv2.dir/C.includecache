@@ -34,26 +34,6 @@ include/android/rect.h
 
 ../../../include/android/rect.h
 
-../../../include/gralloc/gralloc_priv.h
-/home/viktor/userland/include/cutils/native_handle.h
--
-stdint.h
--
-limits.h
--
-sys/cdefs.h
--
-/home/viktor/userland/include/hardware/gralloc.h
--
-pthread.h
--
-errno.h
--
-unistd.h
--
-linux/fb.h
--
-
 ../../../include/hardware/gralloc.h
 /home/viktor/userland/include/cutils/native_handle.h
 -
@@ -224,6 +204,12 @@ interface/khronos/common/khrn_int_util_cr.h
 
 ../../../interface/khronos/common/khrn_int_util_cr.h
 
+../../../interface/khronos/common/khrn_options.h
+interface/khronos/common/khrn_int_common.h
+../../../interface/khronos/common/interface/khronos/common/khrn_int_common.h
+interface/khronos/include/GLES/gl.h
+../../../interface/khronos/common/interface/khronos/include/GLES/gl.h
+
 ../../../interface/khronos/common/vcos/khrn_client_platform_filler_vcos.h
 interface/vcos/vcos.h
 ../../../interface/khronos/common/vcos/interface/vcos/vcos.h
@@ -236,9 +222,23 @@ interface/vcos/vcos.h
 interface/vcos/vcos_reentrant_mutex.h
 ../../../interface/khronos/common/vcos_vchiq/interface/vcos/vcos_reentrant_mutex.h
 
+../../../interface/khronos/egl/egl_client_config.h
+interface/khronos/common/khrn_client_platform.h
+../../../interface/khronos/egl/interface/khronos/common/khrn_client_platform.h
+interface/khronos/include/EGL/egl.h
+../../../interface/khronos/egl/interface/khronos/include/EGL/egl.h
+interface/khronos/include/EGL/eglext.h
+../../../interface/khronos/egl/interface/khronos/include/EGL/eglext.h
+interface/khronos/common/khrn_int_image.h
+../../../interface/khronos/egl/interface/khronos/common/khrn_int_image.h
+interface/khronos/egl/egl_int_config.h
+../../../interface/khronos/egl/interface/khronos/egl/egl_int_config.h
+
 ../../../interface/khronos/egl/egl_client_context.h
 interface/khronos/egl/egl_int.h
 ../../../interface/khronos/egl/interface/khronos/egl/egl_int.h
+
+../../../interface/khronos/egl/egl_client_cr.c
 
 ../../../interface/khronos/egl/egl_client_surface.h
 interface/khronos/include/EGL/egl.h
@@ -254,6 +254,8 @@ interface/khronos/common/khrn_client_platform.h
 
 ../../../interface/khronos/egl/egl_int.h
 
+../../../interface/khronos/egl/egl_int_config.h
+
 ../../../interface/khronos/egl/egl_int_impl.h
 interface/khronos/include/EGL/egl.h
 ../../../interface/khronos/egl/interface/khronos/include/EGL/egl.h
@@ -267,10 +269,6 @@ interface/khronos/common/khrn_int_image.h
 ../../../interface/khronos/egl/interface/khronos/common/khrn_int_image.h
 interface/khronos/egl/egl_int.h
 ../../../interface/khronos/egl/interface/khronos/egl/egl_int.h
-
-../../../interface/khronos/egl/loggy.h
-/home/viktor/cm/development/ndk/platforms/android-3/include/android/log.h
--
 
 ../../../interface/khronos/glxx/gl11_int_config.h
 
@@ -299,18 +297,6 @@ interface/khronos/include/GLES/glext.h
 ../../../interface/khronos/glxx/interface/khronos/include/GLES/glext.h
 interface/khronos/glxx/glxx_int_attrib.h
 ../../../interface/khronos/glxx/interface/khronos/glxx/glxx_int_attrib.h
-
-../../../interface/khronos/include/EGL/../KHR/khrplatform.h
-interface/khronos/common/khrn_client_mangle.h
-../../../interface/khronos/include/EGL/../KHR/interface/khronos/common/khrn_client_mangle.h
-stdint.h
--
-inttypes.h
--
-vcinclude/common.h
--
-stdint.h
--
 
 ../../../interface/khronos/include/EGL/egl.h
 eglplatform.h
@@ -351,6 +337,18 @@ interface/vmcs_host/vc_dispmanx.h
 ../../../interface/khronos/include/EGL/interface/vmcs_host/vc_dispmanx.h
 interface/khronos/common/khrn_client_mangle.h
 ../../../interface/khronos/include/EGL/interface/khronos/common/khrn_client_mangle.h
+
+../../../interface/khronos/include/GLES/../KHR/khrplatform.h
+interface/khronos/common/khrn_client_mangle.h
+../../../interface/khronos/include/GLES/../KHR/interface/khronos/common/khrn_client_mangle.h
+stdint.h
+-
+inttypes.h
+-
+vcinclude/common.h
+-
+stdint.h
+-
 
 ../../../interface/khronos/include/GLES/gl.h
 glplatform.h
@@ -407,6 +405,18 @@ wfcplatform.h
 ../../../interface/khronos/vg/vg_int_impl.h
 
 ../../../interface/khronos/vg/vg_int_mat3x3.h
+
+../../../interface/khronos/wf/wfc_client_stream.h
+interface/vctypes/vc_image_types.h
+../../../interface/khronos/wf/interface/vctypes/vc_image_types.h
+interface/khronos/common/khrn_int_common.h
+../../../interface/khronos/wf/interface/khronos/common/khrn_int_common.h
+interface/khronos/include/WF/wfc.h
+../../../interface/khronos/wf/interface/khronos/include/WF/wfc.h
+interface/khronos/wf/wfc_int.h
+../../../interface/khronos/wf/interface/khronos/wf/wfc_int.h
+interface/khronos/include/EGL/eglext.h
+../../../interface/khronos/wf/interface/khronos/include/EGL/eglext.h
 
 ../../../interface/khronos/wf/wfc_int.h
 interface/khronos/include/WF/wfc.h
@@ -748,22 +758,6 @@ interface/vctypes/vc_image_types.h
 interface/khronos/common/khrn_int_util.h
 ../../../middleware/khronos/common/2708/interface/khronos/common/khrn_int_util.h
 
-../../../middleware/khronos/common/2708/khrn_prod_4.h
-middleware/khronos/egl/egl_disp.h
-../../../middleware/khronos/common/2708/middleware/khronos/egl/egl_disp.h
-middleware/khronos/common/khrn_hw.h
-../../../middleware/khronos/common/2708/middleware/khronos/common/khrn_hw.h
-interface/khronos/common/khrn_int_util.h
-../../../middleware/khronos/common/2708/interface/khronos/common/khrn_int_util.h
-tools/v3d/simpenrose/simpenrose.h
-../../../middleware/khronos/common/2708/tools/v3d/simpenrose/simpenrose.h
-tools/v3d/simpenrose/record.h
-../../../middleware/khronos/common/2708/tools/v3d/simpenrose/record.h
-vcfw/vclib/vclib.h
-../../../middleware/khronos/common/2708/vcfw/vclib/vclib.h
-tools/v3d/carbon/carbon_lib/carbon_functions.h
-../../../middleware/khronos/common/2708/tools/v3d/carbon/carbon_lib/carbon_functions.h
-
 ../../../middleware/khronos/common/khrn_hw.h
 interface/khronos/common/khrn_int_common.h
 ../../../middleware/khronos/common/interface/khronos/common/khrn_int_common.h
@@ -938,16 +932,6 @@ interface/khronos/wf/wfc_server_api.h
 vcinclude/common.h
 ../../../vcfw/drivers/vcinclude/common.h
 
-../../../vcfw/logging/logging.h
-stdarg.h
--
-vcinclude/vcore.h
-../../../vcfw/logging/vcinclude/vcore.h
-vcfw/blogging/blogging.h
-../../../vcfw/logging/vcfw/blogging/blogging.h
-assert.h
--
-
 ../../../vcfw/rtos/common/rtos_common_mem.h
 vcinclude/common.h
 ../../../vcfw/rtos/common/vcinclude/common.h
@@ -957,14 +941,6 @@ vcinclude/common.h
 ../../../vcfw/rtos/vcinclude/common.h
 vcfw/drivers/driver.h
 ../../../vcfw/rtos/vcfw/drivers/driver.h
-stdlib.h
--
-
-../../../vcfw/vclib/vclib.h
-vcfw/rtos/rtos.h
-../../../vcfw/vclib/vcfw/rtos/rtos.h
-vcfw/logging/logging.h
-../../../vcfw/vclib/vcfw/logging/logging.h
 stdlib.h
 -
 
@@ -983,10 +959,6 @@ limits.h
 ../../../vcinclude/vc_image_types.h
 interface/vctypes/vc_image_types.h
 ../../../vcinclude/interface/vctypes/vc_image_types.h
-
-../../../vcinclude/vcore.h
-vc/intrinsics.h
-../../../vcinclude/vc/intrinsics.h
 
 ../../inc/interface/vcos/generic/vcos_common.h
 
@@ -1558,10 +1530,6 @@ linux/compiler.h
 asm/errno.h
 -
 
-/home/viktor/cm/bionic/libc/kernel/common/linux/fb.h
-asm/types.h
--
-
 /home/viktor/cm/bionic/libc/kernel/common/linux/limits.h
 
 /home/viktor/cm/bionic/libc/kernel/common/linux/posix_types.h
@@ -1600,18 +1568,6 @@ stdarg.h
 
 /home/viktor/userland/include/cutils/native_handle.h
 
-/home/viktor/userland/include/hardware/gralloc.h
-/home/viktor/userland/include/cutils/native_handle.h
--
-/home/viktor/userland/include/hardware/hardware.h
--
-stdint.h
--
-sys/cdefs.h
--
-sys/types.h
--
-
 /home/viktor/userland/include/hardware/hardware.h
 stdint.h
 -
@@ -1620,33 +1576,41 @@ sys/cdefs.h
 /home/viktor/userland/include/cutils/native_handle.h
 -
 
-/home/viktor/userland/interface/khronos/ext/egl_khr_image_client.c
+/home/viktor/userland/interface/khronos/egl/egl_client.c
 interface/khronos/common/khrn_client_mangle.h
-/home/viktor/userland/interface/khronos/ext/interface/khronos/common/khrn_client_mangle.h
-interface/khronos/egl/loggy.h
-/home/viktor/userland/interface/khronos/ext/interface/khronos/egl/loggy.h
+/home/viktor/userland/interface/khronos/egl/interface/khronos/common/khrn_client_mangle.h
+loggy.h
+/home/viktor/userland/interface/khronos/egl/loggy.h
 interface/khronos/common/khrn_int_common.h
-/home/viktor/userland/interface/khronos/ext/interface/khronos/common/khrn_int_common.h
+/home/viktor/userland/interface/khronos/egl/interface/khronos/common/khrn_int_common.h
+interface/khronos/common/khrn_options.h
+/home/viktor/userland/interface/khronos/egl/interface/khronos/common/khrn_options.h
+interface/khronos/egl/egl_client_surface.h
+/home/viktor/userland/interface/khronos/egl/interface/khronos/egl/egl_client_surface.h
+interface/khronos/egl/egl_client_context.h
+/home/viktor/userland/interface/khronos/egl/interface/khronos/egl/egl_client_context.h
+interface/khronos/egl/egl_client_config.h
+/home/viktor/userland/interface/khronos/egl/interface/khronos/egl/egl_client_config.h
 interface/khronos/common/khrn_client.h
-/home/viktor/userland/interface/khronos/ext/interface/khronos/common/khrn_client.h
+/home/viktor/userland/interface/khronos/egl/interface/khronos/common/khrn_client.h
 interface/khronos/common/khrn_client_rpc.h
-/home/viktor/userland/interface/khronos/ext/interface/khronos/common/khrn_client_rpc.h
-interface/khronos/include/EGL/egl.h
-/home/viktor/userland/interface/khronos/ext/interface/khronos/include/EGL/egl.h
-interface/khronos/include/EGL/eglext.h
-/home/viktor/userland/interface/khronos/ext/interface/khronos/include/EGL/eglext.h
-interface/khronos/include/EGL/eglext_brcm.h
-/home/viktor/userland/interface/khronos/ext/interface/khronos/include/EGL/eglext_brcm.h
-interface/khronos/include/GLES/gl.h
-/home/viktor/userland/interface/khronos/ext/interface/khronos/include/GLES/gl.h
-interface/vcos/vcos.h
-/home/viktor/userland/interface/khronos/ext/interface/vcos/vcos.h
-gralloc_brcm.h
+/home/viktor/userland/interface/khronos/egl/interface/khronos/common/khrn_client_rpc.h
+interface/khronos/egl/egl_int_impl.h
+/home/viktor/userland/interface/khronos/egl/interface/khronos/egl/egl_int_impl.h
+interface/khronos/common/khrn_int_misc_impl.h
+/home/viktor/userland/interface/khronos/egl/interface/khronos/common/khrn_int_misc_impl.h
+interface/khronos/wf/wfc_client_stream.h
+/home/viktor/userland/interface/khronos/egl/interface/khronos/wf/wfc_client_stream.h
+middleware/khronos/egl/egl_server.h
+/home/viktor/userland/interface/khronos/egl/middleware/khronos/egl/egl_server.h
+stdlib.h
 -
-include/gralloc/gralloc_priv.h
-/home/viktor/userland/interface/khronos/ext/include/gralloc/gralloc_priv.h
-interface/khronos/include/EGL/eglext_android.h
-/home/viktor/userland/interface/khronos/ext/interface/khronos/include/EGL/eglext_android.h
-middleware/khronos/common/2708/khrn_prod_4.h
-/home/viktor/userland/interface/khronos/ext/middleware/khronos/common/2708/khrn_prod_4.h
+string.h
+-
+interface/khronos/egl/egl_client_cr.c
+/home/viktor/userland/interface/khronos/egl/interface/khronos/egl/egl_client_cr.c
+
+/home/viktor/userland/interface/khronos/egl/loggy.h
+/home/viktor/cm/development/ndk/platforms/android-3/include/android/log.h
+-
 

@@ -1010,6 +1010,7 @@ EGL_EXTERNAL_OBJECTS =
 ../../lib/libEGL.so: interface/khronos/CMakeFiles/EGL.dir/wf/wfc_client_ipc.c.o
 ../../lib/libEGL.so: interface/khronos/CMakeFiles/EGL.dir/build.make
 ../../lib/libEGL.so: ../../lib/libvchiq_arm.so
+../../lib/libEGL.so: ../../lib/libgrlc.so
 ../../lib/libEGL.so: ../../lib/libvcos.so
 ../../lib/libEGL.so: ../../lib/libbcm_host.so
 ../../lib/libEGL.so: ../../lib/libvchostif.a

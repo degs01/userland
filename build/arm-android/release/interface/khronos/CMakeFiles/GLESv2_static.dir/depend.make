@@ -5,11 +5,10 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: ../../../
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: ../../../helpers/vc_image/metadata_fourcc.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: ../../../helpers/vc_image/vc_image.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: ../../../helpers/vc_image/vc_image_metadata.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: ../../../host_support/include/vc_debug_sym.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: ../../../include/android/rect.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: ../../../include/cutils/native_handle.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: ../../../include/hardware/gralloc.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: ../../../include/ui/android_native_buffer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: ../../../include/ui/egl/android_natives.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
@@ -72,7 +71,6 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: ../../../
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: ../../../interface/khronos/vg/vg_int_impl.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: ../../../interface/khronos/vg/vg_int_mat3x3.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: ../../../interface/khronos/wf/wfc_int.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: ../../../interface/khronos/wf/wfc_server_api.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: ../../../interface/vchi/connections/connection.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: ../../../interface/vchi/message_drivers/message.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: ../../../interface/vchi/vchi.h
@@ -111,6 +109,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: ../../../
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: ../../../interface/vchiq_arm/vcos_timer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: ../../../interface/vchiq_arm/vcos_tls.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -230,17 +229,18 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: /home/vik
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: /home/viktor/cm/bionic/libm/include/math.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: ../../../include/cutils/native_handle.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client.c.o: ../../../interface/khronos/common/khrn_client.c
 
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: ../../../helpers/v3d/v3d_ver.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: ../../../helpers/vc_image/metadata_fourcc.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: ../../../helpers/vc_image/vc_image.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: ../../../helpers/vc_image/vc_image_metadata.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: ../../../host_support/include/vc_debug_sym.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: ../../../include/android/rect.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: ../../../include/cutils/native_handle.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: ../../../include/hardware/gralloc.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: ../../../include/ui/android_native_buffer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: ../../../include/ui/egl/android_natives.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
@@ -296,7 +296,6 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: ../
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: ../../../interface/khronos/vg/vg_int_impl.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: ../../../interface/khronos/vg/vg_int_mat3x3.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: ../../../interface/khronos/wf/wfc_int.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: ../../../interface/khronos/wf/wfc_server_api.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: ../../../interface/vchi/connections/connection.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: ../../../interface/vchi/message_drivers/message.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: ../../../interface/vchi/vchi.h
@@ -335,6 +334,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: ../
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: ../../../interface/vchiq_arm/vcos_timer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: ../../../interface/vchiq_arm/vcos_tls.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -453,14 +453,14 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: /ho
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: /home/viktor/cm/bionic/libm/include/math.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: ../../../include/cutils/native_handle.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_cache.c.o: ../../../interface/khronos/common/khrn_client_cache.c
 
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_global_image_map.c.o: ../../../helpers/v3d/v3d_ver.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_global_image_map.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_global_image_map.c.o: ../../../include/android/rect.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_global_image_map.c.o: ../../../include/cutils/native_handle.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_global_image_map.c.o: ../../../include/hardware/gralloc.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_global_image_map.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_global_image_map.c.o: ../../../include/ui/android_native_buffer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_global_image_map.c.o: ../../../include/ui/egl/android_natives.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_global_image_map.c.o: ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
@@ -495,6 +495,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_global_image_m
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_global_image_map.c.o: ../../../interface/vchi/vchi_common.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_global_image_map.c.o: ../../../interface/vchi/vchi_mh.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_global_image_map.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_global_image_map.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_global_image_map.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_global_image_map.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_global_image_map.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -595,14 +596,14 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_global_image_m
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_global_image_map.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_global_image_map.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_global_image_map.c.o: /home/viktor/cm/bionic/libm/include/math.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_global_image_map.c.o: ../../../include/cutils/native_handle.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_global_image_map.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_global_image_map.c.o: ../../../interface/khronos/common/khrn_client_global_image_map.c
 
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_pointermap.c.o: ../../../helpers/v3d/v3d_ver.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_pointermap.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_pointermap.c.o: ../../../include/android/rect.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_pointermap.c.o: ../../../include/cutils/native_handle.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_pointermap.c.o: ../../../include/hardware/gralloc.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_pointermap.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_pointermap.c.o: ../../../include/ui/android_native_buffer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_pointermap.c.o: ../../../include/ui/egl/android_natives.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_pointermap.c.o: ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
@@ -637,6 +638,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_pointermap.c.o
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_pointermap.c.o: ../../../interface/vchi/vchi_common.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_pointermap.c.o: ../../../interface/vchi/vchi_mh.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_pointermap.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_pointermap.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_pointermap.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_pointermap.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_pointermap.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -737,14 +739,14 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_pointermap.c.o
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_pointermap.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_pointermap.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_pointermap.c.o: /home/viktor/cm/bionic/libm/include/math.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_pointermap.c.o: ../../../include/cutils/native_handle.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_pointermap.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_pointermap.c.o: ../../../interface/khronos/common/khrn_client_pointermap.c
 
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_vector.c.o: ../../../helpers/v3d/v3d_ver.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_vector.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_vector.c.o: ../../../include/android/rect.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_vector.c.o: ../../../include/cutils/native_handle.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_vector.c.o: ../../../include/hardware/gralloc.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_vector.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_vector.c.o: ../../../include/ui/android_native_buffer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_vector.c.o: ../../../include/ui/egl/android_natives.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_vector.c.o: ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
@@ -777,6 +779,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_vector.c.o: ..
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_vector.c.o: ../../../interface/vchi/vchi_common.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_vector.c.o: ../../../interface/vchi/vchi_mh.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_vector.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_vector.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_vector.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_vector.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_vector.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -875,11 +878,14 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_vector.c.o: /h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_vector.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_vector.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_vector.c.o: /home/viktor/cm/bionic/libm/include/math.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_vector.c.o: ../../../include/cutils/native_handle.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_vector.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_client_vector.c.o: ../../../interface/khronos/common/khrn_client_vector.c
 
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_int_hash.c.o: ../../../helpers/v3d/v3d_ver.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_int_hash.c.o: ../../../interface/khronos/common/khrn_int_common.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_int_hash.c.o: ../../../interface/khronos/common/khrn_int_hash.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_int_hash.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_int_hash.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_int_hash.c.o: ../../inc/interface/vcos/vcos_assert.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_int_hash.c.o: ../../inc/interface/vcos/vcos_inttypes.h
@@ -908,6 +914,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_int_image.c.o: ../../
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_int_image.c.o: ../../../interface/khronos/common/khrn_int_util.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_int_image.c.o: ../../../interface/khronos/common/khrn_int_util_cr.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_int_image.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_int_image.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_int_image.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_int_image.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_int_image.c.o: ../../inc/interface/vcos/generic/vcos_common.h
@@ -1014,6 +1021,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_int_util.c.o: ../../.
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_int_util.c.o: ../../../interface/khronos/include/GLES2/gl2ext.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_int_util.c.o: ../../../interface/khronos/include/GLES2/gl2platform.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_int_util.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_int_util.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_int_util.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_int_util.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_int_util.c.o: ../../../interface/vctypes/vc_image_types.h
@@ -1117,6 +1125,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_options.c.o: ../../..
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_options.c.o: ../../../interface/khronos/include/GLES/../KHR/khrplatform.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_options.c.o: ../../../interface/khronos/include/GLES/gl.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_options.c.o: ../../../interface/khronos/include/GLES/glplatform.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_options.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_options.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_options.c.o: ../../../interface/vctypes/vc_image_types.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/khrn_options.c.o: ../../../vcinclude/common.h
@@ -1160,6 +1169,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_platform
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_platform_linux.c.o: ../../../helpers/vc_image/metadata_fourcc.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_platform_linux.c.o: ../../../helpers/vc_image/vc_image.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_platform_linux.c.o: ../../../helpers/vc_image/vc_image_metadata.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_platform_linux.c.o: ../../../host_support/include/vc_debug_sym.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_platform_linux.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_platform_linux.c.o: ../../../include/android/rect.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_platform_linux.c.o: ../../../include/hardware/gralloc.h
@@ -1216,7 +1226,6 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_platform
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_platform_linux.c.o: ../../../interface/khronos/vg/vg_int_impl.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_platform_linux.c.o: ../../../interface/khronos/vg/vg_int_mat3x3.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_platform_linux.c.o: ../../../interface/khronos/wf/wfc_int.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_platform_linux.c.o: ../../../interface/khronos/wf/wfc_server_api.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_platform_linux.c.o: ../../../interface/vchi/connections/connection.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_platform_linux.c.o: ../../../interface/vchi/message_drivers/message.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_platform_linux.c.o: ../../../interface/vchi/vchi.h
@@ -1255,6 +1264,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_platform
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_platform_linux.c.o: ../../../interface/vchiq_arm/vcos_timer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_platform_linux.c.o: ../../../interface/vchiq_arm/vcos_tls.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_platform_linux.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_platform_linux.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_platform_linux.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_platform_linux.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_platform_linux.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -1381,11 +1391,10 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linu
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linux.c.o: ../../../helpers/vc_image/metadata_fourcc.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linux.c.o: ../../../helpers/vc_image/vc_image.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linux.c.o: ../../../helpers/vc_image/vc_image_metadata.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linux.c.o: ../../../host_support/include/vc_debug_sym.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linux.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linux.c.o: ../../../include/android/rect.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linux.c.o: ../../../include/cutils/native_handle.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linux.c.o: ../../../include/hardware/gralloc.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linux.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linux.c.o: ../../../include/ui/android_native_buffer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linux.c.o: ../../../include/ui/egl/android_natives.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linux.c.o: ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
@@ -1439,7 +1448,6 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linu
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linux.c.o: ../../../interface/khronos/vg/vg_int_impl.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linux.c.o: ../../../interface/khronos/vg/vg_int_mat3x3.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linux.c.o: ../../../interface/khronos/wf/wfc_int.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linux.c.o: ../../../interface/khronos/wf/wfc_server_api.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linux.c.o: ../../../interface/vchi/connections/connection.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linux.c.o: ../../../interface/vchi/message_drivers/message.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linux.c.o: ../../../interface/vchi/vchi.h
@@ -1482,6 +1490,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linu
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linux.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linux.c.o: ../../../interface/vcos/pthreads/vcos_platform.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linux.c.o: ../../../interface/vcos/pthreads/vcos_platform_types.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linux.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linux.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linux.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linux.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -1597,12 +1606,16 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linu
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linux.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linux.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linux.c.o: /home/viktor/cm/bionic/libm/include/math.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linux.c.o: ../../../include/cutils/native_handle.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linux.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/common/linux/khrn_client_rpc_linux.c.o: ../../../interface/khronos/common/linux/khrn_client_rpc_linux.c
 
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: ../../../helpers/v3d/v3d_ver.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: ../../../helpers/vc_image/metadata_fourcc.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: ../../../helpers/vc_image/vc_image.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: ../../../helpers/vc_image/vc_image_metadata.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: ../../../host_support/include/vc_debug_sym.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: ../../../include/android/log.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: ../../../include/android/rect.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: ../../../include/hardware/gralloc.h
@@ -1664,7 +1677,6 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: ../../../inte
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: ../../../interface/khronos/vg/vg_int_mat3x3.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: ../../../interface/khronos/wf/wfc_client_stream.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: ../../../interface/khronos/wf/wfc_int.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: ../../../interface/khronos/wf/wfc_server_api.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: ../../../interface/vchi/connections/connection.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: ../../../interface/vchi/message_drivers/message.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: ../../../interface/vchi/vchi.h
@@ -1703,6 +1715,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: ../../../inte
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: ../../../interface/vchiq_arm/vcos_timer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: ../../../interface/vchiq_arm/vcos_tls.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -1821,7 +1834,6 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: /home/viktor/
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: /home/viktor/cm/bionic/libm/include/math.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: /home/viktor/cm/development/ndk/platforms/android-3/include/android/log.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: ../../../include/cutils/native_handle.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client.c.o: ../../../interface/khronos/egl/egl_client.c
@@ -1865,6 +1877,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_config.c.o: ../../
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_config.c.o: ../../../interface/vchi/vchi_common.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_config.c.o: ../../../interface/vchi/vchi_mh.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_config.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_config.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_config.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_config.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_config.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -1971,6 +1984,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_context.c.o: ../..
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_context.c.o: ../../../helpers/vc_image/metadata_fourcc.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_context.c.o: ../../../helpers/vc_image/vc_image.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_context.c.o: ../../../helpers/vc_image/vc_image_metadata.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_context.c.o: ../../../host_support/include/vc_debug_sym.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_context.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_context.c.o: ../../../include/android/rect.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_context.c.o: ../../../include/hardware/gralloc.h
@@ -2032,7 +2046,6 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_context.c.o: ../..
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_context.c.o: ../../../interface/khronos/vg/vg_int_impl.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_context.c.o: ../../../interface/khronos/vg/vg_int_mat3x3.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_context.c.o: ../../../interface/khronos/wf/wfc_int.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_context.c.o: ../../../interface/khronos/wf/wfc_server_api.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_context.c.o: ../../../interface/vchi/connections/connection.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_context.c.o: ../../../interface/vchi/message_drivers/message.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_context.c.o: ../../../interface/vchi/vchi.h
@@ -2071,6 +2084,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_context.c.o: ../..
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_context.c.o: ../../../interface/vchiq_arm/vcos_timer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_context.c.o: ../../../interface/vchiq_arm/vcos_tls.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_context.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_context.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_context.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_context.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_context.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -2198,6 +2212,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_get_proc.c.o: ../.
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_get_proc.c.o: ../../../helpers/vc_image/metadata_fourcc.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_get_proc.c.o: ../../../helpers/vc_image/vc_image.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_get_proc.c.o: ../../../helpers/vc_image/vc_image_metadata.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_get_proc.c.o: ../../../host_support/include/vc_debug_sym.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_get_proc.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_get_proc.c.o: ../../../include/android/rect.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_get_proc.c.o: ../../../include/hardware/gralloc.h
@@ -2260,7 +2275,6 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_get_proc.c.o: ../.
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_get_proc.c.o: ../../../interface/khronos/vg/vg_int_mat3x3.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_get_proc.c.o: ../../../interface/khronos/wf/wfc_client_stream.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_get_proc.c.o: ../../../interface/khronos/wf/wfc_int.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_get_proc.c.o: ../../../interface/khronos/wf/wfc_server_api.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_get_proc.c.o: ../../../interface/vchi/connections/connection.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_get_proc.c.o: ../../../interface/vchi/message_drivers/message.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_get_proc.c.o: ../../../interface/vchi/vchi.h
@@ -2299,6 +2313,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_get_proc.c.o: ../.
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_get_proc.c.o: ../../../interface/vchiq_arm/vcos_timer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_get_proc.c.o: ../../../interface/vchiq_arm/vcos_tls.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_get_proc.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_get_proc.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_get_proc.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_get_proc.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_get_proc.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -2425,6 +2440,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_surface.c.o: ../..
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_surface.c.o: ../../../helpers/vc_image/metadata_fourcc.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_surface.c.o: ../../../helpers/vc_image/vc_image.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_surface.c.o: ../../../helpers/vc_image/vc_image_metadata.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_surface.c.o: ../../../host_support/include/vc_debug_sym.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_surface.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_surface.c.o: ../../../include/android/rect.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_surface.c.o: ../../../include/hardware/gralloc.h
@@ -2484,7 +2500,6 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_surface.c.o: ../..
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_surface.c.o: ../../../interface/khronos/vg/vg_int_mat3x3.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_surface.c.o: ../../../interface/khronos/wf/wfc_client_stream.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_surface.c.o: ../../../interface/khronos/wf/wfc_int.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_surface.c.o: ../../../interface/khronos/wf/wfc_server_api.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_surface.c.o: ../../../interface/vchi/connections/connection.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_surface.c.o: ../../../interface/vchi/message_drivers/message.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_surface.c.o: ../../../interface/vchi/vchi.h
@@ -2523,6 +2538,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_surface.c.o: ../..
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_surface.c.o: ../../../interface/vchiq_arm/vcos_timer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_surface.c.o: ../../../interface/vchiq_arm/vcos_tls.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_surface.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_surface.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_surface.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_surface.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/egl/egl_client_surface.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -2649,6 +2665,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_driver_monitor_clien
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_driver_monitor_client.c.o: ../../../helpers/vc_image/metadata_fourcc.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_driver_monitor_client.c.o: ../../../helpers/vc_image/vc_image.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_driver_monitor_client.c.o: ../../../helpers/vc_image/vc_image_metadata.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_driver_monitor_client.c.o: ../../../host_support/include/vc_debug_sym.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_driver_monitor_client.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_driver_monitor_client.c.o: ../../../include/android/rect.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_driver_monitor_client.c.o: ../../../include/hardware/gralloc.h
@@ -2708,7 +2725,6 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_driver_monitor_clien
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_driver_monitor_client.c.o: ../../../interface/khronos/vg/vg_int_impl.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_driver_monitor_client.c.o: ../../../interface/khronos/vg/vg_int_mat3x3.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_driver_monitor_client.c.o: ../../../interface/khronos/wf/wfc_int.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_driver_monitor_client.c.o: ../../../interface/khronos/wf/wfc_server_api.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_driver_monitor_client.c.o: ../../../interface/vchi/connections/connection.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_driver_monitor_client.c.o: ../../../interface/vchi/message_drivers/message.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_driver_monitor_client.c.o: ../../../interface/vchi/vchi.h
@@ -2747,6 +2763,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_driver_monitor_clien
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_driver_monitor_client.c.o: ../../../interface/vchiq_arm/vcos_timer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_driver_monitor_client.c.o: ../../../interface/vchiq_arm/vcos_tls.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_driver_monitor_client.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_driver_monitor_client.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_driver_monitor_client.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_driver_monitor_client.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_driver_monitor_client.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -2873,6 +2890,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_flush_client.c.o: ..
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_flush_client.c.o: ../../../helpers/vc_image/metadata_fourcc.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_flush_client.c.o: ../../../helpers/vc_image/vc_image.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_flush_client.c.o: ../../../helpers/vc_image/vc_image_metadata.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_flush_client.c.o: ../../../host_support/include/vc_debug_sym.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_flush_client.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_flush_client.c.o: ../../../include/android/rect.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_flush_client.c.o: ../../../include/hardware/gralloc.h
@@ -2929,7 +2947,6 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_flush_client.c.o: ..
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_flush_client.c.o: ../../../interface/khronos/vg/vg_int_impl.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_flush_client.c.o: ../../../interface/khronos/vg/vg_int_mat3x3.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_flush_client.c.o: ../../../interface/khronos/wf/wfc_int.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_flush_client.c.o: ../../../interface/khronos/wf/wfc_server_api.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_flush_client.c.o: ../../../interface/vchi/connections/connection.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_flush_client.c.o: ../../../interface/vchi/message_drivers/message.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_flush_client.c.o: ../../../interface/vchi/vchi.h
@@ -2968,6 +2985,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_flush_client.c.o: ..
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_flush_client.c.o: ../../../interface/vchiq_arm/vcos_timer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_flush_client.c.o: ../../../interface/vchiq_arm/vcos_tls.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_flush_client.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_flush_client.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_flush_client.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_flush_client.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_flush_client.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -3094,6 +3112,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_global_image_client.
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_global_image_client.c.o: ../../../helpers/vc_image/metadata_fourcc.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_global_image_client.c.o: ../../../helpers/vc_image/vc_image.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_global_image_client.c.o: ../../../helpers/vc_image/vc_image_metadata.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_global_image_client.c.o: ../../../host_support/include/vc_debug_sym.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_global_image_client.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_global_image_client.c.o: ../../../include/android/rect.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_global_image_client.c.o: ../../../include/hardware/gralloc.h
@@ -3152,7 +3171,6 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_global_image_client.
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_global_image_client.c.o: ../../../interface/khronos/vg/vg_int_impl.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_global_image_client.c.o: ../../../interface/khronos/vg/vg_int_mat3x3.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_global_image_client.c.o: ../../../interface/khronos/wf/wfc_int.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_global_image_client.c.o: ../../../interface/khronos/wf/wfc_server_api.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_global_image_client.c.o: ../../../interface/vchi/connections/connection.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_global_image_client.c.o: ../../../interface/vchi/message_drivers/message.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_global_image_client.c.o: ../../../interface/vchi/vchi.h
@@ -3191,6 +3209,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_global_image_client.
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_global_image_client.c.o: ../../../interface/vchiq_arm/vcos_timer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_global_image_client.c.o: ../../../interface/vchiq_arm/vcos_tls.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_global_image_client.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_global_image_client.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_global_image_client.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_global_image_client.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_global_image_client.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -3317,6 +3336,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_perf_monitor_client.
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_perf_monitor_client.c.o: ../../../helpers/vc_image/metadata_fourcc.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_perf_monitor_client.c.o: ../../../helpers/vc_image/vc_image.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_perf_monitor_client.c.o: ../../../helpers/vc_image/vc_image_metadata.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_perf_monitor_client.c.o: ../../../host_support/include/vc_debug_sym.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_perf_monitor_client.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_perf_monitor_client.c.o: ../../../include/android/rect.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_perf_monitor_client.c.o: ../../../include/hardware/gralloc.h
@@ -3376,7 +3396,6 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_perf_monitor_client.
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_perf_monitor_client.c.o: ../../../interface/khronos/vg/vg_int_impl.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_perf_monitor_client.c.o: ../../../interface/khronos/vg/vg_int_mat3x3.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_perf_monitor_client.c.o: ../../../interface/khronos/wf/wfc_int.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_perf_monitor_client.c.o: ../../../interface/khronos/wf/wfc_server_api.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_perf_monitor_client.c.o: ../../../interface/vchi/connections/connection.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_perf_monitor_client.c.o: ../../../interface/vchi/message_drivers/message.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_perf_monitor_client.c.o: ../../../interface/vchi/vchi.h
@@ -3415,6 +3434,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_perf_monitor_client.
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_perf_monitor_client.c.o: ../../../interface/vchiq_arm/vcos_timer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_perf_monitor_client.c.o: ../../../interface/vchiq_arm/vcos_tls.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_perf_monitor_client.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_perf_monitor_client.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_perf_monitor_client.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_perf_monitor_client.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_perf_monitor_client.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -3537,13 +3557,15 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_perf_monitor_client.
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_perf_monitor_client.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_brcm_perf_monitor_client.c.o: ../../../interface/khronos/ext/egl_brcm_perf_monitor_client.c
 
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../../../gralloc/gralloc.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../../../helpers/v3d/v3d_ver.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../../../helpers/vc_image/metadata_fourcc.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../../../helpers/vc_image/vc_image.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../../../helpers/vc_image/vc_image_metadata.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../../../host_support/include/vc_debug_sym.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../../../include/android/log.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../../../include/android/rect.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../../../include/gralloc/gralloc_priv.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../../../include/hardware/gralloc.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../../../include/ui/android_native_buffer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../../../include/ui/egl/android_natives.h
@@ -3599,7 +3621,6 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../../../interface/khronos/vg/vg_int_impl.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../../../interface/khronos/vg/vg_int_mat3x3.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../../../interface/khronos/wf/wfc_int.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../../../interface/khronos/wf/wfc_server_api.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../../../interface/vchi/connections/connection.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../../../interface/vchi/message_drivers/message.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../../../interface/vchi/vchi.h
@@ -3638,6 +3659,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../../../interface/vchiq_arm/vcos_timer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../../../interface/vchiq_arm/vcos_tls.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -3753,7 +3775,6 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: /ho
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/capability.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/compiler.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/errno.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/fb.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/limits.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/posix_types.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/stddef.h
@@ -3761,9 +3782,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: /ho
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: /home/viktor/cm/bionic/libm/include/math.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: /home/viktor/cm/development/ndk/platforms/android-3/include/android/log.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../../../include/cutils/native_handle.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../../../include/hardware/gralloc.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_image_client.c.o: ../../../interface/khronos/ext/egl_khr_image_client.c
 
@@ -3771,11 +3790,10 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c.o: ../../../helpers/vc_image/metadata_fourcc.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c.o: ../../../helpers/vc_image/vc_image.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c.o: ../../../helpers/vc_image/vc_image_metadata.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c.o: ../../../host_support/include/vc_debug_sym.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c.o: ../../../include/android/rect.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c.o: ../../../include/cutils/native_handle.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c.o: ../../../include/hardware/gralloc.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c.o: ../../../include/ui/android_native_buffer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c.o: ../../../include/ui/egl/android_natives.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c.o: ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
@@ -3831,7 +3849,6 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c.o: ../../../interface/khronos/vg/vg_int_impl.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c.o: ../../../interface/khronos/vg/vg_int_mat3x3.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c.o: ../../../interface/khronos/wf/wfc_int.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c.o: ../../../interface/khronos/wf/wfc_server_api.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c.o: ../../../interface/vchi/connections/connection.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c.o: ../../../interface/vchi/message_drivers/message.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c.o: ../../../interface/vchi/vchi.h
@@ -3870,6 +3887,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c.o: ../../../interface/vchiq_arm/vcos_timer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c.o: ../../../interface/vchiq_arm/vcos_tls.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -3988,12 +4006,15 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c.o: /home/viktor/cm/bionic/libm/include/math.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c.o: ../../../include/cutils/native_handle.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_lock_surface_client.c.o: ../../../interface/khronos/ext/egl_khr_lock_surface_client.c
 
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_sync_client.c.o: ../../../helpers/v3d/v3d_ver.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_sync_client.c.o: ../../../helpers/vc_image/metadata_fourcc.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_sync_client.c.o: ../../../helpers/vc_image/vc_image.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_sync_client.c.o: ../../../helpers/vc_image/vc_image_metadata.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_sync_client.c.o: ../../../host_support/include/vc_debug_sym.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_sync_client.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_sync_client.c.o: ../../../include/android/rect.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_sync_client.c.o: ../../../include/hardware/gralloc.h
@@ -4051,7 +4072,6 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_sync_client.c.o: ../.
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_sync_client.c.o: ../../../interface/khronos/vg/vg_int_impl.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_sync_client.c.o: ../../../interface/khronos/vg/vg_int_mat3x3.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_sync_client.c.o: ../../../interface/khronos/wf/wfc_int.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_sync_client.c.o: ../../../interface/khronos/wf/wfc_server_api.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_sync_client.c.o: ../../../interface/vchi/connections/connection.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_sync_client.c.o: ../../../interface/vchi/message_drivers/message.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_sync_client.c.o: ../../../interface/vchi/vchi.h
@@ -4090,6 +4110,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_sync_client.c.o: ../.
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_sync_client.c.o: ../../../interface/vchiq_arm/vcos_timer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_sync_client.c.o: ../../../interface/vchiq_arm/vcos_tls.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_sync_client.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_sync_client.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_sync_client.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_sync_client.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_khr_sync_client.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -4216,11 +4237,10 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: ../
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: ../../../helpers/vc_image/metadata_fourcc.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: ../../../helpers/vc_image/vc_image.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: ../../../helpers/vc_image/vc_image_metadata.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: ../../../host_support/include/vc_debug_sym.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: ../../../include/android/rect.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: ../../../include/cutils/native_handle.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: ../../../include/hardware/gralloc.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: ../../../include/ui/android_native_buffer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: ../../../include/ui/egl/android_natives.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
@@ -4275,7 +4295,6 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: ../
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: ../../../interface/khronos/vg/vg_int_impl.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: ../../../interface/khronos/vg/vg_int_mat3x3.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: ../../../interface/khronos/wf/wfc_int.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: ../../../interface/khronos/wf/wfc_server_api.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: ../../../interface/vchi/connections/connection.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: ../../../interface/vchi/message_drivers/message.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: ../../../interface/vchi/vchi.h
@@ -4314,6 +4333,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: ../
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: ../../../interface/vchiq_arm/vcos_timer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: ../../../interface/vchiq_arm/vcos_tls.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -4432,17 +4452,18 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: /ho
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: /home/viktor/cm/bionic/libm/include/math.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: ../../../include/cutils/native_handle.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/egl_openmaxil_client.c.o: ../../../interface/khronos/ext/egl_openmaxil_client.c
 
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: ../../../helpers/v3d/v3d_ver.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: ../../../helpers/vc_image/metadata_fourcc.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: ../../../helpers/vc_image/vc_image.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: ../../../helpers/vc_image/vc_image_metadata.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: ../../../host_support/include/vc_debug_sym.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: ../../../include/android/rect.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: ../../../include/cutils/native_handle.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: ../../../include/hardware/gralloc.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: ../../../include/ui/android_native_buffer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: ../../../include/ui/egl/android_natives.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
@@ -4499,7 +4520,6 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: ../.
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: ../../../interface/khronos/vg/vg_int_impl.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: ../../../interface/khronos/vg/vg_int_mat3x3.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: ../../../interface/khronos/wf/wfc_int.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: ../../../interface/khronos/wf/wfc_server_api.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: ../../../interface/vchi/connections/connection.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: ../../../interface/vchi/message_drivers/message.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: ../../../interface/vchi/vchi.h
@@ -4538,6 +4558,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: ../.
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: ../../../interface/vchiq_arm/vcos_timer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: ../../../interface/vchiq_arm/vcos_tls.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -4656,17 +4677,18 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: /hom
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: /home/viktor/cm/bionic/libm/include/math.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: ../../../include/cutils/native_handle.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/ext_gl_debug_marker.c.o: ../../../interface/khronos/ext/ext_gl_debug_marker.c
 
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: ../../../helpers/v3d/v3d_ver.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: ../../../helpers/vc_image/metadata_fourcc.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: ../../../helpers/vc_image/vc_image.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: ../../../helpers/vc_image/vc_image_metadata.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: ../../../host_support/include/vc_debug_sym.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: ../../../include/android/rect.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: ../../../include/cutils/native_handle.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: ../../../include/hardware/gralloc.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: ../../../include/ui/android_native_buffer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: ../../../include/ui/egl/android_natives.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
@@ -4722,7 +4744,6 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: ../../../interface/khronos/vg/vg_int_impl.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: ../../../interface/khronos/vg/vg_int_mat3x3.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: ../../../interface/khronos/wf/wfc_int.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: ../../../interface/khronos/wf/wfc_server_api.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: ../../../interface/vchi/connections/connection.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: ../../../interface/vchi/message_drivers/message.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: ../../../interface/vchi/vchi.h
@@ -4761,6 +4782,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: ../../../interface/vchiq_arm/vcos_timer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: ../../../interface/vchiq_arm/vcos_tls.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -4879,12 +4901,15 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: /home/viktor/cm/bionic/libm/include/math.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: ../../../include/cutils/native_handle.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_draw_texture_client.c.o: ../../../interface/khronos/ext/gl_oes_draw_texture_client.c
 
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_egl_image_client.c.o: ../../../helpers/v3d/v3d_ver.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_egl_image_client.c.o: ../../../helpers/vc_image/metadata_fourcc.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_egl_image_client.c.o: ../../../helpers/vc_image/vc_image.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_egl_image_client.c.o: ../../../helpers/vc_image/vc_image_metadata.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_egl_image_client.c.o: ../../../host_support/include/vc_debug_sym.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_egl_image_client.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_egl_image_client.c.o: ../../../include/android/rect.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_egl_image_client.c.o: ../../../include/hardware/gralloc.h
@@ -4944,7 +4969,6 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_egl_image_client.c.o: 
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_egl_image_client.c.o: ../../../interface/khronos/vg/vg_int_impl.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_egl_image_client.c.o: ../../../interface/khronos/vg/vg_int_mat3x3.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_egl_image_client.c.o: ../../../interface/khronos/wf/wfc_int.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_egl_image_client.c.o: ../../../interface/khronos/wf/wfc_server_api.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_egl_image_client.c.o: ../../../interface/vchi/connections/connection.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_egl_image_client.c.o: ../../../interface/vchi/message_drivers/message.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_egl_image_client.c.o: ../../../interface/vchi/vchi.h
@@ -4983,6 +5007,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_egl_image_client.c.o: 
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_egl_image_client.c.o: ../../../interface/vchiq_arm/vcos_timer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_egl_image_client.c.o: ../../../interface/vchiq_arm/vcos_tls.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_egl_image_client.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_egl_image_client.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_egl_image_client.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_egl_image_client.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_egl_image_client.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -5109,11 +5134,10 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o: ../../../helpers/vc_image/metadata_fourcc.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o: ../../../helpers/vc_image/vc_image.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o: ../../../helpers/vc_image/vc_image_metadata.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o: ../../../host_support/include/vc_debug_sym.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o: ../../../include/android/rect.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o: ../../../include/cutils/native_handle.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o: ../../../include/hardware/gralloc.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o: ../../../include/ui/android_native_buffer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o: ../../../include/ui/egl/android_natives.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o: ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
@@ -5169,7 +5193,6 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o: ../../../interface/khronos/vg/vg_int_impl.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o: ../../../interface/khronos/vg/vg_int_mat3x3.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o: ../../../interface/khronos/wf/wfc_int.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o: ../../../interface/khronos/wf/wfc_server_api.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o: ../../../interface/vchi/connections/connection.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o: ../../../interface/vchi/message_drivers/message.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o: ../../../interface/vchi/vchi.h
@@ -5208,6 +5231,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o: ../../../interface/vchiq_arm/vcos_timer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o: ../../../interface/vchiq_arm/vcos_tls.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -5326,17 +5350,18 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o: /home/viktor/cm/bionic/libm/include/math.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o: ../../../include/cutils/native_handle.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_framebuffer_object.c.o: ../../../interface/khronos/ext/gl_oes_framebuffer_object.c
 
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: ../../../helpers/v3d/v3d_ver.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: ../../../helpers/vc_image/metadata_fourcc.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: ../../../helpers/vc_image/vc_image.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: ../../../helpers/vc_image/vc_image_metadata.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: ../../../host_support/include/vc_debug_sym.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: ../../../include/android/rect.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: ../../../include/cutils/native_handle.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: ../../../include/hardware/gralloc.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: ../../../include/ui/android_native_buffer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: ../../../include/ui/egl/android_natives.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
@@ -5392,7 +5417,6 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: ../../
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: ../../../interface/khronos/vg/vg_int_impl.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: ../../../interface/khronos/vg/vg_int_mat3x3.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: ../../../interface/khronos/wf/wfc_int.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: ../../../interface/khronos/wf/wfc_server_api.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: ../../../interface/vchi/connections/connection.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: ../../../interface/vchi/message_drivers/message.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: ../../../interface/vchi/vchi.h
@@ -5431,6 +5455,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: ../../
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: ../../../interface/vchiq_arm/vcos_timer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: ../../../interface/vchiq_arm/vcos_tls.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -5549,17 +5574,18 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: /home/
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: /home/viktor/cm/bionic/libm/include/math.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: ../../../include/cutils/native_handle.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_map_buffer.c.o: ../../../interface/khronos/ext/gl_oes_map_buffer.c
 
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: ../../../helpers/v3d/v3d_ver.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: ../../../helpers/vc_image/metadata_fourcc.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: ../../../helpers/vc_image/vc_image.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: ../../../helpers/vc_image/vc_image_metadata.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: ../../../host_support/include/vc_debug_sym.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: ../../../include/android/rect.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: ../../../include/cutils/native_handle.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: ../../../include/hardware/gralloc.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: ../../../include/ui/android_native_buffer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: ../../../include/ui/egl/android_natives.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
@@ -5615,7 +5641,6 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: ../../../interface/khronos/vg/vg_int_impl.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: ../../../interface/khronos/vg/vg_int_mat3x3.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: ../../../interface/khronos/wf/wfc_int.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: ../../../interface/khronos/wf/wfc_server_api.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: ../../../interface/vchi/connections/connection.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: ../../../interface/vchi/message_drivers/message.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: ../../../interface/vchi/vchi.h
@@ -5654,6 +5679,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: ../../../interface/vchiq_arm/vcos_timer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: ../../../interface/vchiq_arm/vcos_tls.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -5772,17 +5798,18 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: /home/viktor/cm/bionic/libm/include/math.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: ../../../include/cutils/native_handle.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_matrix_palette_client.c.o: ../../../interface/khronos/ext/gl_oes_matrix_palette_client.c
 
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: ../../../helpers/v3d/v3d_ver.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: ../../../helpers/vc_image/metadata_fourcc.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: ../../../helpers/vc_image/vc_image.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: ../../../helpers/vc_image/vc_image_metadata.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: ../../../host_support/include/vc_debug_sym.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: ../../../include/android/rect.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: ../../../include/cutils/native_handle.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: ../../../include/hardware/gralloc.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: ../../../include/ui/android_native_buffer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: ../../../include/ui/egl/android_natives.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
@@ -5838,7 +5865,6 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: ../../../interface/khronos/vg/vg_int_impl.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: ../../../interface/khronos/vg/vg_int_mat3x3.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: ../../../interface/khronos/wf/wfc_int.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: ../../../interface/khronos/wf/wfc_server_api.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: ../../../interface/vchi/connections/connection.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: ../../../interface/vchi/message_drivers/message.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: ../../../interface/vchi/vchi.h
@@ -5877,6 +5903,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: ../../../interface/vchiq_arm/vcos_timer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: ../../../interface/vchiq_arm/vcos_tls.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -5995,12 +6022,15 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: /home/viktor/cm/bionic/libm/include/math.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: ../../../include/cutils/native_handle.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/ext/gl_oes_query_matrix_client.c.o: ../../../interface/khronos/ext/gl_oes_query_matrix_client.c
 
 interface/khronos/CMakeFiles/GLESv2_static.dir/glxx/glxx_client.c.o: ../../../helpers/v3d/v3d_ver.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/glxx/glxx_client.c.o: ../../../helpers/vc_image/metadata_fourcc.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/glxx/glxx_client.c.o: ../../../helpers/vc_image/vc_image.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/glxx/glxx_client.c.o: ../../../helpers/vc_image/vc_image_metadata.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/glxx/glxx_client.c.o: ../../../host_support/include/vc_debug_sym.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/glxx/glxx_client.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/glxx/glxx_client.c.o: ../../../include/android/rect.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/glxx/glxx_client.c.o: ../../../include/hardware/gralloc.h
@@ -6061,7 +6091,6 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/glxx/glxx_client.c.o: ../../../in
 interface/khronos/CMakeFiles/GLESv2_static.dir/glxx/glxx_client.c.o: ../../../interface/khronos/vg/vg_int_impl.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/glxx/glxx_client.c.o: ../../../interface/khronos/vg/vg_int_mat3x3.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/glxx/glxx_client.c.o: ../../../interface/khronos/wf/wfc_int.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/glxx/glxx_client.c.o: ../../../interface/khronos/wf/wfc_server_api.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/glxx/glxx_client.c.o: ../../../interface/vchi/connections/connection.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/glxx/glxx_client.c.o: ../../../interface/vchi/message_drivers/message.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/glxx/glxx_client.c.o: ../../../interface/vchi/vchi.h
@@ -6100,6 +6129,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/glxx/glxx_client.c.o: ../../../in
 interface/khronos/CMakeFiles/GLESv2_static.dir/glxx/glxx_client.c.o: ../../../interface/vchiq_arm/vcos_timer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/glxx/glxx_client.c.o: ../../../interface/vchiq_arm/vcos_tls.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/glxx/glxx_client.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/glxx/glxx_client.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/glxx/glxx_client.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/glxx/glxx_client.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/glxx/glxx_client.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -6226,11 +6256,10 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: ../../../helper
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: ../../../helpers/vc_image/metadata_fourcc.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: ../../../helpers/vc_image/vc_image.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: ../../../helpers/vc_image/vc_image_metadata.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: ../../../host_support/include/vc_debug_sym.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: ../../../include/android/rect.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: ../../../include/cutils/native_handle.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: ../../../include/hardware/gralloc.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: ../../../include/ui/android_native_buffer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: ../../../include/ui/egl/android_natives.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
@@ -6292,7 +6321,6 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: ../../../interf
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: ../../../interface/khronos/vg/vg_int_mat3x3.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: ../../../interface/khronos/vg/vg_int_util.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: ../../../interface/khronos/wf/wfc_int.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: ../../../interface/khronos/wf/wfc_server_api.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: ../../../interface/vchi/connections/connection.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: ../../../interface/vchi/message_drivers/message.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: ../../../interface/vchi/vchi.h
@@ -6331,6 +6359,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: ../../../interf
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: ../../../interface/vchiq_arm/vcos_timer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: ../../../interface/vchiq_arm/vcos_tls.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -6450,6 +6479,8 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: /home/viktor/cm
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: /home/viktor/cm/bionic/libm/include/math.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: ../../../include/cutils/native_handle.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_client.c.o: ../../../interface/khronos/vg/vg_client.c
 
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_int_mat3x3.c.o: ../../../helpers/v3d/v3d_ver.h
@@ -6459,6 +6490,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_int_mat3x3.c.o: ../../../in
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_int_mat3x3.c.o: ../../../interface/khronos/common/khrn_int_util_cr.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_int_mat3x3.c.o: ../../../interface/khronos/vg/vg_int_mat3x3.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_int_mat3x3.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_int_mat3x3.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_int_mat3x3.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_int_mat3x3.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_int_mat3x3.c.o: ../../inc/interface/vcos/generic/vcos_common.h
@@ -6554,66 +6586,22 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_int_mat3x3.c.o: /home/vikto
 interface/khronos/CMakeFiles/GLESv2_static.dir/vg/vg_int_mat3x3.c.o: ../../../interface/khronos/vg/vg_int_mat3x3.c
 
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../helpers/v3d/v3d_ver.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../helpers/vc_image/metadata_fourcc.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../helpers/vc_image/vc_image.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../helpers/vc_image/vc_image_metadata.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../include/android/rect.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../include/cutils/native_handle.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../include/hardware/gralloc.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../include/ui/android_native_buffer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../include/ui/egl/android_natives.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/common/khrn_client.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/common/khrn_client_global_image_map.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/common/khrn_client_mangle.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/common/khrn_client_platform.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/common/khrn_client_pointermap.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/common/khrn_client_rpc.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/common/khrn_int_common.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/common/khrn_int_generic_map.c
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/common/khrn_int_generic_map.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/common/khrn_int_ids.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/common/khrn_int_image.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/common/khrn_int_misc_impl.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/common/khrn_int_util.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/common/khrn_int_util_cr.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/common/vcos/khrn_client_platform_filler_vcos.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/common/vcos_vchiq/khrn_client_platform_filler_vcos_vchiq.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/egl/egl_client_context.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/egl/egl_client_surface.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/egl/egl_int.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/egl/egl_int_impl.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/glxx/gl11_int_config.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/glxx/gl11_int_impl.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/glxx/gl20_int_impl.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/glxx/glxx_int_attrib.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/glxx/glxx_int_config.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/glxx/glxx_int_impl.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/include/EGL/egl.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/include/EGL/eglext.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/include/EGL/eglext_android.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/include/EGL/eglext_brcm.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/include/EGL/eglext_nvidia.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/include/EGL/eglplatform.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/include/GLES/gl.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/include/GLES/glext.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/include/GLES/glplatform.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/include/GLES2/gl2.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/include/GLES2/gl2platform.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/include/VG/openvg.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/include/VG/vgext.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/include/VG/vgplatform.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/include/VG/vgu.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/include/WF/../EGL/egl.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/include/WF/../KHR/khrplatform.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/include/WF/wfc.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/include/WF/wfcplatform.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/vg/vg_int.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/vg/vg_int_impl.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/vg/vg_int_mat3x3.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/wf/wfc_client_stream.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/wf/wfc_int.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/wf/wfc_server_api.h
@@ -6624,37 +6612,8 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../inter
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchi/vchi_cfg_internal.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchi/vchi_common.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchi/vchi_mh.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchiq_arm/vchiq.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchiq_arm/vchiq_if.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchiq_arm/vchiq_util.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchiq_arm/vcos.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchiq_arm/vcos_assert.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchiq_arm/vcos_atomic_flags.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchiq_arm/vcos_blockpool.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchiq_arm/vcos_cfg.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchiq_arm/vcos_cmd.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchiq_arm/vcos_event.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchiq_arm/vcos_event_flags.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchiq_arm/vcos_init.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchiq_arm/vcos_isr.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchiq_arm/vcos_legacy_isr.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchiq_arm/vcos_logging.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchiq_arm/vcos_mem.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchiq_arm/vcos_mempool.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchiq_arm/vcos_mutex.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchiq_arm/vcos_named_semaphore.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchiq_arm/vcos_once.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchiq_arm/vcos_queue.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchiq_arm/vcos_quickslow_mutex.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchiq_arm/vcos_reentrant_mutex.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchiq_arm/vcos_semaphore.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchiq_arm/vcos_stdint.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchiq_arm/vcos_string.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchiq_arm/vcos_thread.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchiq_arm/vcos_thread_attr.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchiq_arm/vcos_timer.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vchiq_arm/vcos_tls.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -6662,26 +6621,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../inter
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vmcs_host/vc_dispmanx.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vmcs_host/vc_dispmanx_types.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/vmcs_host/vc_dispservice_x_defs.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../middleware/khronos/common/2708/khrn_interlock_filler_4.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../middleware/khronos/common/khrn_hw.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../middleware/khronos/common/khrn_image.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../middleware/khronos/common/khrn_interlock.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../middleware/khronos/common/khrn_map.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../middleware/khronos/common/khrn_mem.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../middleware/khronos/common/khrn_misc.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../middleware/khronos/common/khrn_pid_map.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../middleware/khronos/common/khrn_pid_map_value.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../middleware/khronos/common/khrn_server_pointermap.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../middleware/khronos/dispatch/khrn_dispatch.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../middleware/khronos/egl/egl_disp.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../middleware/khronos/egl/egl_server.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../middleware/khronos/vg/vg_image.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../middleware/khronos/wf/wfc_server_stream.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../vcfw/drivers/driver.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../vcfw/rtos/common/rtos_common_mem.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../vcfw/rtos/rtos.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../vcinclude/common.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../vcinclude/vc_image_types.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../inc/interface/vcos/generic/vcos_common.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../inc/interface/vcos/generic/vcos_generic_blockpool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../inc/interface/vcos/generic/vcos_generic_event_flags.h
@@ -6722,7 +6662,6 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../inc/inte
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../inc/interface/vcos/vcos_types.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: /home/viktor/cm/bionic/libc/include/alloca.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: /home/viktor/cm/bionic/libc/include/assert.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: /home/viktor/cm/bionic/libc/include/ctype.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: /home/viktor/cm/bionic/libc/include/errno.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: /home/viktor/cm/bionic/libc/include/inttypes.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: /home/viktor/cm/bionic/libc/include/limits.h
@@ -6734,7 +6673,6 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: /home/viktor/c
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: /home/viktor/cm/bionic/libc/include/semaphore.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: /home/viktor/cm/bionic/libc/include/signal.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: /home/viktor/cm/bionic/libc/include/stdint.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: /home/viktor/cm/bionic/libc/include/stdio.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: /home/viktor/cm/bionic/libc/include/stdlib.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: /home/viktor/cm/bionic/libc/include/string.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: /home/viktor/cm/bionic/libc/include/strings.h
@@ -6772,14 +6710,13 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: /home/viktor/c
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/string.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: /home/viktor/cm/bionic/libm/include/math.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../include/cutils/native_handle.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client.c.o: ../../../interface/khronos/wf/wfc_client.c
 
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_ipc.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_ipc.c.o: ../../../include/android/rect.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_ipc.c.o: ../../../include/cutils/native_handle.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_ipc.c.o: ../../../include/hardware/gralloc.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_ipc.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_ipc.c.o: ../../../include/ui/android_native_buffer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_ipc.c.o: ../../../include/ui/egl/android_natives.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_ipc.c.o: ../../../interface/khronos/common/khrn_client_mangle.h
@@ -6834,6 +6771,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_ipc.c.o: ../../../i
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_ipc.c.o: ../../../interface/vchiq_arm/vcos_timer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_ipc.c.o: ../../../interface/vchiq_arm/vcos_tls.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_ipc.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_ipc.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_ipc.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_ipc.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_ipc.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -6930,13 +6868,13 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_ipc.c.o: /home/vikt
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_ipc.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/string.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_ipc.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_ipc.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_ipc.c.o: ../../../include/cutils/native_handle.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_ipc.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_ipc.c.o: ../../../interface/khronos/wf/wfc_client_ipc.c
 
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_server_api.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_server_api.c.o: ../../../include/android/rect.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_server_api.c.o: ../../../include/cutils/native_handle.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_server_api.c.o: ../../../include/hardware/gralloc.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_server_api.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_server_api.c.o: ../../../include/ui/android_native_buffer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_server_api.c.o: ../../../include/ui/egl/android_natives.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_server_api.c.o: ../../../interface/khronos/common/khrn_client_mangle.h
@@ -6961,6 +6899,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_server_api.c.o: ../
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_server_api.c.o: ../../../interface/vchi/vchi_common.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_server_api.c.o: ../../../interface/vchi/vchi_mh.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_server_api.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_server_api.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_server_api.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_server_api.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_server_api.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -7057,18 +6996,24 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_server_api.c.o: /ho
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_server_api.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/string.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_server_api.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_server_api.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_server_api.c.o: ../../../include/cutils/native_handle.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_server_api.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_server_api.c.o: ../../../interface/khronos/wf/wfc_client_server_api.c
 
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../helpers/v3d/v3d_ver.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../helpers/vc_image/metadata_fourcc.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../helpers/vc_image/vc_image.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../helpers/vc_image/vc_image_metadata.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../host_support/include/vc_debug_sym.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../include/android/native_window.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../include/android/rect.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../include/cutils/native_handle.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../include/hardware/gralloc.h
-interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../include/ui/android_native_buffer.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../include/ui/egl/android_natives.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/common/abstract/khrn_client_platform_filler_abstract.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/common/direct/khrn_client_platform_filler_direct.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/common/khrn_client.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/common/khrn_client_global_image_map.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/common/khrn_client_mangle.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/common/khrn_client_platform.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/common/khrn_client_pointermap.h
@@ -7076,11 +7021,21 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../.
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/common/khrn_int_generic_map.c
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/common/khrn_int_generic_map.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/common/khrn_int_image.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/common/khrn_int_misc_impl.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/common/khrn_int_util.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/common/khrn_int_util_cr.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/common/vcos/khrn_client_platform_filler_vcos.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/common/vcos_vchiq/khrn_client_platform_filler_vcos_vchiq.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/egl/egl_client_context.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/egl/egl_client_surface.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/egl/egl_int.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/egl/egl_int_impl.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/glxx/gl11_int_config.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/glxx/gl11_int_impl.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/glxx/gl20_int_impl.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/glxx/glxx_int_attrib.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/glxx/glxx_int_config.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/glxx/glxx_int_impl.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/include/EGL/../KHR/khrplatform.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/include/EGL/egl.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/include/EGL/eglext.h
@@ -7088,9 +7043,21 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../.
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/include/EGL/eglext_brcm.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/include/EGL/eglext_nvidia.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/include/EGL/eglplatform.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/include/GLES/gl.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/include/GLES/glext.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/include/GLES/glplatform.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/include/GLES2/gl2.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/include/GLES2/gl2platform.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/include/VG/openvg.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/include/VG/vgext.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/include/VG/vgplatform.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/include/VG/vgu.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/include/WF/../EGL/egl.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/include/WF/wfc.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/include/WF/wfcplatform.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/vg/vg_int.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/vg/vg_int_impl.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/vg/vg_int_mat3x3.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/wf/wfc_client_stream.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/wf/wfc_int.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/wf/wfc_server_api.h
@@ -7101,7 +7068,38 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../.
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchi/vchi_cfg_internal.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchi/vchi_common.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchi/vchi_mh.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchiq_arm/vchiq.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchiq_arm/vchiq_if.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchiq_arm/vchiq_util.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchiq_arm/vcos.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchiq_arm/vcos_assert.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchiq_arm/vcos_atomic_flags.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchiq_arm/vcos_blockpool.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchiq_arm/vcos_cfg.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchiq_arm/vcos_cmd.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchiq_arm/vcos_event.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchiq_arm/vcos_event_flags.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchiq_arm/vcos_init.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchiq_arm/vcos_isr.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchiq_arm/vcos_legacy_isr.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchiq_arm/vcos_logging.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchiq_arm/vcos_mem.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchiq_arm/vcos_mempool.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchiq_arm/vcos_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchiq_arm/vcos_named_semaphore.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchiq_arm/vcos_once.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchiq_arm/vcos_queue.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchiq_arm/vcos_quickslow_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchiq_arm/vcos_reentrant_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchiq_arm/vcos_semaphore.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchiq_arm/vcos_stdint.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchiq_arm/vcos_string.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchiq_arm/vcos_thread.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchiq_arm/vcos_thread_attr.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchiq_arm/vcos_timer.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vchiq_arm/vcos_tls.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vcos/pthreads/vcos_futex_mutex.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vcos/user_nodefs.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vcos/vcos_cfg.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vcos/vcos_stdbool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vctypes/vc_display_types.h
@@ -7109,9 +7107,29 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../.
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vmcs_host/vc_dispmanx.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vmcs_host/vc_dispmanx_types.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vmcs_host/vc_dispservice_x_defs.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/vmcs_host/vc_imageconv_defs.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../middleware/imageconv/imageconv.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../middleware/khronos/common/2708/khrn_interlock_filler_4.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../middleware/khronos/common/khrn_hw.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../middleware/khronos/common/khrn_image.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../middleware/khronos/common/khrn_interlock.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../middleware/khronos/common/khrn_map.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../middleware/khronos/common/khrn_mem.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../middleware/khronos/common/khrn_misc.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../middleware/khronos/common/khrn_pid_map.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../middleware/khronos/common/khrn_pid_map_value.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../middleware/khronos/common/khrn_server_pointermap.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../middleware/khronos/dispatch/khrn_dispatch.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../middleware/khronos/egl/egl_disp.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../middleware/khronos/egl/egl_server.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../middleware/khronos/ext/egl_khr_image.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../middleware/khronos/vg/vg_image.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../middleware/khronos/wf/wfc_server_stream.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../vcfw/drivers/driver.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../vcfw/rtos/common/rtos_common_mem.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../vcfw/rtos/rtos.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../vcinclude/common.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../vcinclude/vc_image_types.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../inc/interface/vcos/generic/vcos_common.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../inc/interface/vcos/generic/vcos_generic_blockpool.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../inc/interface/vcos/generic/vcos_generic_event_flags.h
@@ -7164,6 +7182,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: /home/v
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: /home/viktor/cm/bionic/libc/include/semaphore.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: /home/viktor/cm/bionic/libc/include/signal.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: /home/viktor/cm/bionic/libc/include/stdint.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: /home/viktor/cm/bionic/libc/include/stdio.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: /home/viktor/cm/bionic/libc/include/stdlib.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: /home/viktor/cm/bionic/libc/include/string.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: /home/viktor/cm/bionic/libc/include/strings.h
@@ -7202,5 +7221,7 @@ interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: /home/v
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/time.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: /home/viktor/cm/bionic/libc/kernel/common/linux/types.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: /home/viktor/cm/bionic/libm/include/math.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../include/cutils/native_handle.h
+interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../include/hardware/hardware.h
 interface/khronos/CMakeFiles/GLESv2_static.dir/wf/wfc_client_stream.c.o: ../../../interface/khronos/wf/wfc_client_stream.c
 

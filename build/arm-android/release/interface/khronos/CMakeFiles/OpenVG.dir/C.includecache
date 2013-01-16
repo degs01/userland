@@ -1650,13 +1650,3 @@ stdlib.h
 string.h
 -
 
-/home/viktor/userland/interface/khronos/vg/vg_int_mat3x3.c
-interface/khronos/common/khrn_int_common.h
-/home/viktor/userland/interface/khronos/vg/interface/khronos/common/khrn_int_common.h
-interface/khronos/vg/vg_int_mat3x3.h
-/home/viktor/userland/interface/khronos/vg/interface/khronos/vg/vg_int_mat3x3.h
-interface/khronos/common/khrn_int_math.h
-/home/viktor/userland/interface/khronos/vg/interface/khronos/common/khrn_int_math.h
-interface/khronos/common/khrn_int_util.h
-/home/viktor/userland/interface/khronos/vg/interface/khronos/common/khrn_int_util.h
-

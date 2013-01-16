@@ -272,6 +272,30 @@ mmal_il.c.s:
 	cd /home/viktor/userland/build/arm-android/release && $(MAKE) -f interface/mmal/util/CMakeFiles/mmal_util.dir/build.make interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_il.c.s
 .PHONY : mmal_il.c.s
 
+mmal_list.o: mmal_list.c.o
+.PHONY : mmal_list.o
+
+# target to build an object file
+mmal_list.c.o:
+	cd /home/viktor/userland/build/arm-android/release && $(MAKE) -f interface/mmal/util/CMakeFiles/mmal_util.dir/build.make interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_list.c.o
+.PHONY : mmal_list.c.o
+
+mmal_list.i: mmal_list.c.i
+.PHONY : mmal_list.i
+
+# target to preprocess a source file
+mmal_list.c.i:
+	cd /home/viktor/userland/build/arm-android/release && $(MAKE) -f interface/mmal/util/CMakeFiles/mmal_util.dir/build.make interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_list.c.i
+.PHONY : mmal_list.c.i
+
+mmal_list.s: mmal_list.c.s
+.PHONY : mmal_list.s
+
+# target to generate assembly for a file
+mmal_list.c.s:
+	cd /home/viktor/userland/build/arm-android/release && $(MAKE) -f interface/mmal/util/CMakeFiles/mmal_util.dir/build.make interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_list.c.s
+.PHONY : mmal_list.c.s
+
 mmal_param_convert.o: mmal_param_convert.c.o
 .PHONY : mmal_param_convert.o
 
@@ -344,6 +368,30 @@ mmal_util_params.c.s:
 	cd /home/viktor/userland/build/arm-android/release && $(MAKE) -f interface/mmal/util/CMakeFiles/mmal_util.dir/build.make interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_util_params.c.s
 .PHONY : mmal_util_params.c.s
 
+mmal_util_rational.o: mmal_util_rational.c.o
+.PHONY : mmal_util_rational.o
+
+# target to build an object file
+mmal_util_rational.c.o:
+	cd /home/viktor/userland/build/arm-android/release && $(MAKE) -f interface/mmal/util/CMakeFiles/mmal_util.dir/build.make interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_util_rational.c.o
+.PHONY : mmal_util_rational.c.o
+
+mmal_util_rational.i: mmal_util_rational.c.i
+.PHONY : mmal_util_rational.i
+
+# target to preprocess a source file
+mmal_util_rational.c.i:
+	cd /home/viktor/userland/build/arm-android/release && $(MAKE) -f interface/mmal/util/CMakeFiles/mmal_util.dir/build.make interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_util_rational.c.i
+.PHONY : mmal_util_rational.c.i
+
+mmal_util_rational.s: mmal_util_rational.c.s
+.PHONY : mmal_util_rational.s
+
+# target to generate assembly for a file
+mmal_util_rational.c.s:
+	cd /home/viktor/userland/build/arm-android/release && $(MAKE) -f interface/mmal/util/CMakeFiles/mmal_util.dir/build.make interface/mmal/util/CMakeFiles/mmal_util.dir/mmal_util_rational.c.s
+.PHONY : mmal_util_rational.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -371,6 +419,9 @@ help:
 	@echo "... mmal_il.o"
 	@echo "... mmal_il.i"
 	@echo "... mmal_il.s"
+	@echo "... mmal_list.o"
+	@echo "... mmal_list.i"
+	@echo "... mmal_list.s"
 	@echo "... mmal_param_convert.o"
 	@echo "... mmal_param_convert.i"
 	@echo "... mmal_param_convert.s"
@@ -380,6 +431,9 @@ help:
 	@echo "... mmal_util_params.o"
 	@echo "... mmal_util_params.i"
 	@echo "... mmal_util_params.s"
+	@echo "... mmal_util_rational.o"
+	@echo "... mmal_util_rational.i"
+	@echo "... mmal_util_rational.s"
 .PHONY : help
 
 

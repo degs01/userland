@@ -11,6 +11,7 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/CMakeCCompiler.cmake"
   "CMakeFiles/CMakeCXXCompiler.cmake"
   "CMakeFiles/CMakeSystem.cmake"
+  "../../../gralloc/CMakeLists.txt"
   "../../../host_applications/linux/CMakeLists.txt"
   "../../../host_applications/linux/apps/gencmd/CMakeLists.txt"
   "../../../host_applications/linux/apps/tvservice/CMakeLists.txt"
@@ -79,7 +80,6 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "../../../makefiles/cmake/cmake_config.h.in"
   "../../../makefiles/cmake/global_settings.cmake"
   "../../../makefiles/cmake/srcs/test-mtrace.c"
-  "../../../makefiles/cmake/srcs/vmcs.conf.in"
   "../../../makefiles/cmake/toolchains/arm-android.cmake"
   "../../../makefiles/cmake/vmcs.cmake"
   "../../../middleware/openmaxil/CMakeLists.txt"
@@ -110,6 +110,7 @@ SET(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 SET(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "gralloc/CMakeFiles/CMakeDirectoryInformation.cmake"
   "interface/vcos/CMakeFiles/CMakeDirectoryInformation.cmake"
   "interface/vcos/pthreads/CMakeFiles/CMakeDirectoryInformation.cmake"
   "interface/vcos/pthreads/generic/CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -131,6 +132,7 @@ SET(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 SET(CMAKE_DEPEND_INFO_FILES
+  "gralloc/CMakeFiles/grlc.dir/DependInfo.cmake"
   "interface/vcos/pthreads/CMakeFiles/vcos.dir/DependInfo.cmake"
   "interface/vmcs_host/CMakeFiles/vchostif.dir/DependInfo.cmake"
   "interface/vmcs_host/CMakeFiles/vcilcs.dir/DependInfo.cmake"

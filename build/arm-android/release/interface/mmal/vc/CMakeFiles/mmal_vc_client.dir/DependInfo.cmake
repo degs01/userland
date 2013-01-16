@@ -5,6 +5,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
   "/home/viktor/userland/interface/mmal/vc/mmal_vc_api.c" "/home/viktor/userland/build/arm-android/release/interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_api.c.o"
+  "/home/viktor/userland/interface/mmal/vc/mmal_vc_api_drm.c" "/home/viktor/userland/build/arm-android/release/interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_api_drm.c.o"
   "/home/viktor/userland/interface/mmal/vc/mmal_vc_client.c" "/home/viktor/userland/build/arm-android/release/interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_client.c.o"
   "/home/viktor/userland/interface/mmal/vc/mmal_vc_msgnames.c" "/home/viktor/userland/build/arm-android/release/interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_msgnames.c.o"
   "/home/viktor/userland/interface/mmal/vc/mmal_vc_opaque_alloc.c" "/home/viktor/userland/build/arm-android/release/interface/mmal/vc/CMakeFiles/mmal_vc_client.dir/mmal_vc_opaque_alloc.c.o"

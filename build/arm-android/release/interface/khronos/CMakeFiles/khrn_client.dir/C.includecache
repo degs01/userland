@@ -28,6 +28,12 @@ vcfw/rtos/rtos.h
 helpers/vc_image/metadata_fourcc.h
 ../../../helpers/vc_image/helpers/vc_image/metadata_fourcc.h
 
+../../../host_support/include/vc_debug_sym.h
+stddef.h
+-
+interface/vcos/vcos_stdint.h
+../../../host_support/include/interface/vcos/vcos_stdint.h
+
 ../../../include/android/native_window.h
 include/android/rect.h
 ../../../include/android/include/android/rect.h
@@ -398,18 +404,6 @@ wfcplatform.h
 interface/khronos/include/WF/wfc.h
 ../../../interface/khronos/wf/interface/khronos/include/WF/wfc.h
 
-../../../interface/khronos/wf/wfc_server_api.h
-interface/vcos/vcos.h
-../../../interface/khronos/wf/interface/vcos/vcos.h
-interface/vcos/vcos_stdbool.h
-../../../interface/khronos/wf/interface/vcos/vcos_stdbool.h
-interface/khronos/include/WF/wfc.h
-../../../interface/khronos/wf/interface/khronos/include/WF/wfc.h
-interface/khronos/wf/wfc_int.h
-../../../interface/khronos/wf/interface/khronos/wf/wfc_int.h
-interface/khronos/include/EGL/eglext.h
-../../../interface/khronos/wf/interface/khronos/include/EGL/eglext.h
-
 ../../../interface/vchi/connections/connection.h
 interface/vchi/vchi_cfg_internal.h
 ../../../interface/vchi/connections/interface/vchi/vchi_cfg_internal.h
@@ -692,6 +686,8 @@ interface/vcos/vcos_types.h
 vcos_platform.h
 ../../../interface/vcos/pthreads/vcos_platform.h
 
+../../../interface/vcos/user_nodefs.h
+
 ../../../interface/vcos/vcos_cfg.h
 interface/vcos/vcos_types.h
 ../../../interface/vcos/interface/vcos/vcos_types.h
@@ -895,20 +891,22 @@ interface/khronos/include/VG/openvg.h
 ../../../middleware/khronos/wf/wfc_server_stream.h
 interface/khronos/include/WF/wfc.h
 ../../../middleware/khronos/wf/interface/khronos/include/WF/wfc.h
+interface/khronos/wf/wfc_int.h
+../../../middleware/khronos/wf/interface/khronos/wf/wfc_int.h
 helpers/vc_image/vc_image.h
 ../../../middleware/khronos/wf/helpers/vc_image/vc_image.h
 interface/khronos/common/khrn_int_common.h
 ../../../middleware/khronos/wf/interface/khronos/common/khrn_int_common.h
 interface/khronos/include/EGL/eglext.h
 ../../../middleware/khronos/wf/interface/khronos/include/EGL/eglext.h
-interface/khronos/wf/wfc_server_api.h
-../../../middleware/khronos/wf/interface/khronos/wf/wfc_server_api.h
 
 ../../../vcfw/drivers/driver.h
 vcinclude/common.h
 ../../../vcfw/drivers/vcinclude/common.h
 
 ../../../vcfw/rtos/common/rtos_common_mem.h
+stdarg.h
+-
 vcinclude/common.h
 ../../../vcfw/rtos/common/vcinclude/common.h
 
@@ -917,6 +915,8 @@ vcinclude/common.h
 ../../../vcfw/rtos/vcinclude/common.h
 vcfw/drivers/driver.h
 ../../../vcfw/rtos/vcfw/drivers/driver.h
+host_support/include/vc_debug_sym.h
+../../../vcfw/rtos/host_support/include/vc_debug_sym.h
 stdlib.h
 -
 
@@ -1021,6 +1021,8 @@ interface/vcos/vcos_cmd.h
 ../../inc/interface/vcos/vcos_assert.h
 interface/vcos/vcos_types.h
 ../../inc/interface/vcos/interface/vcos/vcos_types.h
+interface/vcos/user_nodefs.h
+../../inc/interface/vcos/interface/vcos/user_nodefs.h
 assert.h
 ../../inc/interface/vcos/assert.h
 
@@ -1229,6 +1231,8 @@ vcos_platform.h
 ../../inc/interface/vcos/vcos_platform.h
 
 ../../inc/interface/vcos/vcos_types.h
+stddef.h
+-
 vcos_platform_types.h
 ../../inc/interface/vcos/vcos_platform_types.h
 
@@ -1587,4 +1591,10 @@ stdlib.h
 -
 string.h
 -
+
+/home/viktor/userland/interface/khronos/common/khrn_int_hash.c
+interface/khronos/common/khrn_int_common.h
+/home/viktor/userland/interface/khronos/common/interface/khronos/common/khrn_int_common.h
+interface/khronos/common/khrn_int_hash.h
+/home/viktor/userland/interface/khronos/common/interface/khronos/common/khrn_int_hash.h
 
