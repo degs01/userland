@@ -3,12 +3,11 @@
 	
 	changes since last commit:
 	
-	* this comment :)
-	* reimplemented allocation
-	* refactored a little bit
+	* fixing build
+	* refactoring...
 
 
-	--Warg (2013-01-25 14:12)
+	--Warg (2013-01-25 17:01)
 */
 
 #include "interface/khronos/common/khrn_client_mangle.h"
@@ -65,7 +64,7 @@ static VC_IMAGE_TYPE_T convert_android_to_vc_img_type(android_native_buffer_t * 
 	return type;
 }
 
-static uint32_t do_allocate(uint32_t szBuffer, android_native_buffer_t * buf){
+static uint32_t do_allocate(android_native_buffer_t * buf){
 	//uint32_t retVal = (uint32_t)calloc(1, szBuffer);
 	uint32_t retVal = 0;
 	vc_dispmanx_resource_create( convert_android_to_vc_img_type(buf),
@@ -133,7 +132,7 @@ gralloc_private_handle_t* gralloc_private_handle_from_client_buffer(EGLClientBuf
 
 	if(!is_dupe(retVal)){
 		//retVal->vcHandle	= do_allocate((retVal->w * retVal->h) * get_size_pf(android_buffer));
-		retVal->vcHandle 	= do_allocate((ALIGN_UP(retVal->w*2, 32) * retVal->h) * get_size_pf(android_buffer));
+		retVal->vcHandle 	= do_allocate(android_buffer);
 		add_to_dupes(*retVal);
 	}
 
