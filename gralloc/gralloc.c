@@ -1,3 +1,16 @@
+/*
+	Warg's quick 'n dirty gralloc - (c) Viktor Warg, 2013
+	
+	changes since last commit:
+	
+	* this comment :)
+	* reimplemented allocation
+	* refactored a little bit
+
+
+	--Warg (2013-01-25 14:12)
+*/
+
 #include "interface/khronos/common/khrn_client_mangle.h"
 
 #include "interface/khronos/common/khrn_client.h"
@@ -15,8 +28,9 @@
 #include "interface/khronos/include/EGL/eglext_android.h"
 #include "include/ui/PixelFormat.h"
 
+#include "bcm_host.h"
 
-
+#define ALIGN_UP(x,y)  ((x + (y)-1) & ~((y)-1))
 
 gralloc_private_handle_t *dupes;
 int szDupes = 0;
@@ -24,17 +38,7 @@ static int bufs_are_eq(android_native_buffer_t * a, android_native_buffer_t * b)
 	return a == b;
 }
 
-static int is_dupe(gralloc_private_handle_t* b){
-	int i;
-	gralloc_private_handle_t* d_b;
 
-	for(i=0; i < szDupes; i++){
-		d_b = &dupes[i];
-		if(bufs_are_eq(b->buffer, d_b->buffer))
-			return 1;
-	}
-	return 0;
-}
 
 static void add_to_dupes(gralloc_private_handle_t b){
 	szDupes++;
@@ -44,8 +48,31 @@ static void add_to_dupes(gralloc_private_handle_t b){
 	dupes = newDupes;
 }
 
-static uint32_t do_allocate(uint32_t szBuffer){
-	uint32_t retVal = (uint32_t)vcos_malloc(szBuffer, "GRALLOC -> vc_handle");
+static VC_IMAGE_TYPE_T convert_android_to_vc_img_type(android_native_buffer_t * buf){
+	VC_IMAGE_TYPE_T type = 0;
+	switch (buf->format)
+		{
+		  case PIXEL_FORMAT_RGBA_8888:	type=VC_IMAGE_RGBA32; break;
+		  case PIXEL_FORMAT_BGRA_8888:	type=VC_IMAGE_BGRX8888; break;
+		  case PIXEL_FORMAT_RGBA_5551:	type=VC_IMAGE_TF_RGBA5551; break;
+		  case PIXEL_FORMAT_RGBA_4444:	type=VC_IMAGE_RGBA16; break;
+		  case PIXEL_FORMAT_RGBX_8888:	type=VC_IMAGE_RGBX8888; break;
+		  case PIXEL_FORMAT_RGB_565:	type=VC_IMAGE_RGB565; break;
+		  case PIXEL_FORMAT_RGB_888:    type=VC_IMAGE_RGB888; break;
+		  
+		  default :                     type=VC_IMAGE_RGB565; break;
+	    }
+	return type;
+}
+
+static uint32_t do_allocate(uint32_t szBuffer, android_native_buffer_t * buf){
+	//uint32_t retVal = (uint32_t)calloc(1, szBuffer);
+	uint32_t retVal = 0;
+	vc_dispmanx_resource_create( convert_android_to_vc_img_type(buf),
+                                 buf->width,
+                                 buf->height,
+                                 &retVal );
+	
 	return retVal; 
 }
 uint32_t gralloc_private_handle_get_vc_handle(gralloc_private_handle_t *b){
@@ -61,6 +88,10 @@ static gralloc_private_handle_t* get_dupe(gralloc_private_handle_t* b){
 			return d_b;
 	}
 	return NULL;
+}
+
+static int is_dupe(gralloc_private_handle_t* b){
+	return get_dupe(b) != NULL;
 }
 uint32_t gralloc_private_handle_get_egl_image(gralloc_private_handle_t *b){
 	//return b->vcHandle;
@@ -101,7 +132,8 @@ gralloc_private_handle_t* gralloc_private_handle_from_client_buffer(EGLClientBuf
 	retVal->res_type		= is_dupe(retVal) ? GRALLOC_PRIV_TYPE_GL_RESOURCE : GRALLOC_PRIV_TYPE_MM_RESOURCE;
 
 	if(!is_dupe(retVal)){
-		retVal->vcHandle	= do_allocate((retVal->w * retVal->h) * get_size_pf(android_buffer));
+		//retVal->vcHandle	= do_allocate((retVal->w * retVal->h) * get_size_pf(android_buffer));
+		retVal->vcHandle 	= do_allocate((ALIGN_UP(retVal->w*2, 32) * retVal->h) * get_size_pf(android_buffer));
 		add_to_dupes(*retVal);
 	}
 
