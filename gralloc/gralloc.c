@@ -120,6 +120,9 @@ static int get_size_pf(android_native_buffer_t * buffer){
 
 gralloc_private_handle_t* gralloc_private_handle_from_client_buffer(EGLClientBuffer buffer){
 
+	if(szDupes == 0)
+		bcm_host_init();
+
 	gralloc_private_handle_t* retVal = (gralloc_private_handle_t*)malloc(sizeof(gralloc_private_handle_t));
 	android_native_buffer_t *android_buffer = (android_native_buffer_t *)buffer;
 	retVal->w				= android_buffer->width;
