@@ -826,8 +826,8 @@ uint32_t platform_get_handle(EGLDisplay dpy, EGLNativeWindowType win)
 void platform_get_dimensions(EGLDisplay dpy, EGLNativeWindowType win,
       uint32_t *width, uint32_t *height, uint32_t *swapchain_count)
 {
-	*width = 640;
-	*height = 480;
+	*width = 320;
+	*height = 240;
 	*swapchain_count = 0;
 }
 
