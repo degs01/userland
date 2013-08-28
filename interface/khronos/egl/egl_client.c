@@ -356,7 +356,7 @@ name may be one of EGL CLIENT APIS, EGL EXTENSIONS, EGL VENDOR, or
 EGL VERSION.
 The EGL CLIENT APIS string describes which client rendering APIs are supported.
 It is zero-terminated and contains a space-separated list of API names,
-which must include at least one of ‘‘OpenGL ES’’ or ‘‘OpenVG’’.
+which must include at least one of ï¿½ï¿½OpenGL ESï¿½ï¿½ or ï¿½ï¿½OpenVGï¿½ï¿½.
 Version 1.3 - December 4, 2006
 3.4. CONFIGURATION MANAGEMENT 13
 The EGL EXTENSIONS string describes which EGL extensions are supported
@@ -517,7 +517,7 @@ EGLAPI const char EGLAPIENTRY * eglQueryString(EGLDisplay dpy, EGLint name)
    of the OpenVG 1.0 specification for more information.
 
    Similarly, the EGL_VG_ALPHA_FORMAT attribute does not necessarily control
-   or affect the window system’s interpretation of alpha values, even when the window
+   or affect the window systemï¿½s interpretation of alpha values, even when the window
    system makes use of alpha to composite surfaces at display time. The window system's
    use and interpretation of alpha values is outside the scope of EGL. However,
    the preferred behavior is for window systems to ignore the value of EGL_VG_-
@@ -581,19 +581,58 @@ EGLAPI EGLSurface EGLAPIENTRY eglCreateWindowSurface(EGLDisplay dpy, EGLConfig c
    CLIENT_PROCESS_STATE_T *process;
    EGLSurface result;
 
+   int32_t success = 0;
+   uint32_t screen_width;
+	uint32_t screen_height;
+
+   static EGL_DISPMANX_WINDOW_T nativewindow;
+
+   DISPMANX_ELEMENT_HANDLE_T dispman_element;
+   DISPMANX_DISPLAY_HANDLE_T dispman_display;
+   DISPMANX_UPDATE_HANDLE_T dispman_update;
+   VC_RECT_T dst_rect;
+   VC_RECT_T src_rect;
+
+   bcm_host_init();
+ 
+   success = graphics_get_display_size(0 /* LCD */, &screen_width, &screen_height);
+   vcos_assert( success >= 0 );
+
+   dst_rect.x = 0;
+   dst_rect.y = 0;
+   dst_rect.width = screen_width;
+   dst_rect.height = screen_height;
+      
+   src_rect.x = 0;
+   src_rect.y = 0;
+   src_rect.width = screen_width << 16;
+   src_rect.height = screen_height << 16;        
+
+   dispman_display = vc_dispmanx_display_open( 0 /* LCD */);
+   dispman_update = vc_dispmanx_update_start( 0 );
+         
+   dispman_element = vc_dispmanx_element_add ( dispman_update, dispman_display,
+                                              0/*layer*/, &dst_rect, 0/*src*/,
+                                              &src_rect, DISPMANX_PROTECTION_NONE, 0 /*alpha*/, 0/*clamp*/, 0/*transform*/);
+      
+   nativewindow.element = dispman_element;
+   nativewindow.width = screen_width;
+   nativewindow.height = screen_height;
+   vc_dispmanx_update_submit_sync( dispman_update );
+
+   win=(EGLNativeWindowType)&nativewindow;
+
    vcos_log_trace("eglCreateWindowSurface for window %p", win);
-   LOGE("inside native eglCreateWindowSurface");
+
    if (CLIENT_LOCK_AND_GET_STATES(dpy, &thread, &process))
    {
       uint32_t handle = platform_get_handle(dpy, win);
 
       if ((int)(size_t)config < 1 || (int)(size_t)config > EGL_MAX_CONFIGS) {
-		 LOGE("BAD_CONFIG");
          thread->error = EGL_BAD_CONFIG;
          result = EGL_NO_SURFACE;
       } else if (handle == PLATFORM_WIN_NONE) {
          // The platform reports that this is an invalid window handle
-         LOGE("BAD_NATIVE_WINDOW 1");
          thread->error = EGL_BAD_NATIVE_WINDOW;
          result = EGL_NO_SURFACE;
       } else {
@@ -602,7 +641,6 @@ EGLAPI EGLSurface EGLAPIENTRY eglCreateWindowSurface(EGLDisplay dpy, EGLConfig c
          bool single = false;
 
          if (!egl_surface_check_attribs(WINDOW, attrib_list, &linear, &premult, &single, 0, 0, 0, 0, 0, 0)) {
-			LOGE("BAD_ATTRIBUTE");
             thread->error = EGL_BAD_ATTRIBUTE;
             result = EGL_NO_SURFACE;
          } else {
@@ -612,11 +650,8 @@ EGLAPI EGLSurface EGLAPIENTRY eglCreateWindowSurface(EGLDisplay dpy, EGLConfig c
             uint32_t num_buffers = 3;
             uint32_t swapchain_count;
 
-            /*platform_get_dimensions(dpy,
-                  win, &width, &height, &swapchain_count);*/
-                  
-            width=640;
-			height=480;
+            platform_get_dimensions(dpy,
+                  win, &width, &height, &swapchain_count);
 
             if (swapchain_count > 0)
                num_buffers = swapchain_count;
@@ -628,44 +663,8 @@ EGLAPI EGLSurface EGLAPIENTRY eglCreateWindowSurface(EGLDisplay dpy, EGLConfig c
 
             if (width <= 0 || width > EGL_CONFIG_MAX_WIDTH || height <= 0 || height > EGL_CONFIG_MAX_HEIGHT) {
                /* TODO: Maybe EGL_BAD_ALLOC might be more appropriate? */
-               LOGE("BAD_NATIVE_WINDOW 2; width = %d, height = %d, max_width = %d, max_height = %d", width, height, EGL_CONFIG_MAX_WIDTH, EGL_CONFIG_MAX_HEIGHT);
                thread->error = EGL_BAD_NATIVE_WINDOW;
                result = EGL_NO_SURFACE;
-               surface = egl_surface_create(
-				(EGLSurface)(size_t)process->next_surface,
-                WINDOW,
-                linear ? LINEAR : SRGB,
-                premult ? PRE : NONPRE,
-#ifdef DIRECT_RENDERING
-                1,
-#else
-                (uint32_t)(single ? 1 : num_buffers),
-#endif
-                640, 480,
-                config,
-                win,
-                handle,
-                false,
-                false,
-                false,
-                EGL_NO_TEXTURE,
-                EGL_NO_TEXTURE,
-                0, 0);
-               if (surface) {
-                  if (khrn_pointer_map_insert(&process->surfaces, process->next_surface, surface)) {
-                     thread->error = EGL_SUCCESS;
-                     result = (EGLSurface)(size_t)process->next_surface++;
-                  } else {
-					 LOGE("BAD_ALLOC 0,1");
-                     thread->error = EGL_BAD_ALLOC;
-                     result = EGL_NO_SURFACE;
-                     egl_surface_free(surface);
-                  }
-               } else {
-				  LOGE("BAD_ALLOC 0,2");
-                  thread->error = EGL_BAD_ALLOC;
-                  result = EGL_NO_SURFACE;
-               }
             } else {
                surface = egl_surface_create(
                                 (EGLSurface)(size_t)process->next_surface,
@@ -693,13 +692,11 @@ EGLAPI EGLSurface EGLAPIENTRY eglCreateWindowSurface(EGLDisplay dpy, EGLConfig c
                      thread->error = EGL_SUCCESS;
                      result = (EGLSurface)(size_t)process->next_surface++;
                   } else {
-					 LOGE("BAD_ALLOC 1");
                      thread->error = EGL_BAD_ALLOC;
                      result = EGL_NO_SURFACE;
                      egl_surface_free(surface);
                   }
                } else {
-				  LOGE("BAD_ALLOC 2");
                   thread->error = EGL_BAD_ALLOC;
                   result = EGL_NO_SURFACE;
                }
@@ -708,14 +705,14 @@ EGLAPI EGLSurface EGLAPIENTRY eglCreateWindowSurface(EGLDisplay dpy, EGLConfig c
       }
       CLIENT_UNLOCK();
    }
-   else{
-	  LOGE("UNABLE TO LOCK :(");
+   else
       result = EGL_NO_SURFACE;
-   }
+
    vcos_log_trace("eglCreateWindowSurface end %i", (int) result);
-   LOGE("eglCreateWindowSurface end.");
+
    return result;
 }
+
 
 /*
    EGLAPI EGLSurface EGLAPIENTRY eglCreateWindowSurface(EGLDisplay dpy, EGLConfig config, EGLNativeWindowType win, const EGLint *attrib_list)
